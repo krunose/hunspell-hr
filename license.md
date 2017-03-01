@@ -1,7 +1,7 @@
 # Husnpellov rječnik za računalnu provjeru pravopisa hrvatskog jezika
 
 
-LGPL/SISSL license, 2003. - 2016.
+LGPL/SISSL license, 2003. - 2017.
 
 ### Autori i doprinositelji ###
 
