@@ -1,25 +1,18 @@
 # Husnpellov rječnik za računalnu provjeru pravopisa hrvatskog jezika
 
-----------
+
+LGPL/SISSL license, 2003. - 2016.
 
 ### Autori i doprinositelji ###
 
-Jezik: Croatian (hr HR)
+Mirko Kos (m i r k o s 9 9 [ a t ] g m a i l . c o m), 2016. - 2017.
 
-Licencija:  LGPL/SISSL license, 2016
+-----
 
-Autor:	Kruno  (k r u n o . s e [ a t ] g m x . c o m)
+Kruno  (k r u n o . s e [ a t ] g m x . c o m), 2014. - 2017.
 
 https://github.com/krunose/hr-hunspell
 
 -----
 
-Jezik: Croatian (hr HR).
-
-Licencija:  LGPL/SISSL license, 2003
-
-Author:	Denis Lackovic (http://cvs.linux.hr/spell/)
-
-----------
-
-Inačica 2017-03-01
+Denis Lackovic (http://cvs.linux.hr/spell/), 2003.
