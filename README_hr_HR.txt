@@ -16,3 +16,7 @@ https://github.com/krunose/hr-hunspell
 -----
 
 Denis Lackovic (http://cvs.linux.hr/spell/), 2003.
+
+-----
+
+Inačica 2.0
