@@ -70,7 +70,7 @@ ICONV ȑ r
 ICONV ȓ r
 ICONV ŕ r
 
-REP 144
+REP 151
 REP - _
 REP a -a
 REP om -om
@@ -122,6 +122,7 @@ REP sč šč
 REP sk stk
 REP vn mn
 REP nc ns
+REP ljen$ ljne
 REP mlj mnj
 REP mnj mlj
 REP nis nijs
@@ -130,12 +131,15 @@ REP j dž
 REP o oo
 REP u uu
 REP e ee
+REP ša ška
+REP ^poravo$ pravo
 REP rp rpt
 REP ^jel$ je_li
 REP isl i_sl
 REP ljnj nj
 REP jat jit
 REP dni$ tni
+REP ^mže$ može
 REP om em
 REP em om
 REP ^subst supst
@@ -143,6 +147,7 @@ REP lj nj
 REP kno ktno
 REP vši ći
 REP ći vši
+REP un utn
 REP skuj šć
 REP kdž gdž
 REP ini inu
@@ -186,6 +191,8 @@ REP arn arnic
 REP aoc$ alac
 REP ^pocrtava podcrtava
 REP ^zdrastv zdravstv
+REP ^prdon pridon
+REP ^porijeko$ porijeklo
 REP ioc$ ilac
 REP lik link
 REP ^poveč več
