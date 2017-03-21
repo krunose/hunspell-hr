@@ -20,4 +20,16 @@ Denis Lackovic (http://cvs.linux.hr/spell/), 2003.
 
 -----
 
-Inačica 2.0
+Inačica 2.0 [vlj.2017]
+Strukturna revizija i kompletna zamjena Inačice 1.0.
+Definiranje novih pravila tvorbe riječi u hr_HR.aff datoteci. Znatno reduciranje ukupnog broja riječi u hr_HR.dic isključivanjem riječi izvedenih novim pravilima tvorbe iz temeljne riječi.
+Proširenje rječnika uvođenjem novih temeljnih riječi.
+Inicijalno testiranje i analiza skupova riječi, usuglašavanje razlika u odnosu na inačicu 1.0
+
+
+Inačica 1.0 [2014-sij.2017]
+Nadopuna i nadogradnja rječnika D. L. iz 2003. g. [1]
+
+
+Inačica 0.1
+Originalni rječnik - autor D. L. iz 2003. g.
