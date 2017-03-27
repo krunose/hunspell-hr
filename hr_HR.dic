@@ -1,4 +1,4 @@
-﻿53307
+﻿53357
 a
 a-mol/273
 A-reprezentacija/365
@@ -1013,6 +1013,7 @@ aneksija/365
 aneksioni/353
 aneksionist/222
 aneksionistički/353
+aneksirati/31
 anektirati/34
 anemičar/229
 anemični/347
@@ -1914,6 +1915,8 @@ Austrija/372
 Austrijanac/256
 Austrijanka/369
 austrijski/353
+Austro-Ugarska/395
+austro-ugarski/353
 austrofil/235
 austrofob/234
 austrougarski/353
@@ -5123,6 +5126,7 @@ curetina/362
 curica/389
 curiti/52
 curkati/31
+CV/403
 cvasti/79
 cvat/273
 cvatnja/360
@@ -6483,6 +6487,7 @@ dijagonalni/347
 dijagram/238
 dijagramčić/205
 dijakritik/238
+dijakronija/365
 dijakronijski/353
 dijalekatski/353
 dijalekt/205
@@ -7767,6 +7772,7 @@ državljanka/369
 državljanstvo/331
 državni/346
 državnik/227
+državnoodvjetnički/353
 državnopravni/353
 državotvorac/256
 državotvorni/353
@@ -8066,6 +8072,7 @@ dvostran/340
 dvostruk/340
 dvotaktni/353
 dvotjedni/353
+dvotjednik/205
 dvotočka/383
 dvotračni/353
 dvotrećinski/353
@@ -9464,6 +9471,7 @@ franak/257
 francij/268
 francuski/353
 Francuskinja/362
+francusko-pruski/353
 francuština/360
 Francuz/217
 Frankapan/217
@@ -10047,7 +10055,7 @@ glavurda/360
 glazba/360
 glazbalo/331
 glazbar/229
-glazbeni/348
+glazbeni/346
 glazbeniji/355
 glazbenik/227
 glazirati/34
@@ -11171,6 +11179,7 @@ hegelovac/256
 hegelovski/353
 hegemon/234
 hegemonijski/353
+hegemonizam/247
 Heisenberg/266
 hej
 heklati/34
@@ -11237,6 +11246,7 @@ herceg/232
 hercegbosanski/353
 Hercegovac/256
 hercegovački/353
+Hercegovina/365
 Hercegovka/369
 hercegovski/353
 hereditarni/353
@@ -11865,6 +11875,7 @@ idila/360
 idilični/347
 idiličniji/355
 idiom/205
+idiom/238
 idiomatika/378
 idiomatski/353
 idiopatski/353
@@ -12537,6 +12548,7 @@ ironizirati/33
 Irska/395
 irski/353
 irvas/217
+ISBN/403
 isceren/340
 isceriti/128
 iscijediti/128
@@ -13779,6 +13791,7 @@ izobraziti/128
 izobrazni/353
 izobražavati/34
 izobražen/341
+izoglosa/360
 izohipsa/360
 izoindol/238
 izokrenuti/139
@@ -22083,6 +22096,7 @@ nakovanj/247
 nakovati/126
 nakovrčan/340
 nakraj
+nakraju
 nakratko
 nakrcaniji/355
 nakrcati/119
@@ -29930,6 +29944,7 @@ pelvis/205
 peljar/223
 Pelješac/271
 pelješiti/50
+PEN-klub/282
 penal/205
 pendrek/205
 Penelopa/373
@@ -31770,6 +31785,7 @@ pokrenuti/140
 pokrepati/105
 pokret/205
 pokretač/223
+pokretanje/331
 pokretati/86
 pokretljiv/340
 pokretljiviji/355
@@ -32612,6 +32628,7 @@ poredak/260
 poredati/120
 poredba/368
 poredben/340
+poredbeno-povijesni/353
 porediti/128
 poređen/349
 poremećaj/205
@@ -33686,6 +33703,7 @@ praskav/340
 praskavica/360
 praskaviji/355
 praskozorje/331
+praslavenski/353
 prasnuti/137
 prastar/348
 prastric/319
@@ -33842,6 +33860,7 @@ prebogat/348
 prebojati/119
 prebojen/340
 prebojiti/128
+prebolestan/357
 prebolijevati/31
 prebolni/354
 preboljen/348
@@ -40101,6 +40120,7 @@ sačuvati/119
 saćast/348
 saće/331
 sad
+SAD/403
 sada
 sadašnji/353
 sadašnjica/360
@@ -43019,6 +43039,7 @@ starkelja/362
 starleta/362
 starmali/353
 staroamerički/353
+starocrkvenoslavenski/353
 starodavni/353
 starodavniji/355
 starodrevni/347
@@ -48579,6 +48600,7 @@ ustanak/247
 ustanik/227
 ustanova/360
 ustanoviti/128
+ustanovljavanje/331
 ustanovljen/341
 ustanovljiv/340
 ustanovljivati/47
@@ -53062,6 +53084,7 @@ zvukovni/353
 željezni/347
 željeznica/360
 željezničar/229
+željeznički/353
 željeznički/353
 željezničko-cestovni/353
 željeznosiv/348
