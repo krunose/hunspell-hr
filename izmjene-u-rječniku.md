@@ -6,11 +6,11 @@ rječnik je dostupan na [github.com/krunose/hr-hunspell](https://github.com/krun
 
 ## Inačica 2.1 (razvojna inačica)
 
-Nadopuna je inačice 2.0.
+Razvojna je inačica 2.1 nadopuna inačice 2.0.
 
-Razvojna je inačica ona koja se nalazu u grani `master` repozitorija na adresi [github.com/krunose/hr-hunspell](https://github.com/krunose/hr-hunspell).
+Razvojna inačica nije uključen u izvorni kod LibreOfficea. Preporuča se izrada dodataka za provjeru pravopisa iz ove inačice radi testiranja rječnika prije negoli se uključi u LibreOfficeov izvorni kod.
 
-Razvojna inačica nije uključen u izvorni kod LibreOfficea, ali je pogodna za testiranje rječnika.
+Rječnik je dostupan u grani `master` repozitorija s početka ovoga dokumenta.
 
 - izmjena na dvjestotinjak riječi (izmjena postojećih ili dodavanje novih riječi)
 - dodano preko sto pedeset polusloženica
