@@ -25,8 +25,8 @@ SUBSTANDARD ZO
 FORBIDDENWORD ZN
 WARN ZM
 
-#SUGSWITHDOTS
-#FORBIDWARN
+# SUGSWITHDOTS
+# FORBIDWARN
 
 BREAK 5
 BREAK ^-
@@ -34,6 +34,8 @@ BREAK -$
 BREAK ^'
 BREAK '$
 BREAK .
+
+
 
 WORDCHARS -'0123456789
 
@@ -71,8 +73,9 @@ ICONV ȑ r
 ICONV ȓ r
 ICONV ŕ r
 
+
 # REP - .
-REP 153
+REP 155
 REP - _
 REP a -a
 REP om -om
@@ -86,9 +89,11 @@ REP c ds
 REP c ts
 REP č ć
 REP ć č
+REP g h
 REP đ dž
 REP dž đ
 REP dž č
+REP ^obama$ oboma
 REP ^menom$ mnom
 REP e ije
 REP je ije
@@ -225,7 +230,7 @@ REP nućeš$ nut_ćeš
 REP nuće$ nut_će
 REP nućemo$ nut_ćemo
 REP nućete$ nut_ćete
-REP nezna ne_zna
+REP ^nezna ne_zna
 
 
 AF 403
