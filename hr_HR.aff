@@ -28,12 +28,14 @@ WARN ZM
 # SUGSWITHDOTS
 # FORBIDWARN
 
-BREAK 5
+BREAK 6
 BREAK ^-
 BREAK -$
 BREAK ^'
 BREAK '$
 BREAK .
+BREAK “$
+# zadnja su dva unosa ovdje zbog nedostatka #106989 u LibreOfficeu
 
 
 
