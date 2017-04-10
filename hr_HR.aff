@@ -75,7 +75,7 @@ ICONV ŕ r
 
 
 # REP - .
-REP 155
+REP 156
 REP - _
 REP a -a
 REP om -om
@@ -93,6 +93,7 @@ REP g h
 REP đ dž
 REP dž đ
 REP dž č
+REP sb zb
 REP ^obama$ oboma
 REP ^menom$ mnom
 REP e ije
