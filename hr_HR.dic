@@ -1,4 +1,4 @@
-﻿53477
+﻿53493
 a
 a-mol/273
 A-reprezentacija/365
@@ -7985,6 +7985,7 @@ dverce/331
 dveri/309
 dvica/360
 dvije
+dvije-tri
 dviju
 dvjema
 dvjesta
@@ -8094,6 +8095,7 @@ dvostih/273
 dvostoljetni/353
 dvostran/340
 dvostruk/340
+dvostrukorimovani/353
 dvotaktni/353
 dvotjedni/353
 dvotjednik/205
@@ -11656,6 +11658,7 @@ hortikulturni/353
 Horus/293
 Horvat/217
 hosana
+hospitacija/365
 hospitalac/256
 hospitalizacija/365
 hospitalizirati/33
@@ -13047,6 +13050,7 @@ ispružati/34
 ispružen/340
 ispružiti/128
 isprva
+isprve
 isprvice
 ispržen/340
 ispržiti/128
@@ -15781,6 +15785,8 @@ klepetuša/362
 klepka/383
 klepnuti/140
 klepsidra/368
+kleptoman/238
+kleptomanija/365
 kler/205
 klerik/221
 klerikalac/256
@@ -15987,6 +15993,7 @@ knjižen/341
 književni/347
 književnik/227
 književno-publicistički/353
+književno-umjetnički/353
 književnojezičan/348
 književnopovijesni/353
 književnoteorijski/353
@@ -16211,6 +16218,7 @@ koločep/205
 kolodvor/238
 kolofonij/238
 koloidni/353
+kolokacija/365
 kolokvij/238
 kolokvijalizam/247
 kolokvijalni/347
@@ -16641,6 +16649,7 @@ kontaminirati/33
 kontejner/238
 kontekst/205
 kontekstni/353
+kontekstualizirati/33
 kontekstualni/353
 kontemplacija/365
 kontemplativni/347
@@ -16900,6 +16909,7 @@ korektura/360
 korekturni/353
 korelacija/365
 korelat/205
+korelirati/33
 koren/349
 Korenica/372
 koreniji/355
@@ -24122,6 +24132,7 @@ neobvezujući/353
 neobzirni/347
 neobzirniji/355
 neocarinjen/340
+neocijenjen/340
 neocjenjiv/340
 neočekivan/340
 neočekivaniji/355
@@ -28000,6 +28011,7 @@ opkoljenje/331
 opkop/205
 opkopar/238
 opkopati/120
+opkoračenje/331
 opkoračiti/128
 opkoračivati/47
 oplahivati/47
@@ -28118,6 +28130,7 @@ oprezni/347
 oprezniji/355
 oprijeti/143
 oprimjeriti/128
+oprimjerivati/47
 oprljen/340
 oprljiti/128
 oprobati/114
@@ -45736,6 +45749,7 @@ tematika/378
 tematizacija/365
 tematizirati/34
 tematski/353
+tematsko-motivski/353
 temelj/205
 temeljac/247
 temeljen/341
@@ -46811,6 +46825,7 @@ tronožac/260
 tronožni/353
 tronut/340
 trop/238
+tropismen/340
 troplet/205
 tropolni/353
 tropoložajni/353
@@ -48808,6 +48823,7 @@ ususret
 usustaviti/128
 usustavljanje/331
 usustavljen/349
+usustavljivanje/331
 usuti/140
 usvajač/205
 usvajati/34
