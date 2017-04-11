@@ -19,7 +19,7 @@ Najnovija se inačica rječnika može preuzeti iz grane `master` repozitorija na
 
 ## Inačica 2.0
 
-[veljača 2017.]
+veljača 2017.
 
 Strukturna revizija i kompletna izmjene inačice 1.0.
 
@@ -35,7 +35,7 @@ Velika hvala Mirku Kosu koji je pripremio ovu inačicu.
 
 ## Inačica 1.1
 
-[2014. – veljača 2017.]
+god. 2014.
 
 Nadopuna i nadogradnja inačice 0.1
 
