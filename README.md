@@ -9,16 +9,18 @@ Pravila se primjenjuju na svaku riječ zasebno, odnosno Hunspell ne može korist
 
 Sadržaj repozitorija
 
-- `hr_HR.dic`: popis riječi
-- `hr_HR.aff`: pravila za razradu svih oblika riječi iz datoteke `hr_HR.dic`
-- `README_hr_HR.txt`: informacije o licenciji
-- `izmjene-u-rječniku.md`: informacije o izmjenama u svakoj novoj inačici
-- `README.md`: opis ovoga projekta
+- `hr_HR.dic` sadrži popis riječi
+- `hr_HR.aff` sadrži pravila za razradu svih oblika riječi iz datoteke `hr_HR.dic`
+- `README_hr_HR.txt` sadrži informacije o licenciji
+- u `izmjene-u-rječniku.md` se prate o izmjenama u svakoj novoj inačici
+- `README.md` je opis ovoga projekta
 
 ---
 
-- [dokumentacija o pisanju pravila](https://sourceforge.net/projects/hunspell/files/Hunspell/Documentation/hunspell4.pdf/download) (izravna poveznica, engl., PDF)
-- [Hunspell](http://hunspell.github.io/)
+Dokumentacija o Hunspellu
+
+- [Pisanje pravila](https://sourceforge.net/projects/hunspell/files/Hunspell/Documentation/hunspell4.pdf/download) (izravna poveznica, engl., PDF)
+- [hunspell.github.io](http://hunspell.github.io/)
 
 
 ---
