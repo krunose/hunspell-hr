@@ -1,4 +1,4 @@
-﻿53493
+﻿53518
 a
 a-mol/273
 A-reprezentacija/365
@@ -468,6 +468,7 @@ akceptor/221
 akcesija/365
 akcesorni/347
 akcident/205
+akcidentalan/347
 akcidentalni/353
 akcija/365
 akcionar/221
@@ -1008,6 +1009,7 @@ anđelić/217
 Anđelka/373
 anđeo/308
 anegdota/365
+anegdotalan/347
 anegdotalni/353
 anegdotični/347
 aneks/205
@@ -7737,6 +7739,7 @@ društveniji/355
 društveno-ekonomski/353
 društveno-gospodarski/353
 društveno-kulturni/353
+društveno-politički/353
 društvo/331
 družba/360
 družbenik/227
@@ -12472,6 +12475,7 @@ interpolirati/34
 interpret/205
 interpretacija/365
 interpretativni/347
+interpretativno-analitički/353
 interpretator/223
 interpretirati/34
 interpunkcija/365
@@ -13312,6 +13316,7 @@ iverje/331
 ivica/364
 ivičnjak/205
 ivik/205
+Ivona/373
 ix/11
 iz
 iza
@@ -14835,6 +14840,8 @@ kačket/205
 kaćiperka/369
 kaćun/205
 kad
+kad-tad
+kada-tada
 kada/360
 kadar/247
 kadaver/221
@@ -16006,7 +16013,6 @@ knjižničar/229
 knjižničarstvo/331
 knjižnički/353
 knjižurina/360
-ko
 koagulacija/365
 koagulator/238
 koagulirati/31
@@ -16380,6 +16386,7 @@ komparatistički/353
 komparatistika/378
 komparativ/205
 komparativni/347
+komparativno-povijesni/353
 komparator/238
 komparirati/34
 kompas/205
@@ -16649,6 +16656,7 @@ kontaminirati/33
 kontejner/238
 kontekst/205
 kontekstni/353
+kontekstualizacija/365
 kontekstualizirati/33
 kontekstualni/353
 kontemplacija/365
@@ -17120,6 +17128,7 @@ kovačnica/360
 kovaći/353
 kovalentni/347
 kovanica/360
+kovarijanta/368
 kovati/47
 kovčeg/205
 kovčežić/205
@@ -17923,6 +17932,7 @@ kultivirati/33
 kultivizirati/33
 kultni/353
 kultura/360
+kulturalan/340
 kulturalni/353
 kulturni/347
 kulturniji/355
@@ -20011,6 +20021,7 @@ međukonfesionalni/347
 međukontinentalni/353
 međukorak/205
 međukralješnički/353
+međukulturalan/340
 međukulturalni/353
 međuledeni/353
 međuljudski/353
@@ -24152,6 +24163,7 @@ neodgojni/347
 neodgonetljiv/340
 neodgonetnut/340
 neodgovarajući/353
+neodgovaranje/331
 neodgovoren/340
 neodgovorni/347
 neodgovorniji/355
@@ -27160,6 +27172,7 @@ odšteta/360
 odštetiti/128
 odštetni/353
 odšuljati/120
+odšutjeti/147
 odterećen/349
 odučiti/128
 odudarati/31
@@ -27926,6 +27939,7 @@ općenit/340
 općenitiji/355
 općeobrazovni/353
 općepoznat/348
+općeprihvaćen/340
 općeprihvaćen/348
 općepriznat/348
 općevažeći/353
@@ -30933,6 +30947,7 @@ pluralistički/353
 pluralitet/205
 pluralizam/247
 pluralni/347
+plus-minus
 plus-pol/273
 plus/273
 pluskvamperfekt/205
@@ -39554,6 +39569,7 @@ Retkovec/298
 retor/223
 retoričar/229
 retorički/353
+retorično
 retorika/378
 retorta/368
 retorzija/365
@@ -40530,6 +40546,7 @@ samovlašće/331
 samovolja/360
 samovoljni/347
 samovozni/353
+samovrednovanje/331
 samozabavni/347
 samozaborav/205
 samozadovoljavati/31
@@ -41741,6 +41758,8 @@ skrit/348
 skriti/145
 skrivač/223
 skrivati/34
+skrivećke
+skrivećki
 skriven/340
 skriveniji/355
 skriviti/128
@@ -44087,6 +44106,7 @@ sustati/89
 sustav/205
 sustavni/347
 sustavniji/355
+sustavski/353
 sustegnuti/139
 sustezati/86
 sustići/201
@@ -44326,6 +44346,7 @@ svevišnji/353
 svevladajući/353
 svevladalac/262
 svevlast/392
+svevremenski/353
 sveza/360
 svezak/260
 svezati/174
@@ -45691,6 +45712,7 @@ tekstilni/353
 tekstni/353
 tekstolog/339
 tekstopisac/260
+tekstualizacija/364
 tekstualni/347
 tekstura/360
 tektonika/378
@@ -48467,6 +48489,7 @@ urotnik/227
 urotništvo/331
 Ursula/372
 urtikarija/360
+uručak/247
 uručen/341
 uručiti/128
 uručivati/47
@@ -50370,12 +50393,13 @@ vojni/353
 vojničina/360
 Vojnić/265
 vojnik/227
+vojno-policijski/353
+vojno-politički/353
+vojno-redarstven/348
 vojnoistraživački/353
 vojnomedicinski/353
 vojnoobavještajni/353
 vojnopolicijski/353
-vojnopolitički/353
-vojnoredarstven/348
 vojska/383
 vojskovođa/362
 vojuje
@@ -53312,6 +53336,7 @@ zvukovni/353
 žirator/221
 žiri/304
 žirirati/33
+žiro-račun/237
 žiro/205
 žiroplan/221
 žiroskop/221
