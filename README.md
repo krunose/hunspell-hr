@@ -29,4 +29,4 @@ Repozitorij i kontakt: [https://github.com/krunose/hr-hunspell](https://github.c
 
 ---
 
-Inačica: 2017-5-23
+Inačica rječnika: 2017-07-20
