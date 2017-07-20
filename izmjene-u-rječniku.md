@@ -5,6 +5,13 @@ Najnovija se inačica rječnika može preuzeti iz grane `master` repozitorija na
 
 
 
+
+### Inačica 2.1.1
+
+
+- dodano četrnaest novih riječi
+
+
 ## Inačica 2.1
 
 
