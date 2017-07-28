@@ -76,7 +76,7 @@ ICONV ŕ r
 
 
 # REP - .
-REP 159
+REP 161
 REP ^pocrtava podcrtava
 REP ^zdrastv zdravstv
 REP nućemo$ nut_ćemo
@@ -220,6 +220,8 @@ REP x ks
 REP c ts
 REP c ds
 REP a -a
+REP a aa
+REP d dd
 REP e ee
 REP u -u
 REP o oo
