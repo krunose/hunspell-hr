@@ -25,6 +25,7 @@ SUBSTANDARD ZO
 FORBIDDENWORD ZN
 WARN ZM
 
+# NOSPLITSUGS
 # SUGSWITHDOTS
 # FORBIDWARN
 
@@ -75,12 +76,13 @@ ICONV ŕ r
 
 
 # REP - .
-REP 157
+REP 159
 REP ^pocrtava podcrtava
 REP ^zdrastv zdravstv
 REP nućemo$ nut_ćemo
 REP nućete$ nut_ćete
 REP ^riječo$ riječ_o
+REP rejanac rejac
 REP ^prenat prednat
 REP šćemo$ st_ćemo
 REP šćete$ st_ćete
@@ -96,6 +98,7 @@ REP bčanci$ pčanki
 REP stravn stavn
 REP ^poravo$ pravo
 REP skinj stkinj
+REP reank rejk
 REP ^nezna ne_zna
 REP ^prdon pridon
 REP dreti$ derati
