@@ -58,7 +58,7 @@ Nadopuna i nadogradnja inačice 0.1
 
 ## Inačica 1.0
 
-[2003.]
+god. 2003.
 
 Originalni rječnik - autor D. L. iz 2003. g. [&#42;]
 
