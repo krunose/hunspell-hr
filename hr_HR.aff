@@ -76,7 +76,7 @@ ICONV ŕ r
 
 
 # REP - .
-REP 168
+REP 169
 REP ^pocrtava podcrtava
 REP ^zdrastv zdravstv
 REP nućemo$ nut_ćemo
@@ -126,6 +126,7 @@ REP ^menom$ mnom
 REP ^bite$ biste
 REP ^stim$ s_tim
 REP ^polu- polu
+REP ^moće$ može
 REP skme$ skome
 REP nara napra
 REP skmu$ skomu
