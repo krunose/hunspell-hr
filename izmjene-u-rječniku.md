@@ -9,7 +9,7 @@ Najnovija se inačica rječnika može preuzeti iz grane `master` repozitorija na
 ### Inačica 2.1.1
 
 
-- proširen REP sa devet novih unosa
+- proširen REP sa deset novih unosa
 - dodano četrnaest novih riječi
 
 
