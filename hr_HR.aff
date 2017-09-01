@@ -76,7 +76,7 @@ ICONV ŕ r
 
 
 # REP - .
-REP 167
+REP 168
 REP ^pocrtava podcrtava
 REP ^zdrastv zdravstv
 REP nućemo$ nut_ćemo
@@ -107,6 +107,7 @@ REP ićeš$ it_ćeš
 REP ^subst supst
 REP aćeš$ at_ćeš
 REP ^obama$ oboma
+REP ^lotus lotos
 REP nuću$ nut_ću
 REP nion nionic
 REP nuće$ nut_će
