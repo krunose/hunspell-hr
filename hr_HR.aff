@@ -76,7 +76,7 @@ ICONV ŕ r
 
 
 # REP - .
-REP 169
+REP 170
 REP ^pocrtava podcrtava
 REP ^zdrastv zdravstv
 REP nućemo$ nut_ćemo
@@ -121,6 +121,7 @@ REP natn nantn
 REP dvgn dvagn
 REP skma$ skima
 REP ^bimo$ bismo
+REP ^kazin kasin
 REP ^htjeo$ htio
 REP ^menom$ mnom
 REP ^bite$ biste
