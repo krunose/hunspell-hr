@@ -11,7 +11,7 @@ Najnovija se inačica rječnika može preuzeti iz grane `master` repozitorija na
 
 - proširen REP sa trinaest novih unosa
 - dodano četrnaest novih riječi
-- ispravak velikoga slova u manjem broju riječi
+- ispravak velikoga slova u nekoliko riječi
 
 
 ## Inačica 2.1
