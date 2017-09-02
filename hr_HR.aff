@@ -76,7 +76,7 @@ ICONV ŕ r
 
 
 # REP - .
-REP 170
+REP 172
 REP ^pocrtava podcrtava
 REP ^zdrastv zdravstv
 REP nućemo$ nut_ćemo
@@ -95,6 +95,7 @@ REP ećete$ et_ćete
 REP nućeš$ nut_ćeš
 REP ećemo$ et_ćemo
 REP bčanci$ pčanki
+REP ^kosmos kozmos
 REP stravn stavn
 REP ^poravo$ pravo
 REP skinj stkinj
@@ -136,6 +137,7 @@ REP ^trab treb
 REP ^jel$ je_li
 REP bljiv biv
 REP najs naes
+REP ion ijun
 REP zir rizir
 REP aon aonic
 REP iće$ it_će
