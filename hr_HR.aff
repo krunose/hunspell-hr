@@ -76,12 +76,13 @@ ICONV ŕ r
 
 
 # REP - .
-REP 172
+REP 175
 REP ^pocrtava podcrtava
 REP ^zdrastv zdravstv
 REP nućemo$ nut_ćemo
 REP nućete$ nut_ćete
 REP ^riječo$ riječ_o
+REP ^usisač usisivač
 REP rejanac rejac
 REP ^prenat prednat
 REP šćemo$ st_ćemo
@@ -90,6 +91,7 @@ REP aćemo$ at_ćemo
 REP aćete$ at_ćete
 REP ićete$ it_ćete
 REP avaon ovaonic
+REP ^očenaš Očenaš
 REP ićemo$ it_ćemo
 REP ećete$ et_ćete
 REP nućeš$ nut_ćeš
@@ -132,6 +134,7 @@ REP ^moće$ može
 REP skme$ skome
 REP nara napra
 REP skmu$ skomu
+REP ^ljud$ ljut
 REP ^trab trav
 REP ^trab treb
 REP ^jel$ je_li
