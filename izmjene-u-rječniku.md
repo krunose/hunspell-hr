@@ -11,6 +11,7 @@ Najnovija se inačica rječnika može preuzeti iz grane `master` repozitorija na
 
 - proširen REP sa četrnaest novih unosa
 - dodano četrnaest novih riječi
+- povezani nastavci (hr_HR.aff) s nekoliko riječi (hr_HR.dic)
 - ispravak velikoga slova u nekoliko riječi
 
 
