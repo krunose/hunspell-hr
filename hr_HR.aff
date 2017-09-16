@@ -253,7 +253,7 @@ REP g h
 REP ć č
 REP č ć
 
-AF 403
+AF 404
 AF ZZ	# 1
 AF ZY	# 2
 AF ZX	# 3
@@ -657,6 +657,7 @@ AF TE	# 400
 AF TD	# 401
 AF THTGTETC	# 402
 AF TB	#403
+AF TC	#404
 
 
 SFX XZ Y      21
@@ -3661,3 +3662,13 @@ SFX TB Y 3
 SFX TB 0 -a .
 SFX TB 0 -u .
 SFX TB 0 -om .
+
+SFX TC Y 8
+SFX TC an na an
+SFX TC an nu an
+SFX TC an ne an
+SFX TC an nom an
+SFX TC an novi an
+SFX TC an nova an
+SFX TC an novima an
+SFX TC an nove an
