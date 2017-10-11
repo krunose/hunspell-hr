@@ -76,7 +76,7 @@ ICONV ŕ r
 
 
 # REP - .
-REP 175
+REP 176
 REP ^pocrtava podcrtava
 REP ^zdrastv zdravstv
 REP nućemo$ nut_ćemo
@@ -102,6 +102,7 @@ REP stravn stavn
 REP ^poravo$ pravo
 REP skinj stkinj
 REP reank rejk
+REP ampiš ampinš
 REP ^nezna ne_zna
 REP ^prdon pridon
 REP dreti$ derati
