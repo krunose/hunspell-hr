@@ -9,6 +9,7 @@ Najnovija se inačica rječnika može preuzeti iz grane `master` repozitorija na
 ### Inačica 2.1.1
 
 - uklonjeno nekoliko nepostojećih riječi
+- dodana pravila za gradove na -vci (Križevci, Vinkovci)
 - ispravak zatipka: iglun/205i > iglun/205 ([nedostatak #2](https://github.com/krunose/hr-hunspell/issues/2))
 - proširen REP sa četrnaest novih unosa
 - dodano četrnaest novih riječi
