@@ -254,7 +254,7 @@ REP g h
 REP ć č
 REP č ć
 
-AF 405
+AF 407
 AF ZZ	# 1
 AF ZY	# 2
 AF ZX	# 3
@@ -660,6 +660,8 @@ AF THTGTETC	# 402
 AF TB	#403
 AF TC	#404
 AF TD	#405
+AF TE	#406
+AF TF	#407
 
 
 SFX XZ Y      21
@@ -3681,3 +3683,15 @@ SFX TD as su as
 SFX TD as som as
 SFX TD as si as
 SFX TD as sima as
+
+SFX TE Y 5
+SFX TE o a lo
+SFX TE o u lo
+SFX TE 0 m lo
+SFX TE lo ala lo
+SFX TE o ima lo
+
+SFX TF Y 3		# Križevci
+SFX TF i e vci
+SFX TF vci vaca vci	# Križevaca
+SFX TF 0 ma vci
