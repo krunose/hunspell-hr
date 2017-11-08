@@ -76,7 +76,7 @@ ICONV ŕ r
 
 
 # REP - .
-REP 211
+REP 212
 REP ^pocrtava podcrtava
 REP ^zdrastv zdravstv
 REP nućemo$ nut_ćemo
@@ -97,6 +97,7 @@ REP ećete$ et_ćete
 REP nućeš$ nut_ćeš
 REP ećemo$ et_ćemo
 REP bčanci$ pčanki
+REP ^rasazn razazn
 REP ^kosmos kozmos
 REP stravn stavn
 REP ^poravo$ pravo
