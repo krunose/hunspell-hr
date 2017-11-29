@@ -8,6 +8,7 @@ Najnovija se inačica rječnika može preuzeti iz grane `master` repozitorija na
 
 ### Inačica 2.1.1
 
+- dodana klasa TH (# 409) za rješavanje imena mjesta i gradova na -sko (Jastrebarsko, Topusko, Vrbovsko)
 - brisano nekoliko riječi s pogrešnim pisanjem 'ije' i 'je' (prevoz > prijevoz, prelom > prijelom ...)
 - uklonjeno nekoliko nepostojećih riječi
 - dodana pravila za gradove na -vci (Križevci, Vinkovci)
