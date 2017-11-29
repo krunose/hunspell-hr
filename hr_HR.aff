@@ -291,7 +291,7 @@ REP ^ž Ž
 REP - _
 
 
-AF 408
+AF 409
 AF ZZ	# 1
 AF ZY	# 2
 AF ZX	# 3
@@ -700,6 +700,7 @@ AF TD	#405
 AF TE	#406
 AF TF	#407
 AF TG	#408
+AF TH	#409
 
 
 SFX XZ Y      21
@@ -3743,3 +3744,13 @@ SFX TG ijev jevovi lijev
 SFX TG ijev jevova lijev
 SFX TG ijev jevove lijev
 SFX TG ijev jevovima lijev
+
+
+# imenica na -sko tipa Jastrebarsko, Topusko
+SFX TH Y 6
+SFX TH 0 g o
+SFX TH 0 ga o
+SFX TH 0 m o
+SFX TH 0 me o
+SFX TH 0 mu o
+SFX TH o im o
