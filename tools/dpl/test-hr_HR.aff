@@ -1,0 +1,1314 @@
+SET UTF-8
+
+TRY ABCDEFGHIJKLMNOPQRSTUVWXYćĆčČđĐžŽabcdefghijklmnopqrstuvwxy-'.ëü
+
+KEY qwertzuiopšđ|asdfghjklčćž|yxcvbnm|žšđ|ćščđž|žćđ|đšćž|zy|qawsedrftgyhuj|jikolpč|aysxdcfvgbh|hnjmk
+
+FLAG long
+
+SFX AA Y 4
+SFX AA 0 0 .	+NAjd 
+SFX AA 0 a .	+Gjd 
+SFX AA 0 u .	+DVLjd 
+SFX AA 0 em .	+Ijd 
+
+SFX AB Y 9
+SFX AB 0 0 .	+Njd 
+SFX AB ac ca .	+GAjd 
+SFX AB ac cu .	+DLjd 
+SFX AB ac če .	+Vjd 
+SFX AB ac cem .	+Ijd 
+SFX AB ac ci .	+NVmn 
+SFX AB 0 a .	+Gmn 
+SFX AB ac cima .	+DLImn 
+SFX AB ac ce .	+Amn 
+
+SFX AC Y 8
+SFX AC 0 0 .	+Njd 
+SFX AC 0 a .	+Gjd 
+SFX AC 0 u .	+DVLjd 
+SFX AC 0 om .	+Ijd 
+SFX AC 0 evi .	+NVmn 
+SFX AC 0 eva .	+Gmn 
+SFX AC 0 evima .	+DLImn 
+SFX AC 0 eve .	+Amn 
+
+SFX AD Y 7
+SFX AD 0 0 .	+NAjd 
+SFX AD 0 a .	+GjdGmn 
+SFX AD 0 u .	+DLjd 
+SFX AD 0 om .	+Ijd 
+SFX AD 0 i .	+NVjd 
+SFX AD 0 ima .	+DLImn 
+SFX AD 0 e .	+Amn 
+
+SFX AE Y 5
+SFX AE 0 0 .	+Njd 
+SFX AE 0 a .	+GAjd 
+SFX AE 0 u .	+DLjd 
+SFX AE 0 e .	+Vjd 
+SFX AE 0 om .	+Ijd 
+
+SFX AF Y 8
+SFX AF 0 0 .	+NAjd 
+SFX AF 0 a .	+Gjd 
+SFX AF 0 u .	+DLjd 
+SFX AF 0 om .	+Ijd 
+SFX AF 0 ovi .	+NVmn 
+SFX AF 0 ova .	+Gmn 
+SFX AF 0 ovima .	+DLImn 
+SFX AF 0 ove .	+Amn 
+
+SFX AG Y 7
+SFX AG 0 0 .	+NAjd 
+SFX AG 0 a .	+Gjd 
+SFX AG 0 u .	+DVLjd 
+SFX AG anj njevi .	+NVmn 
+SFX AG anj njeva .	+Gmn 
+SFX AG anj njevima .	+DLImn 
+SFX AG anj njeve .	+Amn 
+
+SFX AH Y 9
+SFX AH 0 0 .	+Njd 
+SFX AH 0 a .	+Gjd 
+SFX AH 0 u .	+DLjd 
+SFX AH 0 e .	+Vjd 
+SFX AH 0 em .	+Ijd 
+SFX AH 0 evi .	+NVmn 
+SFX AH 0 eva .	+Gmn 
+SFX AH 0 evima .	+DLImn 
+SFX AH 0 eve .	+Amn 
+
+SFX AI Y 9
+SFX AI 0 0 .	+NAjd 
+SFX AI 0 a .	+Gjd 
+SFX AI 0 u .	+DLVjd 
+SFX AI h še .	+Vjd 
+SFX AI 0 om .	+Ijd 
+SFX AI 0 ovi .	+NVmn 
+SFX AI 0 ova .	+Gmn 
+SFX AI 0 ovima .	+DLImn 
+SFX AI 0 ove .	+Amn 
+
+SFX AJ Y 7
+SFX AJ 0 0 .	+Njd 
+SFX AJ 0 a .	+GAjdGmn 
+SFX AJ 0 u .	+DLjd 
+SFX AJ 0 e .	+VjdAmn 
+SFX AJ 0 om .	+Ijd 
+SFX AJ 0 i .	+NVmn 
+SFX AJ 0 ima .	+DLImn 
+
+SFX AK Y 8
+SFX AK 0 0 .	+NAjd 
+SFX AK ac ca .	+Gjd 
+SFX AK ac cu .	+DLjd 
+SFX AK ac če .	+Vjd 
+SFX AK ac cem .	+Ijd 
+SFX AK ac ci .	+NVmn 
+SFX AK 0 a .	+Gmn 
+SFX AK ac cima .	+DLImn 
+
+SFX AL Y 4
+SFX AL 0 0 .	+NAjd 
+SFX AL 0 i .	+GDVLIjdNGAVmn 
+SFX AL 0 ju .	+Ijd 
+SFX AL 0 ima .	+DLImn 
+
+SFX AM Y 8
+SFX AM 0 0 .	+Njd 
+SFX AM 0 a .	+GAjdGmn 
+SFX AM 0 u .	+DLVjd 
+SFX AM h še .	+Vjd 
+SFX AM 0 om .	+Ijd 
+SFX AM h si .	+NVjd 
+SFX AM h sima .	+DLImn 
+SFX AM 0 e .	+Amn 
+
+SFX AN Y 8
+SFX AN 0 0 .	+NAjd 
+SFX AN alj a .	+Gjd 
+SFX AN alj lju .	+DLVjd 
+SFX AN alj ljem .	+Ijd 
+SFX AN alj ljevi .	+NVmn 
+SFX AN alj ljeva .	+Gmn 
+SFX AN alj ljevima .	+DLImn 
+SFX AN alj ljeve .	+Amn 
+
+SFX AO Y 9
+SFX AO 0 0 .	+NAjd 
+SFX AO ak ka .	+Gjd 
+SFX AO ak ku .	+DLjd 
+SFX AO ak če .	+Vjd 
+SFX AO ak kom .	+Ijd 
+SFX AO ak ci .	+NVmn 
+SFX AO 0 a .	+Gmn 
+SFX AO ak cima .	+DLImn 
+SFX AO ak ke .	+Amn 
+
+SFX AP Y 8
+SFX AP 0 0 .	+Njd 
+SFX AP 0 a .	+Gjd 
+SFX AP 0 u .	+DLjd 
+SFX AP k če .	+Vjd 
+SFX AP 0 om .	+Ijd 
+SFX AP čovjek ljudi .	+NGVmn 
+SFX AP čovjek ljudima .	+DLImn 
+SFX AP čovjek ljude .	+Amn 
+
+SFX AQ Y 7
+SFX AQ 0 0 .	+Njd 
+SFX AQ 0 a .	+GAjdGmn 
+SFX AQ 0 u .	+DLVjd 
+SFX AQ 0 e .	+VjdAmn 
+SFX AQ 0 em .	+Ijd 
+SFX AQ 0 i .	+NVmn 
+SFX AQ 0 ima .	+DLImn 
+
+SFX AR Y 9
+SFX AR 0 0 .	+Njd 
+SFX AR ar ra .	+GAjd 
+SFX AR ar ru .	+DLVjd 
+SFX AR ar rom .	+Ijd 
+SFX AR ar rovi .	+NVmn 
+SFX AR ar ri .	+Nmn 
+SFX AR 0 a .	+Gmn 
+SFX AR ar rovima .	+DLImn 
+SFX AR ar rove .	+Amn 
+
+SFX AS Y 7
+SFX AS 0 0 .	+NAjd 
+SFX AS 0 a .	+GjdGmn 
+SFX AS 0 u .	+DLjd 
+SFX AS 0 e .	+VjdAmn 
+SFX AS 0 om .	+Ijd 
+SFX AS 0 i .	+Nmn 
+SFX AS 0 ima .	+DLImn 
+
+SFX AT Y 7
+SFX AT 0 0 .	+Njd 
+SFX AT 0 a .	+GAjdGmn 
+SFX AT 0 u .	+DLVjd 
+SFX AT 0 om .	+Ijd 
+SFX AT 0 i .	+NVmn 
+SFX AT 0 ima .	+DLImn 
+SFX AT 0 e .	+Amn 
+
+SFX AU Y 7
+SFX AU 0 0 .	+NAjd 
+SFX AU o jelova .	+Gmn 
+SFX AU o jelu .	+DLjd 
+SFX AU o jelom .	+Ijd 
+SFX AU o jelovi .	+NVmn 
+SFX AU o jelovima .	+DLImn 
+SFX AU o jelove .	+Amn 
+
+SFX AV Y 9
+SFX AV 0 0 .	+Njd 
+SFX AV 0 a .	+GAjd 
+SFX AV 0 u .	+DLjd 
+SFX AV h še .	+Vjd 
+SFX AV 0 om .	+Ijd 
+SFX AV 0 ovi .	+NVmn 
+SFX AV 0 ova .	+Gmn 
+SFX AV 0 ovima .	+DLImn 
+SFX AV 0 ove .	+Amn 
+
+SFX AW Y 8
+SFX AW 0 0 .	+NAjd 
+SFX AW 0 ova .	+Gmn 
+SFX AW 0 u .	+DLjd 
+SFX AW 0 e .	+Vjd 
+SFX AW 0 om .	+Ijd 
+SFX AW 0 ovi .	+NVmn 
+SFX AW 0 ovima .	+DLImn 
+SFX AW 0 ove .	+Amn 
+
+SFX AX Y 10
+SFX AX 0 0 .	+Njd 
+SFX AX 0 a .	+GAjdGmn 
+SFX AX 0 u .	+DLVjd 
+SFX AX 0 om .	+Ijd 
+SFX AX 0 i .	+NVmn 
+SFX AX k cima .	+DLImn 
+SFX AX 0 e .	+Amn 
+SFX AX 0 u .	+DLjd 
+SFX AX k če .	+Vjd 
+SFX AX k ci .	+NVjd 
+
+SFX AY Y 9
+SFX AY 0 0 .	+Njd 
+SFX AY 0 a .	+GAjd 
+SFX AY 0 u .	+DLjd 
+SFX AY 0 e .	+Vjd 
+SFX AY 0 om .	+Ijd 
+SFX AY 0 ovi .	+NVmn 
+SFX AY 0 ova .	+Gmn 
+SFX AY 0 ovima .	+DLImn 
+SFX AY 0 ove .	+Imn 
+
+SFX AZ Y 7
+SFX AZ 0 0 .	+Njd 
+SFX AZ 0 a .	+GAjdGmn 
+SFX AZ 0 u .	+DLjd 
+SFX AZ 0 e .	+AjdAmn 
+SFX AZ 0 om .	+Ijd 
+SFX AZ 0 i .	+NVmn 
+SFX AZ 0 ima .	+DLImn 
+
+SFX BA Y 10
+SFX BA 0 0 .	+Njd 
+SFX BA ac ca .	+GAjd 
+SFX BA ac cu .	+DLjd 
+SFX BA ac če .	+Vjd 
+SFX BA ac cem .	+Ijd 
+SFX BA ac ci .	+NVmn 
+SFX BA 0 a .	+Gmn 
+SFX BA ac cima .	+DLImn 
+SFX BA ac ci .	+Vmn 
+SFX BA ac ce .	+Amn 
+
+SFX BB Y 9
+SFX BB 0 0 .	+Njd 
+SFX BB 0 a .	+GAjd 
+SFX BB 0 u .	+DLjd 
+SFX BB 0 e .	+Vjd 
+SFX BB 0 om .	+Ijd 
+SFX BB 0 ovi .	+NVmn 
+SFX BB 0 ova .	+Gmn 
+SFX BB 0 ovima .	+DLImn 
+SFX BB 0 ove .	+Amn 
+
+SFX BC Y 10
+SFX BC 0 0 .	+Njd 
+SFX BC 0 a .	+GAjd 
+SFX BC 0 u .	+DLjd 
+SFX BC 0 e .	+Vjd 
+SFX BC 0 om .	+Ijd 
+SFX BC in a .	+Nmn 
+SFX BC in e .	+Gmn 
+SFX BC in i .	+DLmn 
+SFX BC in u .	+Amn 
+SFX BC in om .	+Imn 
+
+SFX BD Y 8
+SFX BD 0 0 .	+Njd 
+SFX BD 0 a .	+GAjd 
+SFX BD 0 u .	+DLjd 
+SFX BD 0 e .	+VjdAmn 
+SFX BD 0 om .	+Ijd 
+SFX BD 0 i .	+NGVmn 
+SFX BD 0 iju .	+Gmn 
+SFX BD 0 ima .	+DLImn 
+
+SFX BE Y 7
+SFX BE 0 0 .	+NAjd 
+SFX BE 0 a .	+GjdGmn 
+SFX BE 0 u .	+DLVjd 
+SFX BE 0 om .	+Ijd 
+SFX BE 0 i .	+NVmn 
+SFX BE 0 ima .	+DLImn 
+SFX BE 0 e .	+Amn 
+
+SFX BF Y 8
+SFX BF 0 0 .	+NAjd 
+SFX BF 0 a .	+Gjd 
+SFX BF 0 u .	+DLjd 
+SFX BF 0 e .	+Vjd 
+SFX BF 0 om .	+Ijd 
+SFX BF 0 i .	+NGVmn 
+SFX BF 0 ima .	+DLImn 
+SFX BF 0 e .	+Amn 
+
+SFX BG Y 9
+SFX BG 0 0 .	+NAjd 
+SFX BG 0 a .	+Gjd 
+SFX BG 0 u .	+DLjd 
+SFX BG 0 e .	+Vjd 
+SFX BG 0 om .	+Ijd 
+SFX BG 0 ovi .	+NVmn 
+SFX BG 0 ova .	+Gmn 
+SFX BG 0 ovima .	+DLImn 
+SFX BG 0 ove .	+Amn 
+
+SFX BH Y 7
+SFX BH 0 0 .	+NAjd 
+SFX BH 0 a .	+GjdGmn 
+SFX BH 0 u .	+DLVjd 
+SFX BH 0 em .	+Ijd 
+SFX BH 0 i .	+NVmn 
+SFX BH 0 ima .	+DLImn 
+SFX BH 0 e .	+Amn 
+
+SFX BI Y 9
+SFX BI 0 0 .	+Njd 
+SFX BI 0 a .	+GAjd 
+SFX BI 0 u .	+DLjd 
+SFX BI 0 e .	+Vjd 
+SFX BI 0 om .	+Ijd 
+SFX BI in i .	+NVmn 
+SFX BI in a .	+Gmn 
+SFX BI in ima .	+DLImn 
+SFX BI in e .	+Amn 
+
+SFX BJ Y 9
+SFX BJ 0 0 .	+Njd 
+SFX BJ ak ka .	+Gjd 
+SFX BJ ak ku .	+DLVjd 
+SFX BJ ak če .	+Vjd 
+SFX BJ ak kom .	+Ijd 
+SFX BJ ak ci .	+NVmn 
+SFX BJ 0 a .	+Gmn 
+SFX BJ ak cima .	+DLImn 
+SFX BJ ak ke .	+Amn 
+
+SFX BK Y 9
+SFX BK 0 0 .	+Njd 
+SFX BK 0 a .	+Gjd 
+SFX BK 0 u .	+DLjd 
+SFX BK 0 e .	+Vjd 
+SFX BK 0 om .	+Ijd 
+SFX BK 0 ovi .	+NVmn 
+SFX BK 0 ova .	+Gmn 
+SFX BK 0 ovima .	+DLImn 
+SFX BK 0 ove .	+Amn 
+
+SFX BL Y 8
+SFX BL 0 0 .	+Njd 
+SFX BL 0 a .	+GAjd 
+SFX BL 0 u .	+DLjd 
+SFX BL 0 om .	+Ijd 
+SFX BL 0 ovi .	+NVmn 
+SFX BL 0 ova .	+Gmn 
+SFX BL 0 ovima .	+DLImn 
+SFX BL 0 ove .	+Amn 
+
+SFX BM Y 7
+SFX BM 0 0 .	+Njd 
+SFX BM 0 a .	+GAjdGmn 
+SFX BM 0 e .	+VjdAmn 
+SFX BM 0 i .	+NVmn 
+SFX BM 0 ima .	+DLImn 
+SFX BM 0 om .	+Ijd 
+SFX BM 0 u .	+DLjd 
+
+SFX BN Y 8
+SFX BN 0 0 .	+NAjd 
+SFX BN 0 a .	+GjdGmn 
+SFX BN 0 u .	+DLjd 
+SFX BN k če .	+Vjd 
+SFX BN 0 om .	+Ijd 
+SFX BN k ci .	+NVmn 
+SFX BN k cima .	+DLImn 
+SFX BN 0 e .	+Amn 
+
+SFX BO Y 8
+SFX BO 0 0 .	+Njd 
+SFX BO 0 a .	+GAjd 
+SFX BO 0 u .	+DLVjd 
+SFX BO 0 om .	+Ijd 
+SFX BO 0 evi .	+NVmn 
+SFX BO 0 eva .	+Gmn 
+SFX BO 0 evima .	+DLImn 
+SFX BO 0 eve .	+Amn 
+
+SFX BP Y 8
+SFX BP 0 0 .	+NAjd 
+SFX BP 0 a .	+Gjd 
+SFX BP 0 u .	+DLVjd 
+SFX BP 0 em .	+Ijd 
+SFX BP 0 evi .	+NVmn 
+SFX BP 0 eva .	+Gmn 
+SFX BP 0 evima .	+DLImn 
+SFX BP 0 eve .	+Amn 
+
+SFX BQ Y 8
+SFX BQ 0 0 .	+Njd 
+SFX BQ 0 a .	+GAjd 
+SFX BQ 0 u .	+DLVjd 
+SFX BQ 0 em .	+Ijd 
+SFX BQ 0 evi .	+NVmn 
+SFX BQ 0 eva .	+Gmn 
+SFX BQ 0 evima .	+DLImn 
+SFX BQ 0 eve .	+Amn 
+
+SFX BR Y 8
+SFX BR 0 0 .	+NAjd 
+SFX BR 0 a .	+GjdGmn 
+SFX BR 0 u .	+DLVjd 
+SFX BR 0 e .	+Vjd 
+SFX BR 0 om .	+Ijd 
+SFX BR 0 i .	+NVjd 
+SFX BR 0 ima .	+DLImn 
+SFX BR 0 e .	+Amn 
+
+SFX BS Y 8
+SFX BS 0 0 .	+Njd 
+SFX BS 0 a .	+GAjd 
+SFX BS 0 u .	+DLVjd 
+SFX BS 0 om .	+Ijd 
+SFX BS k ci .	+NVmn 
+SFX BS 0 a .	+Gmn 
+SFX BS k cima .	+DLImn 
+SFX BS ak ke .	+Amn 
+
+SFX BT Y 10
+SFX BT 0 0 .	+NAjd 
+SFX BT ak ka .	+Gjd 
+SFX BT ak ku .	+DLVjd 
+SFX BT ak če .	+Vjd 
+SFX BT ak kom .	+Ljd 
+SFX BT ak kom .	+Ijd 
+SFX BT tak ci .	+NVmn 
+SFX BT 0 a .	+Gmn 
+SFX BT ak cima .	+DLImn 
+SFX BT ak ke .	+Amn 
+
+SFX BU Y 8
+SFX BU 0 0 .	+Njd 
+SFX BU 0 a .	+GAjd 
+SFX BU 0 u .	+DLVjd 
+SFX BU 0 em .	+Ijd 
+SFX BU 0 evi .	+NVmn 
+SFX BU 0 ova .	+Gmn 
+SFX BU 0 evima .	+DLImn 
+SFX BU 0 eve .	+Amn 
+
+SFX BV Y 8
+SFX BV 0 0 .	+NAjd 
+SFX BV 0 a .	+Gjd 
+SFX BV 0 u .	+DLjd 
+SFX BV c če .	+Vjd 
+SFX BV 0 om .	+Ijd 
+SFX BV 0 i .	+NGVmn 
+SFX BV 0 ima .	+DLImn 
+SFX BV 0 e .	+Amn 
+
+SFX BW Y 5
+SFX BW 0 0 .	+NAjd 
+SFX BW 0 a .	+Gjd 
+SFX BW 0 u .	+DLjd 
+SFX BW c če .	+Vjd 
+SFX BW 0 om .	+Ijd 
+
+SFX BX Y 9
+SFX BX 0 0 .	+Njd 
+SFX BX ak ka .	+GAjd 
+SFX BX ak ku .	+DLjd 
+SFX BX ak če .	+Vjd 
+SFX BX ak kom .	+Ijd 
+SFX BX ak ci .	+NVmn 
+SFX BX 0 a .	+Gmn 
+SFX BX ak cima .	+DLImn 
+SFX BX ak ke .	+Amn 
+
+SFX BY Y 8
+SFX BY 0 0 .	+NAjd 
+SFX BY ak ga .	+Gjd 
+SFX BY ak gu .	+DLVjd 
+SFX BY ak gom .	+Ijd 
+SFX BY ak govi .	+NVmn 
+SFX BY ak gova .	+Gmn 
+SFX BY ak govima .	+DLImn 
+SFX BY ak gove .	+Amn 
+
+SFX BZ Y 7
+SFX BZ 0 0 .	+Njd 
+SFX BZ 0 a .	+GAjd 
+SFX BZ 0 u .	+DLjd 
+SFX BZ 0 e .	+VjdAmn 
+SFX BZ 0 om .	+Ijd 
+SFX BZ 0 i .	+NGVmn 
+SFX BZ 0 ima .	+DLImn 
+
+SFX CA Y 7
+SFX CA 0 0 .	+NAjd 
+SFX CA 0 a .	+Gjd 
+SFX CA ak ku .	+DLVjd 
+SFX CA ak kom .	+Ijd 
+SFX CA ak ci .	+NVjd 
+SFX CA ak cima .	+DLImn 
+SFX CA ak ke .	+Amn 
+
+SFX CB Y 7
+SFX CB 0 0 .	+Njd 
+SFX CB 0 a .	+GAjdGmn 
+SFX CB 0 u .	+DLjd 
+SFX CB 0 e .	+Vjd 
+SFX CB 0 om .	+Ijd 
+SFX CB 0 i .	+NVmn 
+SFX CB 0 ima .	+DLImn 
+
+SFX CC Y 9
+SFX CC 0 0 .	+NAjd 
+SFX CC at ta .	+Gjd 
+SFX CC at tu .	+DLjd 
+SFX CC at te .	+Vjd 
+SFX CC at tom .	+Ijd 
+SFX CC at ti .	+NGVmn 
+SFX CC at tiju .	+Gmn 
+SFX CC at tima .	+DLImn 
+SFX CC at te .	+Amn 
+
+SFX CD Y 4
+SFX CD 0 0 .	+NAjd 
+SFX CD 0 a .	+GAjd 
+SFX CD 0 u .	+DLjd 
+SFX CD 0 em .	+Ijd 
+
+SFX CE Y 8
+SFX CE 0 0 .	+NAjd 
+SFX CE 0 a .	+GjdGmn 
+SFX CE 0 u .	+DLjd 
+SFX CE ac če .	+Vjd 
+SFX CE ac cem .	+Ijd 
+SFX CE ac ci .	+NVmn 
+SFX CE ac cima .	+DLImn 
+SFX CE ac ce .	+Amn 
+
+SFX CF Y 8
+SFX CF 0 0 .	+NAjd 
+SFX CF anj nja .	+Gjd 
+SFX CF anj nju .	+DLVjd 
+SFX CF anj njem .	+Ijd 
+SFX CF anj nji .	+NVmn 
+SFX CF 0 a .	+Gmn 
+SFX CF anj njima .	+DLImn 
+SFX CF anj nje .	+Amn 
+
+SFX CG Y 8
+SFX CG 0 0 .	+NAjd 
+SFX CG 0 a .	+GjdGmn 
+SFX CG 0 u .	+DLjd 
+SFX CG h še .	+Vjd 
+SFX CG 0 om .	+Ijd 
+SFX CG h si .	+NVmn 
+SFX CG h sima .	+DLImn 
+SFX CG 0 e .	+Amn 
+
+SFX CH Y 9
+SFX CH 0 0 .	+Njd 
+SFX CH ao la .	+GAjd 
+SFX CH ao lu .	+DLjd 
+SFX CH ao le .	+Vjd 
+SFX CH ao lom .	+Ijd 
+SFX CH ao lovi .	+NVmn 
+SFX CH ao ova .	+Gmn 
+SFX CH ao lovima .	+DLImn 
+SFX CH ao love .	+Amn 
+
+SFX CI Y 9
+SFX CI 0 0 .	+Njd 
+SFX CI tac ca .	+GAjd 
+SFX CI tac cu .	+DLjd 
+SFX CI tac če .	+Vjd 
+SFX CI tac cem .	+Ijd 
+SFX CI tac čevi .	+NVmn 
+SFX CI tac čeva .	+Gmn 
+SFX CI tac čevima .	+DLImn 
+SFX CI tac čeve .	+Amn 
+
+SFX CJ Y 8
+SFX CJ 0 0 .	+Njd 
+SFX CJ an na .	+GAjd 
+SFX CJ an nu .	+DLjd 
+SFX CJ an nom .	+Ijd 
+SFX CJ an novi .	+NVmn 
+SFX CJ an nova .	+Gmn 
+SFX CJ an novima .	+DLImn 
+SFX CJ an nove .	+Amn 
+
+SFX CK Y 9
+SFX CK 0 0 .	+NAjd 
+SFX CK ac ca .	+Gjd 
+SFX CK ac cu .	+DLjd 
+SFX CK ac če .	+Vjd 
+SFX CK ac cem .	+Ijd 
+SFX CK ac ci .	+NVmn 
+SFX CK 0 a .	+Gmn 
+SFX CK ac cima .	+DLImn 
+SFX CK ac ce .	+Amn 
+
+SFX CL Y 4
+SFX CL 0 0 .	+NAjd 
+SFX CL 0 a .	+Gjd 
+SFX CL 0 u .	+DLjd 
+SFX CL 0 em .	+Ijd 
+
+SFX CM Y 4
+SFX CM 0 0 .	+Njd 
+SFX CM ak ka .	+Gjd 
+SFX CM ak ku .	+DLVjd 
+SFX CM ak če .	+Vjd 
+
+SFX CN Y 7
+SFX CN 0 0 .	+Njd 
+SFX CN 0 a .	+GAjdGmn 
+SFX CN 0 u .	+DLjd 
+SFX CN 0 om .	+Ijd 
+SFX CN 0 i .	+NVjd 
+SFX CN 0 ima .	+DLImn 
+SFX CN 0 e .	+Amn 
+
+SFX CO Y 5
+SFX CO 0 0 .	+Njd 
+SFX CO ac ca .	+Gjd 
+SFX CO ac cu .	+DLjd 
+SFX CO ac če .	+Vjd 
+SFX CO ac cem .	+Ijd 
+
+SFX CP Y 9
+SFX CP 0 0 .	+NAjd 
+SFX CP am ma .	+Gjd 
+SFX CP am mu .	+DLjd 
+SFX CP am me .	+Vjd 
+SFX CP am mom .	+Ijd 
+SFX CP am movi .	+NVmn 
+SFX CP am mova .	+Gmn 
+SFX CP am movima .	+DLImn 
+SFX CP am move .	+Amn 
+
+SFX CQ Y 8
+SFX CQ 0 0 .	+NAjd 
+SFX CQ 0 a .	+Gjd 
+SFX CQ 0 u .	+DLVjd 
+SFX CQ 0 om .	+Ijd 
+SFX CQ 0 evi .	+NVmn 
+SFX CQ 0 eva .	+Gmn 
+SFX CQ 0 evima .	+DLImn 
+SFX CQ 0 eve .	+Amn 
+
+SFX CR Y 9
+SFX CR 0 0 .	+Njd 
+SFX CR dak tka .	+GAjd 
+SFX CR dak tku .	+DLVjd 
+SFX CR dak če .	+Vjd 
+SFX CR dak tkom .	+Ijd 
+SFX CR dak tci .	+NVmn 
+SFX CR 0 a .	+Gmn 
+SFX CR dak tcima .	+DLImn 
+SFX CR dak tke .	+Amn 
+
+SFX CS Y 8
+SFX CS 0 0 .	+NAjd 
+SFX CS 0 a .	+GjdGmn 
+SFX CS 0 u .	+DLVjd 
+SFX CS g že .	+Vjd 
+SFX CS 0 om .	+Ijd 
+SFX CS g zi .	+NVmn 
+SFX CS g zima .	+DLImn 
+SFX CS 0 e .	+Amn 
+
+SFX CT Y 7
+SFX CT 0 0 .	+Njd 
+SFX CT 0 a .	+GAjdGmn 
+SFX CT 0 u .	+DLjd 
+SFX CT 0 e .	+VjdAmn 
+SFX CT 0 om .	+Ijd 
+SFX CT 0 i .	+NVjd 
+SFX CT 0 ima .	+DLImn 
+
+SFX CU Y 9
+SFX CU 0 0 .	+Njd 
+SFX CU 0 a .	+GAjd 
+SFX CU 0 u .	+DLjd 
+SFX CU 0 e .	+Vjd 
+SFX CU 0 om .	+Ijd 
+SFX CU n 0 .	+NVjd 
+SFX CU in a .	+Gmn 
+SFX CU in ima .	+DLImn 
+SFX CU in e .	+Amn 
+
+SFX CV Y 10
+SFX CV 0 0 .	+NAjd 
+SFX CV 0 a .	+Gjd 
+SFX CV 0 u .	+DLjd 
+SFX CV 0 e .	+Vjd 
+SFX CV 0 em .	+Ijd 
+SFX CV 0 evi .	+NVmn 
+SFX CV 0 i .	+Nmn 
+SFX CV 0 eva .	+Gmn 
+SFX CV 0 evima .	+DLImn 
+SFX CV 0 eve .	+Amn 
+
+SFX CW Y 9
+SFX CW 0 0 .	+NAjd 
+SFX CW 0 a .	+GAjd 
+SFX CW 0 u .	+DLjd 
+SFX CW k če .	+Vjd 
+SFX CW 0 om .	+Ijd 
+SFX CW 0 ovi .	+NVmn 
+SFX CW 0 ova .	+Gmn 
+SFX CW 0 ovima .	+DLImn 
+SFX CW 0 ove .	+Amn 
+
+SFX CX Y 7
+SFX CX 0 0 .	+NAjd 
+SFX CX 0 a .	+GjdGmn 
+SFX CX 0 u .	+DLjd 
+SFX CX 0 e .	+VjdAmn 
+SFX CX 0 om .	+Ijd 
+SFX CX 0 i .	+NVmn 
+SFX CX 0 ima .	+DLImn 
+
+SFX CY Y 7
+SFX CY 0 0 .	+NAjd 
+SFX CY 0 a .	+GjdGmn 
+SFX CY 0 u .	+DLVjd 
+SFX CY 0 e .	+VjdAmn 
+SFX CY 0 om .	+Ijd 
+SFX CY 0 i .	+NVmn 
+SFX CY 0 ima .	+DLImn 
+
+SFX CZ Y 8
+SFX CZ 0 0 .	+Njd 
+SFX CZ 0 a .	+GAjdGmn 
+SFX CZ 0 u .	+DLjd 
+SFX CZ k če .	+Vjd 
+SFX CZ 0 om .	+Ijd 
+SFX CZ k ci .	+NVmn 
+SFX CZ k cima .	+DLImn 
+SFX CZ 0 e .	+Amn 
+
+SFX DA Y 8
+SFX DA 0 0 .	+Njd 
+SFX DA 0 a .	+Gjd 
+SFX DA 0 u .	+DLVjd 
+SFX DA 0 om .	+Ijd 
+SFX DA 0 evi .	+NVmn 
+SFX DA 0 eva .	+Gmn 
+SFX DA 0 evima .	+DLImn 
+SFX DA 0 eve .	+Amn 
+
+SFX DB Y 5
+SFX DB 0 0 .	+Njd 
+SFX DB ak ka .	+Gjd 
+SFX DB ak ku .	+DLVjd 
+SFX DB ak če .	+Vjd 
+SFX DB ak kom .	+Ijd 
+
+SFX DC Y 7
+SFX DC 0 0 .	+Njd 
+SFX DC 0 a .	+GAjdGmn 
+SFX DC 0 u .	+DLjd 
+SFX DC 0 om .	+Ijd 
+SFX DC 0 i .	+NVmn 
+SFX DC 0 ovima .	+DLImn 
+SFX DC 0 e .	+Amn 
+
+SFX DD Y 9
+SFX DD 0 0 .	+Njd 
+SFX DD 0 a .	+GAjd 
+SFX DD 0 u .	+DLjd 
+SFX DD c če .	+Vjd 
+SFX DD 0 em .	+Ijd 
+SFX DD c čevi .	+NVmn 
+SFX DD c čeva .	+Gmn 
+SFX DD c čevima .	+DLImn 
+SFX DD c čeve .	+Amn 
+
+SFX DE Y 9
+SFX DE 0 0 .	+Njd 
+SFX DE dac ca .	+GAjd 
+SFX DE dac cu .	+DLjd 
+SFX DE dac če .	+Vjd 
+SFX DE dac cem .	+Ijd 
+SFX DE dac ci .	+NVmn 
+SFX DE 0 a .	+Gmn 
+SFX DE dac cima .	+DLImn 
+SFX DE dac ce .	+Amn 
+
+SFX DF Y 4
+SFX DF 0 0 .	+Njd 
+SFX DF ac ca .	+GAjd 
+SFX DF ac cu .	+DLjd 
+SFX DF ac cem .	+Ijd 
+
+SFX DG Y 9
+SFX DG 0 0 .	+Njd 
+SFX DG ar ra .	+GAjd 
+SFX DG ar ru .	+DLjd 
+SFX DG ar re .	+Vjd 
+SFX DG ar rom .	+Ijd 
+SFX DG ar ovi .	+NVmn 
+SFX DG ar ova .	+Gmn 
+SFX DG ar ovima .	+DLImn 
+SFX DG ar ove .	+Amn 
+
+SFX DH Y 9
+SFX DH 0 0 .	+NAjd 
+SFX DH ao la .	+Gjd 
+SFX DH ao lu .	+DLjd 
+SFX DH ao le .	+Vjd 
+SFX DH ao lom .	+Ijd 
+SFX DH ao lovi .	+NAmn 
+SFX DH ao lova .	+Gmn 
+SFX DH ao lovima .	+DLImn 
+SFX DH ao love .	+Amn 
+
+SFX DI Y 7
+SFX DI 0 0 .	+Njd 
+SFX DI 0 a .	+GjdGmn 
+SFX DI 0 u .	+DLVjd 
+SFX DI 0 e .	+VjdAmn 
+SFX DI 0 om .	+Ijd 
+SFX DI 0 i .	+NVmn 
+SFX DI 0 ima .	+DLImn 
+
+SFX DJ Y 8
+SFX DJ 0 0 .	+NAjd 
+SFX DJ ak ka .	+Gjd 
+SFX DJ ak ku .	+DLjd 
+SFX DJ ak kom .	+Ijd 
+SFX DJ ak ci .	+NVmn 
+SFX DJ 0 a .	+Gmn 
+SFX DJ ak cima .	+DLImn 
+SFX DJ ak ke .	+Amn 
+
+SFX DK Y 9
+SFX DK 0 0 .	+Njd 
+SFX DK ar ra .	+GAjd 
+SFX DK ar ru .	+DLjd 
+SFX DK ar re .	+Vjd 
+SFX DK ar rom .	+Ijd 
+SFX DK ar rovi .	+NVmn 
+SFX DK ar rova .	+Gmn 
+SFX DK ar rovima .	+DLImn 
+SFX DK ar rove .	+Amn 
+
+SFX DL Y 9
+SFX DL 0 0 .	+NAjd 
+SFX DL ar ra .	+Gjd 
+SFX DL ar ru .	+DLjd 
+SFX DL ar re .	+Vjd 
+SFX DL ar rom .	+Ijd 
+SFX DL ar rovi .	+NVmn 
+SFX DL ar ova .	+Gmn 
+SFX DL ar ovima .	+DLImn 
+SFX DL ar ove .	+Amn 
+
+SFX DM Y 9
+SFX DM 0 0 .	+Njd 
+SFX DM 0 a .	+GAjd 
+SFX DM 0 u .	+DLjd 
+SFX DM k če .	+Vjd 
+SFX DM 0 om .	+Ijd 
+SFX DM 0 ovi .	+NVmn 
+SFX DM 0 ova .	+Gmn 
+SFX DM 0 ovima .	+DLImn 
+SFX DM 0 ove .	+Amn 
+
+SFX DN Y 8
+SFX DN 0 0 .	+NAjd 
+SFX DN ak ka .	+GjdGmn 
+SFX DN ak ku .	+DLjd 
+SFX DN tak če .	+Vjd 
+SFX DN ak ci .	+NVmn 
+SFX DN 0 a .	+Gmn 
+SFX DN ak cima .	+DLImn 
+SFX DN ak ke .	+Amn 
+
+SFX DO Y 9
+SFX DO 0 0 .	+NAjd 
+SFX DO dak tka .	+Gjd 
+SFX DO dak tku .	+DLVjd 
+SFX DO dak če .	+Vjd 
+SFX DO dak tkom .	+Ijd 
+SFX DO ak ci .	+NVmn 
+SFX DO 0 a .	+Gmn 
+SFX DO ak cima .	+DLImn 
+SFX DO dak tke .	+Amn 
+
+SFX DP Y 9
+SFX DP 0 0 .	+NAjd 
+SFX DP am ma .	+Gjd 
+SFX DP am mu .	+DLjd 
+SFX DP am me .	+Vjd 
+SFX DP am mom .	+Ijd 
+SFX DP am movi .	+NVjd 
+SFX DP am mova .	+Gmn 
+SFX DP am movima .	+DLImn 
+SFX DP am move .	+Amn 
+
+SFX DQ Y 9
+SFX DQ 0 0 .	+NAjd 
+SFX DQ 0 a .	+GjdGmn 
+SFX DQ 0 u .	+DLjd 
+SFX DQ 0 e .	+Vjd 
+SFX DQ 0 om .	+Ijd 
+SFX DQ 0 i .	+NVjd 
+SFX DQ 0 a .	+Gmn 
+SFX DQ 0 ima .	+DLImn 
+SFX DQ 0 e .	+Amn 
+
+SFX DR Y 11
+SFX DR 0 0 .	+NAjd 
+SFX DR 0 a .	+Gjd 
+SFX DR 0 u .	+DLjd 
+SFX DR ak če .	+Vjd 
+SFX DR 0 om .	+Ijd 
+SFX DR 0 i .	+NVmn 
+SFX DR 0 ova .	+Gmn 
+SFX DR 0 ima .	+DLImn 
+SFX DR 0 ove .	+Amn 
+SFX DR 0 a .	+GjdGmn 
+SFX DR 0 e .	+VjdAmn 
+
+SFX DS Y 9
+SFX DS 0 0 .	+Njd 
+SFX DS bac pca .	+GAjd 
+SFX DS bac pcu .	+DLjd 
+SFX DS bac pče .	+Vjd 
+SFX DS bac pcem .	+Ijd 
+SFX DS bac pci .	+NVmn 
+SFX DS 0 a .	+Gmn 
+SFX DS bac pcima .	+DLImn 
+SFX DS bac pce .	+Amn 
+
+SFX DT Y 5
+SFX DT 0 0 .	+Njd 
+SFX DT ar ra .	+GAjd 
+SFX DT ar ru .	+DLjd 
+SFX DT ar re .	+Vjd 
+SFX DT ar rom .	+Ijd 
+
+SFX DU Y 9
+SFX DU 0 0 .	+NAjd 
+SFX DU ar ra .	+Gjd 
+SFX DU ar ru .	+DLjd 
+SFX DU ar re .	+Vjd 
+SFX DU ar rom .	+Ijd 
+SFX DU ar ri .	+NVmn 
+SFX DU 0 a .	+Gmn 
+SFX DU ar rima .	+DLImn 
+SFX DU ar re .	+Amn 
+
+SFX DV Y 7
+SFX DV 0 0 .	+Njd 
+SFX DV 0 a .	+GAjdGmn 
+SFX DV 0 u .	+DLVjd 
+SFX DV 0 e .	+VjdAmn 
+SFX DV 0 om .	+Ijd 
+SFX DV 0 i .	+NVmn 
+SFX DV 0 ima .	+DLImn 
+
+SFX DW Y 8
+SFX DW 0 0 .	+NAjd 
+SFX DW ar ra .	+Gjd 
+SFX DW ar ru .	+DLjd 
+SFX DW ar re .	+VjdAmn 
+SFX DW ar rom .	+Ijd 
+SFX DW ar ri .	+NVmn 
+SFX DW 0 a .	+Gmn 
+SFX DW ar rima .	+DLImn 
+
+SFX DX Y 5
+SFX DX 0 0 .	+NAjd 
+SFX DX ar ra .	+Gjd 
+SFX DX ar ru .	+DLjd 
+SFX DX ar re .	+Vjd 
+SFX DX ar rom .	+Ijd 
+
+SFX DY Y 7
+SFX DY 0 0 .	+Njd 
+SFX DY 0 a .	+GAjd 
+SFX DY 0 u .	+DLmn 
+SFX DY 0 e .	+VjdAmn 
+SFX DY 0 om .	+Ijd 
+SFX DY 0 i .	+NVmn 
+SFX DY 0 ima .	+DLImn 
+
+SFX DZ Y 8
+SFX DZ 0 0 .	+Njd 
+SFX DZ am ma .	+Gjd 
+SFX DZ am mu .	+DLjd 
+SFX DZ am me .	+VjdAmn 
+SFX DZ am mom .	+Ijd 
+SFX DZ am mi .	+NVmn 
+SFX DZ 0 a .	+Gmn 
+SFX DZ am mima .	+DLImn 
+
+SFX EA Y 8
+SFX EA 0 0 .	+NAjd 
+SFX EA am ma .	+Gjd 
+SFX EA am mu .	+DLjd 
+SFX EA am me .	+VjdAmn 
+SFX EA am mom .	+Ijd 
+SFX EA am mi .	+NVmn 
+SFX EA 0 a .	+Gmn 
+SFX EA am mima .	+DLImn 
+
+SFX EB Y 7
+SFX EB 0 0 .	+Njd 
+SFX EB 0 a .	+GAjdGmn 
+SFX EB 0 u .	+DLVjd 
+SFX EB 0 em .	+Ijd 
+SFX EB 0 i .	+NVmn 
+SFX EB 0 ima .	+DLImn 
+SFX EB 0 e .	+Amn 
+
+SFX EC Y 8
+SFX EC 0 0 .	+Njd 
+SFX EC 0 a .	+GAjdGmn 
+SFX EC k če .	+Vjd 
+SFX EC 0 u .	+DLjd 
+SFX EC 0 om .	+Ijd 
+SFX EC k ci .	+NVmn 
+SFX EC k cima .	+DLImn 
+SFX EC 0 e .	+Amn 
+
+SFX ED Y 9
+SFX ED 0 0 .	+NAjd 
+SFX ED ak ka .	+Gjd 
+SFX ED ak ku .	+DLjd 
+SFX ED tak če .	+Vjd 
+SFX ED ak kom .	+Ijd 
+SFX ED ak ci .	+NVmn 
+SFX ED 0 a .	+Gmn 
+SFX ED ak cima .	+DLImn 
+SFX ED ak ke .	+Amn 
+
+SFX EE Y 9
+SFX EE 0 0 .	+NAjd 
+SFX EE ak ka .	+Gjd 
+SFX EE ak ku .	+DLjd 
+SFX EE ak ku .	+Vjd 
+SFX EE ak kom .	+Ijd 
+SFX EE ak ci .	+NVmn 
+SFX EE 0 a .	+Gmn 
+SFX EE ak cima .	+DLImn 
+SFX EE ak ke .	+Amn 
+
+SFX EF Y 9
+SFX EF 0 0 .	+NAjd 
+SFX EF 0 a .	+Gjd 
+SFX EF 0 u .	+DLVjd 
+SFX EF sk šče .	+Vjd 
+SFX EF 0 om .	+Ijd 
+SFX EF 0 ovi .	+NVmn 
+SFX EF 0 ova .	+Gmn 
+SFX EF 0 ovima .	+DLImn 
+SFX EF 0 ove .	+Amn 
+
+SFX EG Y 7
+SFX EG 0 0 .	+Njd 
+SFX EG o la .	+GAjdGmn 
+SFX EG o lu .	+DLjd 
+SFX EG o le .	+VjdAmn 
+SFX EG o lom .	+Ijd 
+SFX EG o li .	+NVmn 
+SFX EG o lima .	+DLImn 
+
+SFX EH Y 9
+SFX EH 0 0 .	+Najd 
+SFX EH ao la .	+Gjd 
+SFX EH ao lu .	+DLjd 
+SFX EH ao le .	+Vjd 
+SFX EH ao lom .	+Ijd 
+SFX EH ao lovi .	+NVmn 
+SFX EH ao lova .	+Gmn 
+SFX EH ao lovima .	+DLImn 
+SFX EH ao love .	+Amn 
+
+SFX EI Y 9
+SFX EI 0 0 .	+NAjd 
+SFX EI ao la .	+Gjd 
+SFX EI ao lu .	+DLjd 
+SFX EI ao le .	+Vjd 
+SFX EI ao lom .	+Ijd 
+SFX EI ao lovi .	+NVmn 
+SFX EI ao lova .	+Gmn 
+SFX EI ao lovima .	+DLImn 
+SFX EI ao love .	+Amn 
+
+SFX EJ Y 9
+SFX EJ 0 0 .	+NAjd 
+SFX EJ el la .	+Gjd 
+SFX EJ el lu .	+DLjd 
+SFX EJ el le .	+Vjd 
+SFX EJ el lom .	+Ijd 
+SFX EJ el lovi .	+NVmn 
+SFX EJ el lova .	+Gmn 
+SFX EJ el lovima .	+DLImn 
+SFX EJ el love .	+Amn 
+
+SFX EK Y 9
+SFX EK 0 0 .	+NAjd 
+SFX EK o la .	+Gjd 
+SFX EK o lu .	+DLjd 
+SFX EK o le .	+Vjd 
+SFX EK o lom .	+Ijd 
+SFX EK o lovi .	+NVmn 
+SFX EK o lova .	+Gmn 
+SFX EK o lovima .	+DLImn 
+SFX EK o love .	+Amn 
+
+SFX EL Y 9
+SFX EL 0 0 .	+Njd 
+SFX EL lac oca .	+GAjd 
+SFX EL lac ocu .	+DLjd 
+SFX EL lac oče .	+Vjd 
+SFX EL lac ocem .	+Ijd 
+SFX EL lac oci .	+NVmn 
+SFX EL 0 a .	+Gmn 
+SFX EL lac ocima .	+DLImn 
+SFX EL lac oce .	+Amn 
+
+SFX EM Y 9
+SFX EM 0 0 .	+Njd 
+SFX EM ac ca .	+GAjd 
+SFX EM ac cu .	+DLjd 
+SFX EM sac šče .	+Vjd 
+SFX EM ac cem .	+Ijd 
+SFX EM ac ci .	+NVmn 
+SFX EM 0 a .	+Gmn 
+SFX EM ac cima .	+DLImn 
+SFX EM ac ce .	+Amn 
+
+SFX EN Y 5
+SFX EN 0 0 .	+NAVjd 
+SFX EN o a .	+GAVjdNGAVmn 
+SFX EN o u .	+DLjd 
+SFX EN 0 m .	+Ijd 
+SFX EN o ima .	+DLImn 
+
+SFX EO Y 8
+SFX EO 0 0 .	+NAjd 
+SFX EO ao la .	+Gjd 
+SFX EO ao lu .	+DLjd 
+SFX EO ao lom .	+Ijd 
+SFX EO ao lovi .	+NVmn 
+SFX EO ao lova .	+Gmn 
+SFX EO ao lovima .	+DLImn 
+SFX EO ao love .	+Amn 
+
+SFX EP Y 9
+SFX EP 0 0 .	+Njd 
+SFX EP 0 a .	+GAjd 
+SFX EP 0 u .	+DLjd 
+SFX EP 0 e .	+Vjd 
+SFX EP 0 om .	+Ijd 
+SFX EP 0 i .	+NVmn 
+SFX EP t ata .	+Gmn 
+SFX EP 0 ima .	+DLI 
+SFX EP 0 e .	+Amn 
+
+SFX EQ Y 9
+SFX EQ 0 0 .	+NAjd 
+SFX EQ bat pta .	+Gjd 
+SFX EQ bat ptu .	+DLjd 
+SFX EQ bat pte .	+VjdAmn 
+SFX EQ bat ptom .	+Ijd 
+SFX EQ bat ptova .	+NVmn 
+SFX EQ bat ptova .	+Gmn 
+SFX EQ bat ptovima .	+DLImn 
+SFX EQ bat ptove .	+Amn 
+
+SFX ER Y 8
+SFX ER 0 0 .	+NAjd 
+SFX ER dak tka .	+Gjd 
+SFX ER dak tku .	+DLVjd 
+SFX ER dak če .	+Vjd 
+SFX ER ak ci .	+NVmn 
+SFX ER 0 a .	+Gmn 
+SFX ER ak cima .	+DLImn 
+SFX ER dak tke .	+Amn 
+
+SFX ES Y 9
+SFX ES 0 0 .	+NAjd 
+SFX ES zac sca .	+Gjd 
+SFX ES zac scu .	+DLjd 
+SFX ES zac šče .	+Vjd 
+SFX ES zac scem .	+Ijd 
+SFX ES zac sci .	+NVmn 
+SFX ES 0 a .	+Gmn 
+SFX ES zac scima .	+DLImn 
+SFX ES zac sce .	+Amn 
+
+SFX ET Y 9
+SFX ET 0 0 .	+Njd 
+SFX ET žac sca .	+GAjd 
+SFX ET žac šcu .	+DLjd 
+SFX ET žac šče .	+Vjd 
+SFX ET žac šcem .	+Ijd 
+SFX ET žac šci .	+NVmn 
+SFX ET 0 a .	+Gjd 
+SFX ET žac šcima .	+DLImn 
+SFX ET žac šce .	+Amn 
+
+SFX EU Y 7
+SFX EU 0 0 .	+NAjd 
+SFX EU 0 a .	+GjdGmn 
+SFX EU 0 u .	+DLjd 
+SFX EU 0 e .	+VjdAmn 
+SFX EU 0 om .	+Ijd 
+SFX EU 0 i .	+NVjd 
+SFX EU 0 ima .	+DLImn 
+
+SFX EV Y 8
+SFX EV 0 0 .	+NAjd 
+SFX EV 0 a .	+GjdGmn 
+SFX EV 0 u .	+DLVjd 
+SFX EV 0 e .	+Vjd 
+SFX EV 0 om .	+Ijd 
+SFX EV 0 i .	+NVmn 
+SFX EV s asa .	+Gmn 
+SFX EV 0 ima .	+DLImn 
+
+SFX EW Y 8
+SFX EW 0 0 .	+Njd 
+SFX EW as sa .	+GAjd 
+SFX EW as su .	+DLVjd 
+SFX EW as som .	+Ijd 
+SFX EW as si .	+NVmn 
+SFX EW 0 a .	+Gmn 
+SFX EW as sima .	+DLImn 
+SFX EW as se .	+Amn 
+
+SFX EX Y 8
+SFX EX 0 0 .	+Njd 
+SFX EX 0 a .	+GAjdGmn 
+SFX EX 0 u .	+DLjd 
+SFX EX k če .	+Vjd 
+SFX EX 0 kom .	+Ijd 
+SFX EX k ci .	+NVmn 
+SFX EX k cima .	+DLImn 
+SFX EX 0 e .	+Amn 
+
+SFX EY Y 8
+SFX EY 0 0 .	+NAjd 
+SFX EY 0 a .	+Gjd 
+SFX EY 0 u .	+DLjd 
+SFX EY 0 e .	+Vjd 
+SFX EY 0 om .	+Ijd 
+SFX EY 0 ovi .	+NGVmn 
+SFX EY 0 ovima .	+DLImn 
+SFX EY 0 ove .	+Amn 
+
+SFX EZ Y 7
+SFX EZ 0 0 .	+NAjd 
+SFX EZ io jela .	+GjdGmn 
+SFX EZ io jelu .	+DLjd 
+SFX EZ io jele .	+VjdAmn 
+SFX EZ io jelom .	+Ijd 
+SFX EZ io jeli .	+NVmn 
+SFX EZ io jelima .	+DLImn 
+
+SFX FA Y 7
+SFX FA 0 0 .	+NAVjd 
+SFX FA 0 ja .	+GjdGmn 
+SFX FA 0 ju .	+DLjd 
+SFX FA 0 jem .	+Ijd 
+SFX FA 0 ji .	+NVmn 
+SFX FA 0 jima .	+DLImn 
+SFX FA 0 je .	+Amn 
+
+SFX FB Y 7
+SFX FB ko ci .	+NVjd 
+SFX FB o a .	+GAjdGmn 
+SFX FB o u .	+DLjd 
+SFX FB 0 m .	+Ijd 
+SFX FB ko aka .	+Gmn 
+SFX FB ko cima .	+DLImn 
+SFX FB o e .	+Amn 
+
