@@ -1,12 +1,5 @@
 <?php
 
-/**
-
-Krunose (gmx) | 2017.
-
-
-*/
-
 
 function writeToFile($content, $file) {
 
