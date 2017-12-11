@@ -8,4 +8,6 @@ Alati i sadržaj se ove mape neće mijenjati, ako se i nastavi s izradom alata, 
 
 jer je ova mapa sadrži skripte koje su opisane na jednome drugome mjestu i iz toga se razloga neće mijenjati.
 
+<b>Skripte i sadržaji u ovoj mapi služe isključivo kao potvrda koncepta i <u>nisu</u> dovršeni! Ne preporuča se koristiti ih.</b>
+
 -- 11. prosinca 2o17.
