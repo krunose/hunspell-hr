@@ -76,7 +76,7 @@ ICONV ŕ r
 
 
 # REP - .
-REP 212
+REP 213
 REP ^pocrtava podcrtava
 REP ^zdrastv zdravstv
 REP nućemo$ nut_ćemo
@@ -165,6 +165,7 @@ REP skm$ skim
 REP skm$ skom
 REP ioc$ ilac
 REP kno ktno
+REP ije ive
 REP isl i_sl
 REP nest nijet
 REP aoc$ alac
