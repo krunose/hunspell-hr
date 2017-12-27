@@ -1,4 +1,4 @@
-﻿53520
+﻿53562
 a
 a-mol/273
 A-reprezentacija/365
@@ -267,6 +267,7 @@ aerotunel/238
 aeroturbina/365
 afabilni/347
 afagija/365
+afatičar/229
 afazija/365
 afekcija/365
 afekcioni/353
@@ -4303,6 +4304,7 @@ brzoteča/360
 brzovežući/353
 brzovozni/353
 brzovrteći/353
+brže-bolje
 brži/355
 buba/362
 bubamara/362
@@ -6516,6 +6518,7 @@ dijalektičar/229
 dijalektički/353
 dijalektični/347
 dijalektika/378
+dijalektizam/247
 dijalektni/353
 dijalektolog/339
 dijaliza/360
@@ -8089,6 +8092,7 @@ dvosatni/353
 dvosjed/205
 dvosjekli/353
 dvoslov/205
+dvoslovan/359
 dvosložni/347
 dvosmislen/340
 dvosmisleniji/355
@@ -8334,6 +8338,7 @@ ekscelencija/362
 ekscentrični/347
 ekscentričniji/355
 ekscentrik/221
+ekscerpiranje/331
 ekscerpt/205
 ekscerptirati/33
 eksces/205
@@ -8683,6 +8688,7 @@ enklitički/353
 enklitični/347
 enklitika/378
 enkoder/238
+enkriptirati/33
 eno
 enofil/231
 enolog/339
@@ -11920,6 +11926,7 @@ identični/347
 identificirajući/353
 identificirati/33
 identifikacija/365
+identifikator/223
 identitet/238
 ideograf/238
 ideogram/238
@@ -13041,6 +13048,7 @@ ispričavati/34
 ispriječen/340
 ispriječiti/128
 isprika/378
+isprintati/119
 ispripovijedati/120
 ispripovjediti/128
 isprljati/119
@@ -13171,6 +13179,7 @@ istopljen/340
 istorodni/347
 istosmjerni/347
 istospolni/347
+istost/392
 istostran/340
 istostranični/347
 istovar/205
@@ -14531,6 +14540,7 @@ jednosemestralni/353
 jednosignalni/353
 jednosjed/205
 jednoslojni/347
+jednoslovan/359
 jednosložni/353
 jednosmjerni/347
 jednosobni/347
@@ -14543,6 +14553,7 @@ jednostranački/353
 jednostranični/347
 jednostruk/340
 jednotjedni/353
+jednotoman/348
 jednotonski/353
 jednotračni/353
 jednoumlje/331
@@ -14708,6 +14719,7 @@ Josipa/373
 još
 Jošua/372
 jota/360
+jotacija/365
 Jovana/373
 ju
 jubilarni/347
@@ -17796,7 +17808,9 @@ Ksaver/293
 ksaverski/353
 Ksenija/373
 ksenofob/234
+ksenofoban/359
 ksenofobični/347
+ksenofobno
 ksenon/221
 ksilem/238
 ksilofon/238
@@ -18294,6 +18308,8 @@ laktoza/360
 lama/362
 lamatati/31
 lamati/34
+lambda/360
+lambdacizam/247
 lamela/360
 lamentacija/365
 lamentirati/34
@@ -19463,6 +19479,7 @@ maklja/360
 maknuti/140
 makovica/360
 makro/217
+makroanaliza/360
 makroasembler/238
 makrobiotički/353
 makrobiotika/378
@@ -20385,6 +20402,7 @@ mikobakterija/365
 mikoplazmoza/360
 mikopopulacija/365
 mikro
+mikroanaliza/360
 mikrob/205
 mikrobiolog/339
 mikrobiotički/353
@@ -21953,6 +21971,7 @@ nadzornik/227
 nadzorništvo/331
 nadzvučni/347
 nadžak
+nadživjeti/68
 nadživljavati/31
 nadživljen/340
 nadžupnik/217
@@ -26826,6 +26845,7 @@ odijevati/34
 odilaziti/50
 odilaženje/331
 Odin/293
+odinofagija/365
 odio
 odisati/86
 Odisej/266
@@ -29455,6 +29475,8 @@ palamida/360
 palanački/353
 palančan/228
 palanka/383
+palatalizacija/365
+palatalizacija/365
 palatalni/347
 palatin/221
 palčan/348
@@ -32091,6 +32113,7 @@ polis/205
 polisaharid/205
 polisaharidni/353
 poliseman/340
+polisemija/365
 polisomnografija/365
 polistabil/205
 polistiren/238
@@ -32700,6 +32723,7 @@ popuna/360
 popuniti/128
 popunjavati/33
 popunjen/341
+popunjivati/47
 popust/205
 popustiti/128
 popustljiv/340
@@ -35093,6 +35117,7 @@ pretraga/378
 pretražen/340
 pretražitelj/222
 pretražiti/128
+pretraživ/340
 pretraživač/223
 pretraživati/47
 pretrčan/348
@@ -35977,6 +36002,8 @@ pristupačni/347
 pristupačniji/355
 pristupati/34
 pristupiti/128
+pristupljen/340
+pristupljen/341
 pristupljivati/44
 pristupni/347
 pristupnica/360
@@ -39010,6 +39037,7 @@ razrjeđivač/238
 razrjeđivati/45
 razrješavati/33
 razrješenje/331
+razrješitelj/227
 razrješiv/340
 razrješivati/47
 razrješnica/360
@@ -39060,6 +39088,7 @@ razvidjeti/147
 razvidni/347
 razvijač/238
 razvijajući/358
+razvijatelj/223
 razvijatelj/223
 razvijati/34
 razvijen/340
@@ -39212,6 +39241,7 @@ redenik/238
 redestilacija/365
 redigirati/34
 redistribucija/365
+redistribuirati/33
 redistributivni/347
 rediti/62
 redizajn/205
@@ -41314,6 +41344,7 @@ sinoćnji/353
 sinoda/360
 sinolog/339
 sinonim/205
+sinonimija/365
 sinonimni/353
 sinopsis/205
 sinoptičar/229
@@ -42500,6 +42531,7 @@ soldački/353
 soldat/223
 soldateska/383
 soldatuša/362
+solemizacija/365
 solenica/360
 solenka/368
 solenoid/205
@@ -43135,6 +43167,7 @@ standardizirati/33
 standardni/347
 standardniji/355
 standardnojezičan/348
+standardnojezični/347
 standardolog/339
 stanica/360
 stanični/353
@@ -43292,9 +43325,12 @@ Stephen/293
 stera/360
 sterati/96
 stereo/331
+stereoagnozija/365
+stereoautograf/238
 stereofonija/365
 stereometrija/365
 stereoskop/238
+stereoskopija/365
 stereotip/283
 stereotipija/365
 stereotipni/347
@@ -44482,6 +44518,7 @@ svježina/360
 svlačen/349
 svlačionica/360
 svlačiti/52
+svladanost/392
 svladati/120
 svladavati/34
 svod/273
@@ -45290,6 +45327,7 @@ svukuda
 šumljenje/331
 šumni/347
 šumniji/355
+šumnik/227
 šumor/205
 šumorenje/331
 šumoriti/52
@@ -45365,6 +45403,7 @@ tabelarni/353
 tabelirati/33
 tabernakul/205
 tabla/360
+tablet/205
 tableta/360
 tabletica/360
 tablica/360
@@ -46861,6 +46900,7 @@ trosjed/205
 troska/383
 troskok/205
 troskot/205
+troslovan/359
 troslovni/353
 trosložni/353
 trosobni/347
@@ -48747,6 +48787,7 @@ usredotočiti/128
 usredotočivati/47
 usrkati/174
 usta/312
+ustabiliti/128
 ustajali/346
 ustajati/84
 ustakliti/128
@@ -50062,6 +50103,7 @@ visuljak/247
 višak/248
 Višanin/243
 Višanka/369
+više-manje
 višebojni/347
 višecjevni/353
 višečlan/340
