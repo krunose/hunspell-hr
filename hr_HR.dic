@@ -1,4 +1,4 @@
-﻿53562
+﻿53626
 a
 a-mol/273
 A-reprezentacija/365
@@ -1372,6 +1372,7 @@ apatični/347
 apatičniji/355
 apatija/360
 apatrid/238
+apeirofobija/360
 apeiron/205
 apeks/205
 apel/205
@@ -1574,6 +1575,7 @@ arhitekturalni/353
 arhitekturni/353
 arhiv/238
 arhiva/360
+arhivalije/303
 arhivalni/347
 arhivar/224
 arhivirati/33
@@ -1581,6 +1583,7 @@ arhivist/222
 arhivistički/353
 arhivistika/378
 arhivistkinja/362
+arhivolt/205
 arhont/221
 arhontat/238
 aridni/347
@@ -1880,6 +1883,7 @@ auditorij/238
 augment/205
 augmentacija/365
 augmentativ/205
+augmentativan/359
 augur/221
 augurat/205
 augurirati/34
@@ -2378,6 +2382,7 @@ ban/281
 Banaćanin/243
 Banaćanka/369
 banak/247
+banalizacija/365
 banalizirati/34
 banalni/347
 banalniji/355
@@ -2431,6 +2436,8 @@ Banovka/362
 banovski/353
 banstvo/331
 bantu
+bantustanizacija/365
+bantustanizirati/33
 banuti/137
 banja/365
 banjalučki/353
@@ -5451,7 +5458,9 @@ cvrkutnuti/137
 četverodijelni/353
 četverodimenzijski/353
 četverodimenzionalni/347
+četverodnevan/359
 četverodnevni/353
+četverodoban/359
 četverogodišnji/353
 četverojezični/353
 četverokatan/359
@@ -5474,8 +5483,10 @@ cvrkutnuti/137
 četverorazinski/353
 četverored/205
 četveroručni/353
+četverosatan/359
 četverosjed/205
 četverosmjerni/353
+četverosoban/359
 četverosobni/353
 četverostran/340
 četverostruk/340
@@ -6322,6 +6333,7 @@ desetljetni/353
 desetnik/227
 desetoboj/287
 desetobojac/256
+desetodnevan/359
 desetodnevni/353
 desetogodišnjak/232
 desetogodišnji/353
@@ -6418,6 +6430,7 @@ devetnaestogodišnjak/232
 devetnaestoro
 devetnaestostoljetni/353
 devetnica/360
+devetodnevan/359
 devetogodišnjak/232
 devetogodišnji/353
 devetokrak/348
@@ -8012,7 +8025,9 @@ dvodihalica/364
 dvodijelni/353
 dvodimenzijski/353
 dvodimenzionalni/347
+dvodnevan/359
 dvodnevni/353
+dvodoban/359
 dvodomni/354
 dvofazni/353
 dvoga
@@ -8088,6 +8103,7 @@ dvorodni/347
 dvorog/340
 dvoručac/247
 dvoručni/353
+dvosatan/359
 dvosatni/353
 dvosjed/205
 dvosjekli/353
@@ -8485,6 +8501,7 @@ elektrificirati/33
 elektrifikacija/365
 elektrika/378
 elektrizirati/33
+elektro-mehanički/353
 elektroagregat/238
 elektroakustički/353
 elektroakustički/353
@@ -8638,6 +8655,7 @@ emporij/238
 emu/217
 emulacija/365
 emulgator/238
+emulirati/15
 emulzija/365
 encefalitis/205
 encefalogram/238
@@ -9072,6 +9090,7 @@ fanatizam/247
 fanfara/360
 fantast/217
 fantastičar/229
+fantastički/353
 fantastični/347
 fantastičniji/355
 fantastika/378
@@ -9417,6 +9436,7 @@ fond/273
 fondacija/365
 fondi/304
 fonem/238
+fonetičar/229
 fonetički/353
 fonetika/378
 fonetski/353
@@ -11510,6 +11530,7 @@ historicitet/205
 historicizam/247
 historičar/229
 historični/347
+historičnost/392
 historija/365
 historijat/205
 historik/221
@@ -12656,6 +12677,7 @@ iseljen/341
 iseljenik/227
 iseljeništvo/331
 iseljivati/47
+isfiltrirati/119
 isforsirati/119
 isfrustrirati/119
 ishemičan/359
@@ -14500,6 +14522,7 @@ jednoipolsatni/353
 jednoipolsobni/353
 jednojajčani/353
 jednojezični/347
+jednojezičnik/205
 jednokanalni/347
 jednokatni/353
 jednokatnica/360
@@ -15122,6 +15145,7 @@ kaniti/56
 kanon/238
 kanonada/360
 kanonik/227
+kanonikat/340
 kanonir/229
 kanonizacija/365
 kanonizirati/34
@@ -16440,6 +16464,7 @@ komplicirati/33
 komplikacija/360
 kompliment/205
 komplot/205
+komplotirati/34
 komponenta/368
 komponirati/33
 komponist/217
@@ -20389,6 +20414,7 @@ mijauknuti/137
 mijeh/273
 mijelin/238
 mijelom/238
+mijelomacija/360
 mijena/360
 mijenjati/34
 mijesiti/62
@@ -21205,6 +21231,7 @@ morfolog/339
 morfometrija/365
 morfonologija/365
 morfonološki/353
+morfosintaktički/353
 MORH/403
 Morija/372
 moriti/52
@@ -23454,6 +23481,7 @@ nedovršeniji/355
 nedozreli/353
 nedozreo
 nedozrio
+nedozvoljavanje/331
 nedozvoljen/340
 nedozvoljeniji/355
 nedozvoljiv/340
@@ -23662,6 +23690,7 @@ neisplativ/340
 neisplativiji/355
 neisporučen/340
 neispran/340
+neispravljanje/331
 neispravni/347
 neispravniji/355
 neisprekidan/340
@@ -24407,6 +24436,7 @@ nepatetični/347
 nepatriotski/353
 nepatvoren/341
 nepažljiv/340
+nepažljiv/340
 nepažljivac/256
 nepažnja/360
 nepce/331
@@ -24441,6 +24471,7 @@ nepočišćen/340
 nepoćudni/347
 nepoćudniji/355
 nepodatni/347
+nepodcrtavanje/331
 nepoderiv/340
 nepodesni/347
 nepodešen/340
@@ -24801,6 +24832,7 @@ neproučen/340
 neprovedba/368
 neprovediv/340
 neprovidni/347
+neprovjeravanje/331
 neprovjeren/340
 neprovjerljiv/340
 neprovjetren/340
@@ -25825,6 +25857,8 @@ NOB/403
 Nobel/266
 nobelij/268
 nobelovac/256
+nobilitacija/365
+nobilitet/205
 noć/392
 noćas
 noćašnji/353
@@ -25882,6 +25916,7 @@ Normanka/369
 normanski/353
 normativ/205
 normativni/353
+normativnost/392
 normirati/33
 normizacija/365
 Norveška/395
@@ -28434,6 +28469,7 @@ oročiti/128
 oroditi/128
 orođivati/44
 orofacijalni/353
+orogenetski/353
 oronimija/365
 oronuli/346
 oronuti/137
@@ -28624,6 +28660,7 @@ osmjehivati/44
 osmjehnuti/140
 osmjeliti/128
 osmočlan/340
+osmodnevan/359
 osmogodišnjak/232
 osmogodišnji/353
 osmoljetka/380
@@ -28734,6 +28771,7 @@ ostrogotski/353
 ostruga/378
 ostrugati/174
 ostrviti/128
+ostvaraj/287
 ostvaren/341
 ostvariti/128
 ostvariv/340
@@ -29476,7 +29514,6 @@ palanački/353
 palančan/228
 palanka/383
 palatalizacija/365
-palatalizacija/365
 palatalni/347
 palatin/221
 palčan/348
@@ -30156,6 +30193,7 @@ perforator/238
 perforirati/33
 performans/205
 performansa/360
+performativnost/392
 pergamena/360
 pergament/205
 pergamentni/353
@@ -30179,6 +30217,7 @@ period/205
 periodički/353
 periodični/347
 periodika/378
+periodizacija/365
 periodni/353
 perionica/360
 peripatetički/353
@@ -30317,6 +30356,7 @@ petnaestominutni/353
 petnaestorica/360
 petnaestoro
 petni/353
+petodnevan/359
 petodnevni/353
 petodobni/353
 petogodišnjak/232
@@ -30562,6 +30602,7 @@ pismoznanac/256
 pisnuti/140
 pisoar/205
 pista/360
+pistacija/365
 pistacio/331
 pišača/360
 pišalina/360
@@ -31441,6 +31482,7 @@ podruštvljavanje/331
 podruštvljen/341
 podružnica/360
 podržati/188
+podržavatelj/222
 podržavati/34
 podrživač/221
 podsaharski/353
@@ -32838,6 +32880,7 @@ porota/360
 porotnik/227
 porozni/347
 porta/360
+portabilan/359
 portabilni/347
 portabl/265
 portafon/238
@@ -32854,6 +32897,7 @@ portparol/205
 portret/205
 portretirati/34
 portretist/222
+portretno
 Portugal/265
 Portugalac/256
 Portugalka/369
@@ -33187,6 +33231,7 @@ posvemašnji/353
 posveta/360
 posvetiti/128
 posvetni/353
+posvijestiti/128
 posvijetliti/128
 posvijetljen/341
 posvjedočen/349
@@ -36003,7 +36048,6 @@ pristupačniji/355
 pristupati/34
 pristupiti/128
 pristupljen/340
-pristupljen/341
 pristupljivati/44
 pristupni/347
 pristupnica/360
@@ -36998,6 +37042,7 @@ proščev/348
 prošek/205
 prošen/349
 prošetati/110
+proširak/247
 proširen/341
 proširiti/128
 proširiv/340
@@ -38270,6 +38315,7 @@ raspinjati/86
 raspiren/341
 raspiriti/128
 raspiriv/340
+raspirivač/223
 raspirivati/47
 raspis/205
 raspisati/174
@@ -40908,6 +40954,7 @@ sedmi/353
 sedmica/360
 sedmični/353
 sedmina/360
+sedmodnevan/359
 sedmodnevni/353
 sedmogodišnji/353
 sedmoljetka/380
@@ -43327,7 +43374,12 @@ sterati/96
 stereo/331
 stereoagnozija/365
 stereoautograf/238
+stereobat/205
 stereofonija/365
+stereofonski/353
+stereofotogrametrija/365
+stereofotogrametrijski/353
+stereognozija/365
 stereometrija/365
 stereoskop/238
 stereoskopija/365
@@ -44783,6 +44835,7 @@ svukuda
 šestica/360
 šestina/365
 šestnaestostoljetni/353
+šestodnevan/359
 šestodnevni/353
 šestogodišnjak/232
 šestogodišnji/353
@@ -45327,6 +45380,7 @@ svukuda
 šumljenje/331
 šumni/347
 šumniji/355
+šumnik/227
 šumnik/227
 šumor/205
 šumorenje/331
@@ -46820,7 +46874,9 @@ trodijelni/353
 trodimenzijski/353
 trodimenzionalni/347
 trodioba/360
+trodnevan/359
 trodnevni/353
+trodoban/359
 trofazni/353
 trofej/205
 trofejni/353
@@ -46895,6 +46951,7 @@ trorazinski/353
 trored/205
 troredni/353
 trorog/340
+trosatan/359
 trosatni/353
 trosjed/205
 troska/383
@@ -48086,6 +48143,7 @@ unaprijed
 unaprijediti/128
 unaprijedni/353
 unaprijeđen/341
+unaprjeđivati/44
 unašati/34
 unatoč
 unatrag
@@ -49466,6 +49524,7 @@ vaditi/62
 vađen/349
 vaga/360
 vagabund/217
+vagabundaža/360
 vagaš/205
 vagati/86
 vagina/360
@@ -51625,6 +51684,8 @@ zamjedba/368
 zamjedben/340
 zamjena/360
 zamjenik/227
+zamjenljiv/340
+zamjenljivost/392
 zamjenski/353
 zamjenjiv/340
 zamjenjivati/47
@@ -51728,6 +51789,7 @@ zanosniji/355
 zanošen/349
 zanovačiti/128
 zanovijet/217
+zanovijetalac/264
 zanovijetalo/331
 zanovijetati/31
 zanjihati/174
@@ -51758,6 +51820,7 @@ zaokrenuti/139
 zaokret/205
 zaokretati/86
 zaokrugljen/348
+zaokružavanje/331
 zaokružen/340
 zaokružiti/128
 zaokruživati/47
@@ -52300,6 +52363,7 @@ zaticati/86
 zatiljak/247
 zatim
 zatinjati/15
+zatipak/256
 zatirač/223
 zatirati/95
 zatirući/353
