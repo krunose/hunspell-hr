@@ -1,4 +1,4 @@
-﻿53626
+﻿53675
 a
 a-mol/273
 A-reprezentacija/365
@@ -211,6 +211,7 @@ aerarij/205
 aerifikacija/365
 aerirati/34
 aero
+aeroakrofobija/365
 aerobat/238
 aerobika/378
 aerobioza/360
@@ -862,6 +863,7 @@ amonijbromid/205
 amonit/221
 Amor/293
 amoral/205
+amoralizam/205
 amoralni/347
 amoret/205
 amorfni/347
@@ -924,6 +926,8 @@ anakronični/347
 anakronistički/353
 anakronizam/247
 anal/205
+analagmatski/353
+analatizam/247
 analepsa/360
 analeptični/347
 analeptik/205
@@ -1121,7 +1125,10 @@ anodni/353
 anofeles/217
 anoksija/365
 anomalija/365
+anomalizam/247
 anomalni/347
+anomaloskop/238
+anomaloskopija/365
 anonimni/347
 anonimniji/355
 anonimus/217
@@ -4760,6 +4767,7 @@ cica/360
 cicati/34
 cicero/331
 Ciceron/293
+ciceronianizam/247
 cicija/362
 ciča/360
 cičati/101
@@ -8919,6 +8927,7 @@ etiopski/353
 etnički/353
 etnik/227
 etno
+etnobiologija/360
 etnocentrizam/247
 etnogeneza/360
 etnoglazba/360
@@ -8958,6 +8967,7 @@ eukaliptus/217
 Euklid/293
 euklidski/353
 eunuh/217
+eunuhoidizam/247
 eunuški/353
 Euridika/373
 Euripid/293
@@ -11184,6 +11194,7 @@ hapsana/360
 hapsiti/62
 hapšen/349
 hapšenik/226
+haptički/353
 harač/205
 haračenje/331
 haračiti/52
@@ -12036,6 +12047,7 @@ ikonica/360
 ikonograf/235
 ikonoklast/222
 ikonoklastički/353
+ikonoklazam/247
 ikonolog/339
 ikonostas/205
 ikra/362
@@ -12205,6 +12217,8 @@ indeksirati/33
 indeksni/353
 indicija/365
 indicirati/33
+indiferencija/365
+indiferentizam/247
 indiferentni/347
 indignacija/365
 indignirati/33
@@ -16053,9 +16067,12 @@ knjižničar/229
 knjižničarstvo/331
 knjižnički/353
 knjižurina/360
+koadjutor/223
 koagulacija/365
 koagulator/238
 koagulirati/31
+koagulogram/238
+koagulopatija/365
 koaksijalni/347
 koala/362
 koalicija/365
@@ -17838,7 +17855,10 @@ ksenofobični/347
 ksenofobno
 ksenon/221
 ksilem/238
+ksilofag/205
+ksilofagija/365
 ksilofon/238
+ksilograf/238
 kub/273
 kubanac/256
 kubanski/353
@@ -18799,6 +18819,7 @@ limfocit/205
 limfocitni/353
 liminalni/347
 limit/205
+limiter/238
 limitirati/33
 limun/221
 limunada/360
@@ -19141,6 +19162,8 @@ lumpovati/44
 luna/360
 lunapark/273
 lunar/205
+lunaran/340
+lunarij/238
 lunarni/353
 lunatik/217
 lungomare
@@ -19506,13 +19529,17 @@ makovica/360
 makro/217
 makroanaliza/360
 makroasembler/238
+makrobiotičar/229
+makrobiotičarski/353
 makrobiotički/353
 makrobiotika/378
+makrocefalija/365
 makroekonomist/222
 makroekonomski/353
 makrofinancijski/353
 makrokozmički/353
 makrokozmos/205
+makromastija/360
 makromolekula/360
 makromolekularni/347
 makronaredba/368
@@ -20429,8 +20456,14 @@ mikoplazmoza/360
 mikopopulacija/365
 mikro
 mikroanaliza/360
+mikroanaliza/360
+mikroangiografija/365
 mikrob/205
+mikrobarograf/241
+mikrobarogram/238
+mikrobarometar/257
 mikrobiolog/339
+mikrobiologijski/353
 mikrobiotički/353
 mikrobiotika/378
 mikrobni/353
@@ -26632,6 +26665,7 @@ obzorje/331
 ocaklina/360
 ocakljen/340
 ocal/205
+ocalan/359
 ocalni/353
 ocariniti/128
 ocarinjen/349
@@ -27234,7 +27268,6 @@ odštetiti/128
 odštetni/353
 odšuljati/120
 odšutjeti/147
-odterećen/349
 odučiti/128
 odudarati/31
 odugovlačenje/331
@@ -27336,6 +27369,8 @@ odzivati/34
 odzivni/353
 odzivnik/205
 odzove
+odzračiti/128
+odzračivati/47
 odzujati/186
 odzvanjajući/353
 odzvanjati/34
@@ -27442,6 +27477,7 @@ ogreznuti/139
 ogrijati/174
 ogrijavati/34
 ogriješiti/128
+ogrijevni/353
 ogrizak/260
 ogrješenje/331
 ogrjev/205
@@ -28123,6 +28159,7 @@ opnokrilac/256
 opoganiti/128
 opojan/348
 opojen/340
+opojiti/128
 opojni/347
 opojniji/355
 opol/205
@@ -28913,6 +28950,7 @@ otepi
 otepimo
 otepite
 otepu
+oterećen/349
 oteretiti/128
 otesati/174
 oteščali/346
@@ -32774,6 +32812,7 @@ popušen/348
 popušiti/128
 popuštati/34
 poput
+poputnina/360
 pora/360
 poraba/360
 poraće/331
@@ -34920,6 +34959,7 @@ prerušen/340
 prerušiti/128
 presa/360
 presad/205
+presadak/260
 presaditi/128
 presadni/353
 presadnica/360
@@ -35891,7 +35931,9 @@ pripomoć/392
 pripomoći/201
 pripomognut/348
 pripovijedalac/262
+pripovijedalački/353
 pripovijedati/34
+pripovijesni/354
 pripovijest/392
 pripovijetka/385
 pripovjedač/223
@@ -37087,7 +37129,13 @@ protegnuti/139
 protein/238
 protek/205
 protekcija/365
+protekcionaš/238
+protekcionašica/389
+protekcionaški/353
 protekcionaštvo/331
+protekcionist/222
+protekcionistički/353
+protekcionistkinja/362
 protekcionizam/247
 protekli/353
 protektor/223
@@ -40369,8 +40417,8 @@ sagorjeli/353
 sagraditi/128
 sagrađen/340
 sagrađivati/47
-sagriješenje/331
 sagriješiti/128
+sagrješenje/331
 sagrješenje/331
 Sahara/372
 saharin/238
@@ -47063,6 +47111,7 @@ trupina/360
 trupkati/31
 truplo/331
 trupni/353
+trusište/331
 trusiti/62
 trusni/346
 trust/273
