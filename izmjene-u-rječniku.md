@@ -10,13 +10,13 @@ Najnovija se inačica rječnika može preuzeti iz grane `master` repozitorija na
 
 - dodana klasa TH (# 409) za rješavanje imena mjesta i gradova na -sko (Jastrebarsko, Topusko, Vrbovsko)
 - brisano nekoliko riječi s pogrešnim pisanjem 'ije' i 'je' (prevoz > prijevoz, prelom > prijelom ...)
-- uklonjeno nekoliko nepostojećih riječi
+- uklonjeno pedesetak nepostojećih riječi
 - dodana pravila za gradove na -vci (Križevci, Vinkovci)
 - ispravak zatipka: iglun/205i > iglun/205 ([nedostatak #2](https://github.com/krunose/hr-hunspell/issues/2))
 - proširen REP s četrdeset osam novih unosa
 - dodano tristotinjak novih riječi
 - povezani nastavci (hr_HR.aff) s nekoliko riječi (hr_HR.dic)
-- ispravak velikoga slova u nekoliko riječi
+- ispravak velikoga slova u nekoliko riječi (još ima velik broj primjera koji dozvoljava 'platon' i 'Platonski')
 
 
 ## Inačica 2.1
