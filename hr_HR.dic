@@ -1,4 +1,4 @@
-﻿53675
+﻿53653
 a
 a-mol/273
 A-reprezentacija/365
@@ -74,7 +74,6 @@ abrevijatura/360
 abrogacija/360
 abrogirati/34
 ABS/397
-absces/205
 absurdum/205
 abuličar/229
 abulija/365
@@ -13336,7 +13335,6 @@ išta
 ištipan/348
 išuljati/105
 Italija/372
-Italijan/217
 italik/205
 italski/353
 itekako
@@ -22983,8 +22981,6 @@ natapati/33
 natapirati/116
 Nataša/362
 natašte
-natčovječanski/353
-natčovjek
 natečen/340
 nateći/197
 natega/360
@@ -25815,7 +25811,6 @@ niotkuda
 nipošto
 nirvana/360
 nisam
-nisan/205
 nisi
 niska/380
 niski/346
@@ -26837,12 +26832,11 @@ odbrojiti/128
 odbrusiti/128
 odbrušen/340
 odcijepiti/128
-odcijepljen/340
 odcijepljen/341
-odcjepljen/349
+odcijepljen/349
 odcjepljenje/331
 odčepiti/128
-odčepljen/341
+odčepljen/349
 odčepljivati/47
 odebeli/353
 odebeo
@@ -26937,7 +26931,6 @@ odjek/205
 odjekivati/44
 odjeknuti/140
 odjel/238
-odjelce/334
 odjelit/340
 odjelni/353
 odjeljak/247
@@ -28932,7 +28925,6 @@ otarete
 otari
 otaru
 otava/360
-otčepljen/349
 otečen/340
 oteći/198
 otegliti/128
@@ -31356,7 +31348,6 @@ podjeljiv/340
 podjeljivati/47
 podjetinjili/353
 podjetinjiti/128
-podkontinent/205
 podlac/324
 podlagač/223
 podlagati/86
@@ -31469,7 +31460,6 @@ podosta
 podozrenje/331
 podozriv/340
 podpodjela/360
-podprojekt/205
 podragati/120
 podrapati/119
 podraškati/120
@@ -33352,7 +33342,6 @@ potare
 potarem
 potari
 potaru
-potčinjen/341
 poteći/198
 potegnuće/331
 potegnuti/140
@@ -33526,6 +33515,7 @@ potprašiti/128
 potpredsjednik/227
 potprefektura/360
 potprogram/238
+potprojekt/205
 potpukovnik/227
 potpun/340
 potpuniji/355
@@ -35785,7 +35775,6 @@ primamljivati/47
 primamljiviji/355
 primar/205
 primarijus/217
-primarius/217
 primarni/347
 primat/221
 primatelj/223
@@ -36053,7 +36042,6 @@ prisoliti/128
 prisoljen/340
 prispijeće/331
 prispijevati/34
-prispjeće/331
 prispjeli/353
 prispjeti/149
 prispodabljati/34
@@ -36317,7 +36305,8 @@ probirač/223
 probirati/96
 probirljiv/340
 probirljiviji/355
-probisvjet/205
+probisvijet/205
+probisvijetski/353
 probitačni/347
 probitačniji/355
 probitak/260
@@ -37026,7 +37015,6 @@ prostorni/347
 prostorniji/355
 prostornovremenski/353
 prostoručni/353
-prostorvrijeme/317
 prostota/360
 prostran/340
 prostraniji/355
@@ -37593,7 +37581,6 @@ pržun/238
 psalam/247
 psalmist/205
 psaltir/205
-psar/205
 pse
 pseći/353
 psetance/334
@@ -37684,7 +37671,6 @@ Ptolomej/266
 PTSP/397
 pubertet/238
 pubertetlija/363
-pubis/205
 publicirati/33
 publicist/222
 publicistički/353
@@ -37693,7 +37679,6 @@ publicistkinja/362
 publicitet/205
 publika/378
 publikacija/365
-publisher/205
 puca/360
 pucač/223
 pucaljka/383
@@ -38556,12 +38541,11 @@ rastrančirati/120
 rastrčati/186
 rastrčavati/34
 rastresati/34
-rastresen/340
+rastresen/341
 rastresenje/331
 rastresit/340
 rastresti/158
 rastreš
-rastrešen/341
 rastrežnjujući/353
 rastrgati/119
 rastrgavati/34
@@ -39344,7 +39328,6 @@ redni/353
 rednik/238
 redomice
 redoslijed/205
-redosljed/205
 redov/205
 redovit/340
 redovitiji/355
@@ -43235,7 +43218,6 @@ stalak/247
 stalaktit/205
 staleški/353
 stalež/205
-stališ/205
 staliti/128
 stalni/347
 stalniji/355
@@ -43411,7 +43393,6 @@ steon/340
 step/273
 stepa/365
 stepati/31
-stepen/205
 stepenast/348
 stepenica/360
 stepenišni/353
@@ -45622,7 +45603,6 @@ tališni/353
 talište/331
 talitelj/222
 taliti/56
-talk/273
 talmud/297
 talmudist/222
 talog/205
@@ -47365,13 +47345,11 @@ ubijati/34
 ubijeđen/340
 ubijen/348
 ubikvitet/238
-ubilac/263
 ubilježavati/34
 ubilježen/348
 ubilježiti/128
 ubirač/223
 ubirati/96
-ubistvo/331
 ubitačni/347
 ubitačniji/355
 ubiti/145
