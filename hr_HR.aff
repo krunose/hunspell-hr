@@ -294,7 +294,7 @@ REP ^ž Ž
 REP - _
 
 
-AF 409
+AF 410
 AF ZZ	# 1
 AF ZY	# 2
 AF ZX	# 3
@@ -704,6 +704,7 @@ AF TE	#406
 AF TF	#407
 AF TG	#408
 AF TH	#409
+AF TI	#410
 
 
 SFX XZ Y      21
@@ -3757,3 +3758,34 @@ SFX TH 0 m o
 SFX TH 0 me o
 SFX TH 0 mu o
 SFX TH o im o
+
+
+# klasa za glagol slati
+SFX TI Y 27
+SFX TI slati šaljem slati
+SFX TI slati šalješ slati
+SFX TI slati šalje slati
+SFX TI slati šaljemo slati
+SFX TI slati šaljete slati
+SFX TI slati šalju slati
+SFX TI i 0 slati
+SFX TI ti h slati
+SFX TI ti še slati
+SFX TI ti smo slati
+SFX TI ti ste slati
+SFX TI ti ahu slati
+SFX TI slati šalji slati
+SFX TI slati šaljimo slati
+SFX TI slati šaljite slati
+SFX TI slati šaljući slati
+SFX TI ti o slati
+SFX TI ti la slati
+SFX TI ti lo slati
+SFX TI ti li slati
+SFX TI ti le slati
+SFX TI ti la slati
+SFX TI ti n slati
+SFX TI ti na slati
+SFX TI ti no slati
+SFX TI ti ni slati
+SFX TI ti ne slati
