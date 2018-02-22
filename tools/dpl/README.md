@@ -4,7 +4,7 @@ Alati i skripte u mapi `dpl` inicijalni su pokušuji izade alata koji bi trebali
 
 Alati i sadržaj se ove mape neće mijenjati, ako se i nastavi s izradom alata, pogledajte na
 
-  [hr-hunspell/tools/](https://github.com/krunose/hr-hunspell/tools/)
+  [hr-hunspell/tools/](https://github.com/krunose/hr-hunspell/tree/master/tools)
 
 jer je ova mapa sadrži skripte koje su opisane na jednome drugome mjestu i iz toga se razloga neće mijenjati.
 
