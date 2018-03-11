@@ -76,7 +76,7 @@ ICONV ŕ r
 
 
 # REP - .
-REP 215
+REP 217
 REP ^pocrtava podcrtava
 REP ^zdrastv zdravstv
 REP nućemo$ nut_ćemo
@@ -149,6 +149,8 @@ REP aon aonic
 REP iće$ it_će
 REP šće$ st_će
 REP arn arnic
+REP iju e
+REP tid tud
 REP ^poveč več
 REP aću$ at_ću
 REP iću$ it_ću
