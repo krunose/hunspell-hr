@@ -14,7 +14,7 @@ Najnovija se inačica rječnika može preuzeti iz grane `master` repozitorija na
 - uklonjeno pedesetak nepostojećih riječi
 - dodana pravila za gradove na -vci (Križevci, Vinkovci)
 - ispravak zatipka: iglun/205i > iglun/205 ([nedostatak #2](https://github.com/krunose/hr-hunspell/issues/2))
-- proširen REP s četrdeset osam novih unosa
+- proširen REP s pedesetak novih unosa
 - dodano tristotinjak novih riječi
 - povezani nastavci (hr_HR.aff) s nekoliko riječi (hr_HR.dic)
 - ispravak velikoga slova u nekoliko riječi (još ima velik broj primjera koji dozvoljava 'platon' i 'Platonski')
