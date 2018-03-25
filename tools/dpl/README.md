@@ -1,13 +1,9 @@
 # Alati u mapi `dpl`
 
-Alati i skripte u mapi `dpl` inicijalni su pokušuji izade alata koji bi trebali olakšati izradu računalne provjere pravopisa Hunspellom.
+Skripte u mapi `dpl` pokušaj su da se iz ručno sastavljenoga popisa riječi kako je to učinjeno u datoteci `wordlist` automatski izrade pravila za sufikse. Cilj je bila potpunost, dosljednost i neponavljanje pravila.
 
-Alati i sadržaj se ove mape neće mijenjati, ako se i nastavi s izradom alata, pogledajte na
+Ipak, način je zapisivanja u datoteci `wordlist` kompliciran i nepraktičan pa se stime na takav način i neće nastavljati, a sadržaj se ove mape neće mijenjati.
 
-  [hr-hunspell/tools/](https://github.com/krunose/hr-hunspell/tree/master/tools)
-
-jer je ova mapa sadrži skripte koje su opisane na jednome drugome mjestu i iz toga se razloga neće mijenjati.
-
-<b>Skripte i sadržaji u ovoj mapi služe isključivo kao potvrda koncepta i <u>nisu</u> dovršeni! Ne preporuča se koristiti ih.</b>
+Scripte i alati koji se aktivno koriste u izradi rječnika dostupni su &mdash; ili će biti dostupni &mdash; u mapi [/hr-hunspell/tools/](https://github.com/krunose/hr-hunspell/tree/master/tools). S druge strane, skripte i sadržaji ove mape nisu dovršeni i služe isključivo kao podsjetnik. Ne preporuča se koristiti ih.
 
 -- 11. prosinca 2o17.
