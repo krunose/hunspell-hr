@@ -700,14 +700,15 @@ AF TE	# 400
 AF TD	# 401
 AF THTGTETC	# 402
 AF TB	#403
-AF TC	#404
-AF TD	#405
-AF TE	#406
-AF TF	#407
-AF TG	#408
-AF TH	#409
-AF TI	#410
+AF TA	#404
+AF SZ	#405
+AF SY	#406
+AF SX	#407
+AF SW	#408
+AF SV	#409
+AF SU	#410
 
+a b c d e f g h i j k l m n o p q r s t u v w x y z
 
 SFX XZ Y      21
 SFX XZ ati    am         ati
@@ -3712,82 +3713,82 @@ SFX TB 0 -a .
 SFX TB 0 -u .
 SFX TB 0 -om .
 
-SFX TC Y 8
-SFX TC an na an
-SFX TC an nu an
-SFX TC an ne an
-SFX TC an nom an
-SFX TC an novi an
-SFX TC an nova an
-SFX TC an novima an
-SFX TC an nove an
+SFX TA Y 8
+SFX TA an na an
+SFX TA an nu an
+SFX TA an ne an
+SFX TA an nom an
+SFX TA an novi an
+SFX TA an nova an
+SFX TA an novima an
+SFX TA an nove an
 
-SFX TD Y 5
-SFX TD as sa as
-SFX TD as su as
-SFX TD as som as
-SFX TD as si as
-SFX TD as sima as
+SFX SZ Y 5
+SFX SZ as sa as
+SFX SZ as su as
+SFX SZ as som as
+SFX SZ as si as
+SFX SZ as sima as
 
-SFX TE Y 5
-SFX TE o a lo
-SFX TE o u lo
-SFX TE 0 m lo
-SFX TE lo ala lo
-SFX TE o ima lo
+SFX SY Y 5
+SFX SY o a lo
+SFX SY o u lo
+SFX SY 0 m lo
+SFX SY lo ala lo
+SFX SY o ima lo
 
-SFX TF Y 3		# Križevci
-SFX TF i e vci
-SFX TF vci vaca vci	# Križevaca
-SFX TF 0 ma vci
+SFX SX Y 3		# Križevci
+SFX SX i e vci
+SFX SX vci vaca vci	# Križevaca
+SFX SX 0 ma vci
 
 # imenica slijev: slijev, slijeva; sljevovi, sljevova
-SFX TG Y 7
-SFX TG 0 a .
-SFX TG 0 u .
-SFX TG 0 om .
-SFX TG ijev jevovi lijev
-SFX TG ijev jevova lijev
-SFX TG ijev jevove lijev
-SFX TG ijev jevovima lijev
+SFX SW Y 7
+SFX SW 0 a .
+SFX SW 0 u .
+SFX SW 0 om .
+SFX SW ijev jevovi lijev
+SFX SW ijev jevova lijev
+SFX SW ijev jevove lijev
+SFX SW ijev jevovima lijev
 
 
 # imenica na -sko tipa Jastrebarsko, Topusko
-SFX TH Y 6
-SFX TH 0 g o
-SFX TH 0 ga o
-SFX TH 0 m o
-SFX TH 0 me o
-SFX TH 0 mu o
-SFX TH o im o
+SFX SV Y 6
+SFX SV 0 g o
+SFX SV 0 ga o
+SFX SV 0 m o
+SFX SV 0 me o
+SFX SV 0 mu o
+SFX SV o im o
 
 
 # klasa za glagol slati
-SFX TI Y 27
-SFX TI slati šaljem slati
-SFX TI slati šalješ slati
-SFX TI slati šalje slati
-SFX TI slati šaljemo slati
-SFX TI slati šaljete slati
-SFX TI slati šalju slati
-SFX TI i 0 slati
-SFX TI ti h slati
-SFX TI ti še slati
-SFX TI ti smo slati
-SFX TI ti ste slati
-SFX TI ti ahu slati
-SFX TI slati šalji slati
-SFX TI slati šaljimo slati
-SFX TI slati šaljite slati
-SFX TI slati šaljući slati
-SFX TI ti o slati
-SFX TI ti la slati
-SFX TI ti lo slati
-SFX TI ti li slati
-SFX TI ti le slati
-SFX TI ti la slati
-SFX TI ti n slati
-SFX TI ti na slati
-SFX TI ti no slati
-SFX TI ti ni slati
-SFX TI ti ne slati
+SFX SU Y 27
+SFX SU slati šaljem slati
+SFX SU slati šalješ slati
+SFX SU slati šalje slati
+SFX SU slati šaljemo slati
+SFX SU slati šaljete slati
+SFX SU slati šalju slati
+SFX SU i 0 slati
+SFX SU ti h slati
+SFX SU ti še slati
+SFX SU ti smo slati
+SFX SU ti ste slati
+SFX SU ti ahu slati
+SFX SU slati šalji slati
+SFX SU slati šaljimo slati
+SFX SU slati šaljite slati
+SFX SU slati šaljući slati
+SFX SU ti o slati
+SFX SU ti la slati
+SFX SU ti lo slati
+SFX SU ti li slati
+SFX SU ti le slati
+SFX SU ti la slati
+SFX SU ti n slati
+SFX SU ti na slati
+SFX SU ti no slati
+SFX SU ti ni slati
+SFX SU ti ne slati
