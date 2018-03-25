@@ -1,4 +1,4 @@
-﻿53647
+﻿53682
 a
 a-mol/273
 A-reprezentacija/365
@@ -2102,7 +2102,6 @@ avion/238
 aviončić/205
 aviopark/273
 avioprijevoznik/226
-aviopuk/273
 aviotransport/205
 avioturizam/247
 avitaminoza/360
@@ -3235,6 +3234,7 @@ bionika/378
 bionomija/365
 biopsija/365
 biorazgradiv/340
+bioraznolikost/392
 bioritam/259
 biosfera/360
 bioskop/238
@@ -3397,6 +3397,7 @@ Bjelovar/291
 Bjelovarac/256
 Bjelovarka/369
 bjelovarski/353
+Bjelovarsko-bilogorska/395
 bjelutak/260
 bjelji/355
 bjesmo
@@ -4199,6 +4200,7 @@ brodolomka/384
 brodolomnički/353
 brodovlasnik/227
 brodovlje/331
+Brodsko-posavska/395
 Brođanin/243
 Brođanka/369
 broj/287
@@ -7853,6 +7855,7 @@ duborez/205
 dubrava/365
 Dubravka/373
 dubrovački/353
+Dubrovačko-neretvanska/395
 Dubrovčanin/243
 Dubrovčanka/369
 Dubrovnik/265
@@ -8110,6 +8113,7 @@ dvorodni/347
 dvorog/340
 dvoručac/247
 dvoručni/353
+dvosat/205
 dvosatan/359
 dvosatni/353
 dvosjed/205
@@ -11410,6 +11414,7 @@ hidroplan/238
 hidroponički/353
 hidroponika/378
 hidroponski/353
+hidrosfera/365
 hidrostatika/378
 hidrostatski/353
 hidrotehnički/353
@@ -13494,6 +13499,7 @@ izdašniji/355
 izdatak/260
 izdati/114
 izdavač/223
+izdavalački/353
 izdavaštvo/331
 izdavatelj/223
 izdavati/47
@@ -16440,6 +16446,7 @@ komparacija/365
 komparatistički/353
 komparatistika/378
 komparativ/205
+komparativ/205
 komparativni/347
 komparativno-povijesni/353
 komparator/238
@@ -16644,6 +16651,7 @@ konični/347
 konkavni/347
 konklava/360
 konkordancija/365
+konkretizacija/365
 konkretizirati/33
 konkretni/347
 konkretniji/355
@@ -16918,6 +16926,7 @@ Koprivnica/372
 Koprivničanin/243
 Koprivničanka/369
 koprivnički/353
+Koprivničko-križevačka/395
 koprivnjača/360
 koproducent/223
 koprodukcija/365
@@ -17316,6 +17325,7 @@ Kranjica/360
 kranjski/353
 Krapinka/369
 krapinski/353
+Krapinsko-zagorska/395
 kras/273
 krasiti/62
 krasni/354
@@ -22614,6 +22624,7 @@ napričati/120
 naprijed
 naprimjer
 napripovijedati/105
+naprjeđenje/331
 naprosto
 naprotiv
 naprsli/353
@@ -24404,6 +24415,7 @@ neostakljen/340
 neostrižen/340
 neostvaren/341
 neostvariv/340
+neostvarivanje/331
 neostvarljiv/340
 neosunčan/340
 neosušen/340
@@ -24411,6 +24423,7 @@ neosvećen/340
 neosviješten/340
 neosvijetljen/340
 neosvjedočen/340
+neosvješćivanje/331
 neosvjetlan/340
 neosvježen/340
 neosvojen/340
@@ -24444,6 +24457,7 @@ neotvoren/340
 neoustaštvo/331
 neovisni/347
 neovisniji/355
+neovjeren/340
 neovlašćen/340
 neovlašten/340
 neozbiljni/347
@@ -24625,6 +24639,7 @@ nepoštenjak/232
 nepoštivan/341
 nepoštovan/349
 nepotčinjen/340
+nepoticajan/359
 nepotisnut/340
 nepotistički/353
 nepotizam/247
@@ -25233,6 +25248,7 @@ nesvikli/346
 nesvjesni/346
 nesvjestan
 nesvjestica/360
+nesvladavanje/331
 nesvodiv/340
 nesvojstven/340
 nesvrhovit/340
@@ -25580,6 +25596,7 @@ nevježa/360
 nevladin/348
 nevlasnički/353
 nevodljiv/340
+nevođenje/331
 nevojni/353
 nevojnički/353
 nevolja/360
@@ -26233,6 +26250,7 @@ obaveza/360
 obavezanik/226
 obavezati/175
 obavezatno/331
+obavezatnost/392
 obavezivati/47
 obavezni/347
 obavezujući/353
@@ -26575,6 +26593,7 @@ obrnuti/139
 obročni/353
 obrojčan/348
 obrojčati/101
+obrojčavati/34
 obrok/205
 obronak/247
 obroniti/128
@@ -26871,6 +26890,7 @@ odgojeniji/355
 odgojitelj/223
 odgojiti/128
 odgojni/353
+odgojno-obrazovan/359
 odgojnoobrazovni/353
 odgonetač/223
 odgonetati/25
@@ -27044,6 +27064,7 @@ odmor/205
 odmoren/340
 odmoreniji/355
 odmorišni/353
+odmorišno-kupališni/353
 odmorište/331
 odmoriti/128
 odmorni/347
@@ -28099,6 +28120,8 @@ opisiv/348
 opisivač/223
 opisivati/47
 opismeniti/128
+opismenjavanje/331
+opismenjavati/34
 opismenjen/340
 opismenjivati/47
 opisni/353
@@ -28597,6 +28620,7 @@ osiromašivati/47
 Osječanin/243
 Osječanka/369
 osječki/353
+Osječko-baranjska/395
 osjećaj/205
 osjećajni/347
 osjećajniji/355
@@ -30080,6 +30104,7 @@ pećinar/221
 pećnica/360
 pedagog/339
 pedagogijski/353
+pedagoško-psihološki/353
 pedala/360
 pedalj/259
 pedant/217
@@ -30109,6 +30134,7 @@ pediker/229
 pedikirati/34
 pedofil/235
 pedolog/339
+pedosfera/365
 Pegaz/266
 pegla/368
 peglati/34
@@ -33825,6 +33851,7 @@ poželjni/347
 poželjniji/355
 poženiti/128
 požeški/353
+Požeško-slavonska/395
 požet/348
 požeti/152
 Požežanin/243
@@ -34667,6 +34694,7 @@ premudri/354
 prenabijen/340
 prenadražen/340
 prenagao
+prenaglasiti/128
 prenaglašavati/34
 prenaglašen/340
 prenagli/353
@@ -41201,6 +41229,7 @@ sezam/217
 sezati/86
 sezona/365
 sezonac/256
+sezonalnost/392
 sfera/360
 sferični/347
 sferni/353
@@ -45979,6 +46008,7 @@ teritorij/205
 teritorijalizacija/365
 teritorijalni/347
 termalni/353
+termalno-kupališni/353
 terme/387
 termički/353
 termin/238
@@ -50025,6 +50055,7 @@ vika/378
 vikač/222
 vikar/223
 vikati/86
+vikend-turizam/247
 vikend/205
 vikendaš/223
 vikendica/360
@@ -50105,6 +50136,7 @@ Virovitica/372
 Virovitičanin/243
 Virovitičanka/369
 virovitički/353
+Virovitičko-podravska/395
 viroza/360
 virtualizacija/365
 virtualni/347
@@ -50681,6 +50713,7 @@ vrelina/360
 vrelišni/353
 vrelište/331
 vrelo/331
+vremenik/205
 vremenit/340
 vremenski/353
 vremeplov/205
@@ -50838,6 +50871,7 @@ Vukovar/265
 Vukovarac/256
 Vukovarka/369
 vukovarski/353
+Vukovarsko-srijemska/395
 vukovski/353
 vulgarizacija/365
 vulgarizam/247
@@ -52009,6 +52043,7 @@ zapostavljati/15
 zapostavljen/341
 zapostavljeniji/355
 zapošljavati/34
+zapošljiv/340
 zapovijed/392
 zapovijedati/34
 zapovijediti/128
