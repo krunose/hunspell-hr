@@ -18,10 +18,10 @@
 
 		script will read the first two characters of such file and sorts lines by those two characters in following order:
 
-			[1] -- word1
-			[2] - word2
-			[3] + word3
-			[4] +- word4
+			-- word1
+			- word2
+			+ word3
+			+- word4
 
 		[1] is two minus signs indicating a word that should be removed from dictionary but it's not yet
 		[2] minus sign followed by space indicates word that should be added to dictionary but it's not yet
