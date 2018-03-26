@@ -296,7 +296,7 @@ REP ^ž Ž
 REP - _
 
 
-AF 410
+AF 411
 AF ZZ	# 1
 AF ZY	# 2
 AF ZX	# 3
@@ -707,8 +707,7 @@ AF SX	#407
 AF SW	#408
 AF SV	#409
 AF SU	#410
-
-a b c d e f g h i j k l m n o p q r s t u v w x y z
+AF THTG	#411
 
 SFX XZ Y      21
 SFX XZ ati    am         ati

@@ -1,4 +1,4 @@
-﻿53682
+﻿53718
 a
 a-mol/273
 A-reprezentacija/365
@@ -191,6 +191,7 @@ aduktor/238
 adular/205
 adulter/205
 adulterij/238
+adultizam/247
 adut/221
 adutirati/34
 advekcija/365
@@ -399,6 +400,7 @@ agromelioracija/365
 agronom/235
 agrotehnički/353
 agrotehnika/378
+agroturizam/247
 agrum/221
 ah
 aha
@@ -6116,6 +6118,7 @@ deklinirati/34
 dekoder/221
 dekodirajući/353
 dekodirati/33
+dekofeinizirati/34
 dekokt/205
 dekolonizacija/365
 dekolonizirati/34
@@ -6449,6 +6452,7 @@ devetorica/360
 devetsto
 devetstote
 devijacija/365
+devijacionizam/247
 devijantni/347
 deviza/360
 devizni/353
@@ -8238,6 +8242,7 @@ e-pošta/360
 ebanovina/360
 ebonit/238
 ebonitni/353
+ECDL/411
 edem/238
 eden/238
 edicija/365
@@ -8717,6 +8722,8 @@ enklitički/353
 enklitični/347
 enklitika/378
 enkoder/238
+enkodiranje/331
+enkodirati/33
 enkriptirati/33
 eno
 enofil/231
@@ -15806,6 +15813,9 @@ klasifikator/223
 klasik/205
 klasje/298
 klasni/359
+klasno
+klasta/360
+klaster/238
 klatarati/31
 klatarenje/331
 klatariti/52
@@ -21587,6 +21597,7 @@ multiplicirati/33
 multiplikacija/365
 multiplikator/238
 multispektralni/347
+multivarijantan/359
 mulj/287
 muljača/360
 muljast/348
@@ -23495,6 +23506,7 @@ nedospjeli/353
 nedostajati/84
 nedostajući/353
 nedostatak/260
+nedostatan/359
 nedostati/190
 nedostatni/347
 nedostignut/340
@@ -24203,6 +24215,7 @@ neoboren/340
 neoboriv/340
 neoboriviji/355
 neobraćanje/331
+neobradiv/340
 neobrađen/340
 neobrađeniji/355
 neobrađivan/349
@@ -24383,6 +24396,7 @@ neopskrbljen/340
 neopskrbljeniji/355
 neopterećen/340
 neopterećeniji/355
+neoptimalno
 neoptočen/340
 neorealistički/353
 neorealizam/247
@@ -28089,6 +28103,7 @@ operušati/119
 operutati/119
 opet
 opetovnik/205
+OPG/411
 ophod/205
 ophoditi/62
 ophodni/353
@@ -28443,6 +28458,7 @@ oregonski/353
 orehnjača/360
 orenje/331
 oreol/205
+orezati/174
 orezivati/47
 Orfej/266
 organ/238
@@ -29464,6 +29480,7 @@ ožmu
 ožujak/247
 ožujski/353
 p
+p-vrijednost/392
 pa
 pabirak/247
 pabirčen/349
@@ -30433,6 +30450,7 @@ petorostruk/340
 petosatni/353
 petoslojni/353
 petostopni/353
+petostupanjski/353
 petparački/353
 petpostotni/353
 Petra/372
@@ -32363,6 +32381,7 @@ poluotočni/353
 poluotok/205
 poluotvoren/348
 poluozbiljni/354
+poluoznaka/378
 polupansion/205
 poluparaliziran/348
 polupati/120
@@ -32434,6 +32453,7 @@ polusvjestan
 polusvjetlo/331
 polušaljiv/340
 polušapat/205
+poluširina/360
 polutama/360
 polutamni/354
 polutan/228
@@ -34372,6 +34392,7 @@ prefektura/360
 preferans/205
 preferencija/365
 preferirati/34
+prefigiran/340
 prefiks/205
 prefiksacija/365
 prefiksoid/205
@@ -34880,6 +34901,7 @@ preporoditelj/223
 preporoditi/128
 preporodni/353
 preporođen/341
+preporučati/101
 preporučen/348
 preporučiti/128
 preporučivati/47
@@ -34978,6 +35000,7 @@ prerušiti/128
 presa/360
 presad/205
 presadak/260
+presadba/368
 presaditi/128
 presadni/353
 presadnica/360
@@ -35667,6 +35690,7 @@ prijeporni/347
 prijeporniji/355
 prijeratni/353
 prijesad/205
+prijesadnica/360
 prijesni/354
 prijestol/205
 prijestolni/353
@@ -35883,6 +35907,8 @@ prinos/205
 prinositi/62
 prinošen/349
 prinova/360
+printanje/331
+printati/31
 printer/205
 prinuda/360
 prinuditi/128
@@ -39497,6 +39523,7 @@ rekorder/229
 rekordni/347
 rekreacija/365
 rekreativac/256
+rekreativan/359
 rekreativni/353
 rekreirati/34
 rektalni/353
@@ -40428,6 +40455,7 @@ sagorjeli/353
 sagraditi/128
 sagrađen/340
 sagrađivati/47
+sagrešenje/331
 sagriješiti/128
 sagrješenje/331
 sagrješenje/331
@@ -40901,6 +40929,7 @@ savjetodavac/256
 savjetodavni/353
 savjetovalište/331
 savjetovati/47
+savladanost/392
 savladati/120
 savladavati/34
 savladiv/340
@@ -41292,6 +41321,7 @@ signalizator/223
 signalizirati/34
 signalni/353
 signatura/360
+signifikantnost/392
 signirati/34
 sigurni/347
 sigurniji/355
@@ -41531,6 +41561,7 @@ sirupast/348
 sirutka/381
 sisa/360
 sisački/353
+Sisačko-moslavačka/395
 Sisak/271
 sisaljka/383
 sisar/238
@@ -42940,6 +42971,7 @@ sporovozni/347
 sporovozniji/355
 sport/283
 sportaš/223
+sportsko-rekreativan/359
 sposobni/347
 sposobniji/355
 spot/273
@@ -45306,6 +45338,8 @@ svukuda
 štednjak/221
 šteđen/349
 šteka/360
+štekanje/331
+štekati/31
 štekavac/256
 štektati/84
 štektav/340
@@ -49993,6 +50027,7 @@ videokaseta/360
 videokazeta/360
 videoklub/273
 videokonferencija/365
+videomaterijal/205
 videorekorder/205
 videosnimka/383
 videospot/273
@@ -50055,6 +50090,7 @@ vika/378
 vikač/222
 vikar/223
 vikati/86
+vikend-turizam/247
 vikend-turizam/247
 vikend/205
 vikendaš/223
