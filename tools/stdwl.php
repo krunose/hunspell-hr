@@ -7,30 +7,36 @@
 
 	DESCRIPTION
 
-		stdwl.php => sort to-do word list
+		stdwl stands for 'sort to-do word list'.
 
-		Simple script for sorting words that are collected in auxiliary file so maintainer of a dictionary can keep track of what's added, deleted or what yet needs to be done. For file with content
+		Working on the dictionary, always find myself keeping track of what needs to be added or deleted in willy nilly auxiliary file willy nilly marks what is yet to be added or removed and what is deleted or removed.
+
+		This is a simple script for sorting words that are collected in such one auxiliary file so maintainer of a dictionary can keep track of what has to be done and what was done.
+
+		I write auxiliary file like in example below:
 
 			- word2
 			-- word1
 			+- word4
 			+ word 3
 
-		script will read the first two characters of such file and sorts lines by those two characters in following order:
+		script will read the first two characters of every line of such file and sorts lines by those two characters in following order:
 
-			-- word1
-			- word2
-			+ word3
-			+- word4
+			[1] -- word1
+			[2] - word2
+			[3] + word3
+			[4] +- word4
 
-		[1] is two minus signs indicating a word that should be removed from dictionary but it's not yet
-		[2] minus sign followed by space indicates word that should be added to dictionary but it's not yet
-		[3] plus and minus sign indicates word that was initially marked [1] but now it's removed from dictionary (completed)
-		[4] plus followed by space indicates that word that was initially marked [2], now is added to dictionary.
+		Markings are:
 
-		You can name such auxiliary file as you wish. Script will read such file, sort entries in above described order and replace initial content of auxiliary file with sorted one.
+			[1] is two minus signs indicating a word that should be removed from dictionary but it's not yet
+			[2] minus sign followed by space indicates word that should be added to dictionary but it's not yet
+			[3] plus and minus sign indicates word that was initially marked [1] but now it's removed from dictionary (completed, done)
+			[4] plus followed by space indicates that word that was initially marked [2], now is added to dictionary (completed, done).
 
-		Backup everything before running this.
+		You can name such auxiliary file as you wish, run it and script will read such file, sort entries in above described manner and replace initial content of auxiliary file with sorted one.
+
+		Backup everything before running this. This is a poor man tool.
 
 
 	USAGE
