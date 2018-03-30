@@ -10,7 +10,7 @@ Najnovija se inačica rječnika može preuzeti iz grane `master` repozitorija na
 
 - dodana klasa TI (# 410) za rješavanje promjene u osnovi riječi 'slati' u prezentu => šaljem ...
 - dodana klasa TH (# 409) za rješavanje imena mjesta i gradova na -sko (Jastrebarsko, Topusko, Vrbovsko)
-- brisano nekoliko riječi s pogrešnim pisanjem 'ije' i 'je' (prevoz > prijevoz, prelom > prijelom ...)
+- ispravljeno nekoliko pogrešaka u rječniku (brisano nekoliko riječi s pogrešnim pisanjem 'ije' i 'je': prevoz > prijevoz, prelom > prijelom... (plus nekoliko drugih, manjih ispravaka
 - uklonjeno pedesetak nepostojećih riječi
 - dodana pravila za gradove na -vci (Križevci, Vinkovci)
 - ispravak zatipka: iglun/205i > iglun/205 ([nedostatak #2](https://github.com/krunose/hr-hunspell/issues/2))
