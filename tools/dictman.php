@@ -7,7 +7,9 @@ Kruno; kruno.se@gmx.com; march 2018.
 
 This is very simple script to create wordlist from Hunspell dictionary.
 
-What you need to change in order for list to work is change first two variables so they reflect valid paths and file names of dictionary file and affix file.
+What you need to change in order for list to work is change first two variables so they reflect valid paths and file names of dictionary file and affix file. This is not intended to replace unmunch or other such tools, but since lot of dictionaries has simple structure (only suffixes, no nosuggest, compound and such), it might be helpful for more then Croatian dictionary version 2.1.1.
+
+Keep in mind that Croatian dictionary 2.1.1 uses AF feature: word/221 → AF AAABAC	# 221, check hr_HR.aff from line 299. This might mean that script will not work for dictionaries not using this feature.
 
 Script has many, many limitations as it's written as quick, dirty and simple way to extract wordlist from Hunspell dictionary. For now it
 
@@ -21,6 +23,7 @@ Script has many, many limitations as it's written as quick, dirty and simple way
 
 TODO (in that order)
 
+	- deal with most common classes not reserved with prefixes, suffixes or compounding (nosuggest, needaffix, circumfix ...)
 	- support prefixes
 	- support two folds (suffixes and prefixes (complexprefixes))
 	- support compounds (which are not using regular expressions)
@@ -39,6 +42,8 @@ TODO (in that order)
 
 
 Backup everything you have and can before using this script.
+
+Wordlist on https://github.com/krunose/hr-hunspell does not have words with class UB (superlative adjectives with declination) and roman numerals which have class ZP (nosuggest, nosuggest, needaffix, circumfix).
 
 Made this so I can use existing wordlist as base for rewriting Croatian dictionary from scratch and to use this wordlist as base for updating hyphenation rules for Croatian. If you can help, please, don't just make complete CLI application and rewrite everything without any explanation or documentation. I would very much appreciate any opportunity to learn pretty much anything about programming.
 
