@@ -14,6 +14,7 @@ Keep in mind that Croatian dictionary 2.1.1 uses AF feature: word/221 → AF AAA
 Script has many, many limitations as it's written as quick, dirty and simple way to extract wordlist from Hunspell dictionary. For now it
 
 	- only support suffixes (no prefixes)
+	- it does _not_ handle conditional suffixes well ([^abc]d; [abc]d)
 	- supports only one fold affixes (no prefixes)
 	- no compounding (or any anything like that for that matter)
 	- it's procedural code so adding or improving will probably require complete rewrite
@@ -180,11 +181,11 @@ while(($line = fgets($handle)) !== false) {
 
 					$explodeVarPart = preg_split('//u', trim($explodeClassesNeeded[0]), null, PREG_SPLIT_NO_EMPTY);
 
-					if($explodeVarPart[0] == "^") {
+					if(mb_substr($explodeVarPart[0], 0, 1) == "^") {
 
 						$negate = true;
 
-						unset($explodedVarPart[0]);
+						unset($explodeVarPart[0]);
 
 					} else {
 
@@ -196,19 +197,19 @@ while(($line = fgets($handle)) !== false) {
 
 						$condition = $explodedVarPart . $fixedPart;
 
-						if($negate === false) {
+						if($negate == true) {
 
-							if(mb_substr($wordBase, -(mb_strlen($condition)), mb_strlen($condition)) != $condition) {
+								if(mb_substr($wordBase, -(mb_strlen($condition)), mb_strlen($condition)) != $condition) {
 
-								echo rtrim($wordBase, $remove) . $add;
+									echo mb_substr($wordBase, -(mb_strlen($remove)), mb_strlen($remove)) . $add . "\n";
 
-							}
+								}
 
 						} else {
 
 							if(mb_substr($wordBase, -(mb_strlen($condition)), mb_strlen($condition)) == $condition) {
 
-								echo rtrim($wordBase, $remove) . $add . "\n";
+								echo mb_substr($wordBase, -(mb_strlen($remove)), mb_strlen($remove)) . $add . "\n";
 
 							}
 
