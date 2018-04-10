@@ -5,9 +5,9 @@ Kruno; kruno.se@gmx.com; april, 10. 2018.
 
 Version 0.2
 
-This is very simple script to create wordlist from Hunspell dictionary.
+This is very simple script to create wordlist from Hunspell dictionary. It's written solely for Croatian dictionary version 2.1.1 and you _should not_ use it for anything else as it's not intended to be used with anything else.
 
-What you need to change in order for list to work is change first two variables so they reflect valid paths and file names of dictionary file and affix file. Script is not ready yet to replace Unmunch or similar tools, but since many dictionaries have simple structure (only suffixes), it might me helpful for generating wordlist for more then just Croatian dictionary version 2.1.1 for Hunspell.
+Script can not replace Unmunch or similar tools, but since many dictionaries have simple structure (only suffixes), it might me helpful for generating wordlist for more then just Croatian dictionary version 2.1.1 for Hunspell. You can try use it only if your dictionary uses only one fold suffixes and AF. Supporting cross products (combining prefixes and suffixes) and make it compatible with dictionaries without AF is in progress.
 
 Keep in mind that Croatian dictionary 2.1.1 uses AF feature: word/221 → AF AAABAC	# 221, check hr_HR.aff from line 299. This might mean that script will not work for dictionaries not using this feature. It should not be too hard to add feature to this script so it run without actually using AF in dictionary (fake AF internally). But that's for future versions of this script.
 
@@ -185,6 +185,10 @@ Made this so I can use existing wordlist as base for rewriting Croatian dictiona
 
 			}
 
+		} else {
+
+			// prefix needs to be added
+
 		}
 
 	}
@@ -348,7 +352,23 @@ fclose($handle);
 
 					$classesNeeded = returnListOfClasses($explodeLine[1]);
 
+			/* */
+
+					$crossProdClasses = array();
+
+			/* */
+
+
+					// for echoing part from dictionary, but actually we need to check if needaffix is in place and echo this only if there's no needaffix flag, script just echoes things that are affixed, not dictionary entry
+					echo $explodeLine[0] . "\n";
+
 					foreach($classesNeeded as $classNeededKey => $classNeeded) {
+
+						if($affixRules[$classNeeded]['info']['crossProd'] == "Y") { /**/
+
+							$crossProdClasses[$affixRules[$classNeeded]['info']['affType']][] = $affixRules[$classNeeded];
+
+						} /**/
 
 						foreach($affixRules[$classNeeded]['rules'] as $ruleKey => $rule) {
 
@@ -358,6 +378,36 @@ fclose($handle);
 
 					}
 
+
+				if(count($crossProdClasses['PFX'] >= 1) && count($crossProdClasses['SFX'] >= 1)) {
+
+					// script trows error for in next line, but I can't really tell why... same for previous line. probably everything is OK when it comes to results but it tries to loop something which can't
+					foreach($crossProdClasses['PFX'] as $crossProdPfxClass) {
+
+						foreach($crossProdPfxClass['rules'] as $cppc) {
+
+							// TODO: ADD WRITE PART FOR PREFIXES IN FUNCTION applyAffixes so this is return dynamically
+							// actually this should be done trough 'applyAffix' function but only suffix part is written, no prefix part so instead doing it by function, I hard coded this as it's primarily used for Croatian dictionary and 'naj' is only prefix in that dictionary
+							$pfxPart = 'naj';
+							// same as hard coding $pfxPart - script is only echoing affixed forms, ignoring actual dictionary entry. This is echoing dictionary entry, but this should be done with function which should check if needaffix is in place and echo out this only if there's no needaffix flag set for this entry
+							echo $pfxPart . $explodeLine[0] . "\n";
+
+							foreach($crossProdClasses['SFX'] as $crossProdSfxClass) {
+
+								foreach($crossProdSfxClass['rules'] as $rule) {
+
+									echo applyAffixes($crossProdSfxClass['info']['affType'], $pfxPart . trim($explodeLine[0]), returnAffixationParts($rule)['add'], returnAffixationParts($rule)['remove'], returnConditions(returnAffixationParts($rule)['condition']), "\n");
+
+								}
+
+							}
+
+						}
+
+					}
+
+				}
+
 			} else {
 
 				// for words not having classes assigned to it. this should respect $wordSep but it does not for now
@@ -366,6 +416,7 @@ fclose($handle);
 			}
 
 	}
+
 
 
 
@@ -381,5 +432,6 @@ while(($line = fgets($handle, 2048)) !== false) {
 
 fclose($handle);
 
+// applyRulesToWord("nadražujući/358");
 
 ?>
