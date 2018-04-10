@@ -1,229 +1,185 @@
 <?php
 
-
 /*
+Kruno; kruno.se@gmx.com; april, 10. 2018.
 
-Kruno; kruno.se@gmx.com; march 2018.
+Version 0.2
 
 This is very simple script to create wordlist from Hunspell dictionary.
 
-What you need to change in order for list to work is change first two variables so they reflect valid paths and file names of dictionary file and affix file. This is not intended to replace unmunch or other such tools, but since lot of dictionaries has simple structure (only suffixes, no nosuggest, compound and such), it might be helpful for more then Croatian dictionary version 2.1.1.
+What you need to change in order for list to work is change first two variables so they reflect valid paths and file names of dictionary file and affix file. Script is not ready yet to replace Unmunch or similar tools, but since many dictionaries have simple structure (only suffixes), it might me helpful for generating wordlist for more then just Croatian dictionary version 2.1.1 for Hunspell.
 
-Keep in mind that Croatian dictionary 2.1.1 uses AF feature: word/221 → AF AAABAC	# 221, check hr_HR.aff from line 299. This might mean that script will not work for dictionaries not using this feature.
+Keep in mind that Croatian dictionary 2.1.1 uses AF feature: word/221 → AF AAABAC	# 221, check hr_HR.aff from line 299. This might mean that script will not work for dictionaries not using this feature. It should not be too hard to add feature to this script so it run without actually using AF in dictionary (fake AF internally). But that's for future versions of this script.
 
 Script has many, many limitations as it's written as quick, dirty and simple way to extract wordlist from Hunspell dictionary. For now it
-
 	- only support suffixes (no prefixes)
-	- it does _not_ handle conditional suffixes well ([^abc]d; [abc]d)
-	- supports only one fold affixes (no prefixes)
+	- [fixed, but needs rewrite (function applyAffixes and lines from 333 to 342)] it does _not_ handle conditional suffixes well ([^abc]d; [abc]d)
+	- supports only one fold suffixes (and prefixes). Two fold stripping is yet to be added
 	- no compounding (or any anything like that for that matter)
-	- it's procedural code so adding or improving will probably require complete rewrite
-	- it's written in PHP as I'm not proficient in anything else (not even PHP)
-	- everything else from TODO list
-
-
-TODO (in that order)
-
-	- deal with most common classes not reserved with prefixes, suffixes or compounding (nosuggest, needaffix, circumfix ...)
-	- support prefixes
-	- support two folds (suffixes and prefixes (complexprefixes))
-	- support compounds (which are not using regular expressions)
-	- write this as PHP class as CLI program that can
-			- return list of words written in dictionary file (base forms)
-			- return wordlist with all forms of every word
-			- info about specific word (php dictman.php wordform word/323)
-					- returns which classes are hiding under 323 (php dictman.php wordform --list-classes word/323)
-					- returns morphological info (php dictman.php wordform --morphology word/323)
-					- return all wordforms (php dictman.php wordform --list-forms word/323)
-			- suggest most probable affix for word to be added (php dictman.php wordform --suggest newWord)
-					by comparing ending of word to be added with existing in dictionary and return all possible solutions sorted by most probable on top
-			- 
-			- return some statistics about dictionary in general (how many words, how many wordforms in general, how many classes... use your imagination)
-	- rewrite this in more suitable language as Python (maybe even C++, but Python might attract more hackers and wannabe programmers like myself)
-
+	- it's mash of functions and procedural code, needs to be rewritten as proper class
+	- it's written in PHP as I'm not proficient in anything else (not even PHP), maybe Python would be more suitable (maybe even GUI)
 
 Backup everything you have and can before using this script.
-
-Wordlist on https://github.com/krunose/hr-hunspell does not have words with class UB (superlative adjectives with declination) and roman numerals which have class ZP (nosuggest, nosuggest, needaffix, circumfix).
 
 Made this so I can use existing wordlist as base for rewriting Croatian dictionary from scratch and to use this wordlist as base for updating hyphenation rules for Croatian. If you can help, please, don't just make complete CLI application and rewrite everything without any explanation or documentation. I would very much appreciate any opportunity to learn pretty much anything about programming.
 
 */
 
 
-mb_internal_encoding("UTF-8");
-
-$dictFile = "hr_HR.dic";
-$affixFile = "hr_HR.aff";
-
-
-$handle = fopen($affixFile, "r");
-
-$affixNums = array();
-$classes = array();
+	mb_internal_encoding("UTF-8");
 
 
 
+	function checkIfNeg(array $arrCond) {
 
-while(($line = fgets($handle)) !== false) {
+		if($arrCond[0] == "^") {
 
-
-		if(mb_substr($line, 0, 2) == "AF") {
-	
-			$affixNums[] = trim($line);
-
-
-		} else if(mb_substr($line, 0, 3) == "SFX") {
-
-			$classes[mb_substr($line, 4, 2)][] = trim($line);
-
-		} else {
-
-			continue;
-
-		}
-
-	}
-
-fclose($handle);
-
-
-
-	unset($affixNums[0]);
-
-	foreach($classes as $classKey => $class) {
-
-		unset($class[0]);
-		$classes[$classKey] = $class;
-
-	}
-
-
-$handle = fopen($dictFile, "r");
-
-
-while(($line = fgets($handle)) !== false) {
-
-	if(mb_strpos($line, "/") !== false) {
-
-		$explodeLine = explode("/", $line);
-
-		$affixNum = $explodeLine[1];
-		$wordBase = $explodeLine[0];
-
-		$classesNeeded = $affixNums[trim($affixNum)];
-
-		$explodeClassesNeeded = explode("#", mb_substr($classesNeeded, 3, mb_strlen($classesNeeded)));
-
-		unset($explodeClassesNeeded[1]);
-
-		$classesNeeded = preg_split('//u', trim($explodeClassesNeeded[0]), null, PREG_SPLIT_NO_EMPTY);
-
- 
- 		$neededClass = "";
- 		$neededClasses = array();
-
-		$i = 0;
-
-		foreach($classesNeeded as $class) {
-
-			if($i < 1) {
-
-				$neededClass .= $class;
-
-				$i++;
+				return 1;
 
 			} else {
 
-				$neededClass .= $class;
-
-				$neededClasses[] = $neededClass;
-
-				$neededClass = "";
-
-				$i = 0;
+				return 0;
 
 			}
 
+		return $arrCond;
 
-		}
+	}
 
-		foreach($neededClasses as $neededClass) {
 
-			foreach($classes[$neededClass] as $key => $classLine) {
 
-				$classLine = mb_substr(trim($classLine), 7, mb_strlen($classLine));
 
-				$explodeClassLine = explode(" ", $classLine);
+	// returns array of conditions: [abc]d >> array(['negate'] => 0, [1] => ad, [2] => bd, [3] => cd). see function checkIfNeg($array)
+	function returnConditions($condition) {
 
-				$actuallClassRules = array();
+		$condRes = array();
 
-				foreach($explodeClassLine as $explodedClassLine) {
+		if(mb_strpos($condition, "[") !== false) {
 
-					if($explodedClassLine != "") {
+			if(mb_strpos($condition, "[") == 0) {
 
-						$actuallClassRules[] = $explodedClassLine;
+				$fixedAtEnd = true;
 
-					}
+				$explodeCond = explode("]", ltrim($condition, "["));
+
+				$conds = preg_split('//u', trim($explodeCond[0]), null, PREG_SPLIT_NO_EMPTY);
+
+				$condRes['negate'] = checkIfNeg($conds);
+
+				$fixedPart = $explodeCond[1];
+
+			} else {
+
+				$fixedAtEnd = false;
+
+				$explodeCond = explode("[", rtrim($condition, "]"));
+
+				$conds = preg_split('//u', trim($explodeCond[1]), null, PREG_SPLIT_NO_EMPTY);
+
+				$condRes['negate'] = checkIfNeg($conds);
+
+				$fixedPart = $explodeCond[0];
+
+			}
+
+			foreach($conds as $cond) {
+
+				if($fixedAtEnd === true) {
+
+					$condRes[] = $cond . $fixedPart;
+
+				} else {
+
+					$condRes[] = $fixedPart . $cond;
 
 				}
 
-				$condition = $actuallClassRules[0];
-				$add = $actuallClassRules[1];
-				$remove = $actuallClassRules[2];
+			}
 
-				if(mb_strpos($condition, "[") !== false) {
+		} else {
 
-					$condition = explode("]", ltrim($condition, "["));
+			if(mb_substr($condition, 0, 1) == "^") {
 
-					$fixedPart = $condition[1];
-					$varPart = $condition[0];
+				$condRes['negate'] = 1;
 
-					$explodeVarPart = preg_split('//u', trim($explodeClassesNeeded[0]), null, PREG_SPLIT_NO_EMPTY);
+			} else {
 
-					if(mb_substr($explodeVarPart[0], 0, 1) == "^") {
+				$condRes['negate'] = 0;
 
-						$negate = true;
+			}
 
-						unset($explodeVarPart[0]);
+			$condRes[] = $condition;
 
-					} else {
+		}
 
-						$negate = false;
+		return $condRes;
 
-					}
+	}
 
-					foreach($explodeVarPart as $explodedVarPart) {
 
-						$condition = $explodedVarPart . $fixedPart;
 
-						if($negate == true) {
 
-								if(mb_substr($wordBase, -(mb_strlen($condition)), mb_strlen($condition)) != $condition) {
+	// return word for condition met by removing what needs to be removed and adding what has to be added
+	function applyAffixes($affix, $word, $add, $remove, $conditions, $wordSep) {
 
-									echo mb_substr($wordBase, -(mb_strlen($remove)), mb_strlen($remove)) . $add . "\n";
+		if($affix == "SFX") {
 
-								}
+			$apply = true;
+
+			foreach($conditions as $condKey => $condition) {
+
+				if($condition == "." && is_numeric($condKey)) {
+
+					echo trim($word) . $add . $wordSep;
+
+				} else if($condition != "." && is_numeric($condKey)) {
+
+					if($conditions['negate'] == 0) {
+
+						if(mb_substr($word, -(mb_strlen($condition)), mb_strlen($condition)) != $condition) {
+
+							$apply = false;
 
 						} else {
 
-							if(mb_substr($wordBase, -(mb_strlen($condition)), mb_strlen($condition)) == $condition) {
-
-								echo mb_substr($wordBase, -(mb_strlen($remove)), mb_strlen($remove)) . $add . "\n";
-
-							}
+							continue;
 
 						}
+
+					} else {
+
+						if(mb_substr($word, -(mb_strlen($condition)), mb_strlen($condition)) == $condition) {
+
+							$apply = false;
+
+						} else {
+
+							continue;
+
+						}
+
+					}	
+
+				}
+
+			}
+
+			// if condition is '.', we already echoed that out, no need to do it again, echo again only words that did not have '.' as condition (clumsy code)
+			if($apply == true && $condition != ".") {
+
+				if($remove != 0 || $remove != "0") {
+
+					// we can not just strip last part of a word if that word is not ending with what class whats to strip. Remove ending of only those word that actually end on substring that should be stripped. for a ski a, word should actually end on 'a' to match pattern, but it also need to end on 'a' even if pattern checking passes
+					// if rule is 'sfx a ski [^aeiou]' for word 'čovjek', pattern checking passes as word 'čovjek' is not ending with 'a', 'e', 'i', 'o', 'u', but we can not just strip last character 'k' and add ski (čovjeski) as rule is asking for stripping 'a', so we first need to make sure that word is ending on 'a' regardless of pattern
+					if(mb_substr(trim($word), -(mb_strlen($remove)), mb_strlen($remove)) == $remove) {
+
+						echo mb_substr(trim($word), 0, -(mb_strlen($remove))) . $add . $wordSep;
 
 					}
 
 				} else {
 
-					if(mb_substr($wordBase, -(mb_strlen($condition)), mb_strlen($condition)) == $condition) {
-
-						echo rtrim($wordBase, $remove) . $add . "\n";
-
-					}
+					echo $word . $add . $wordSep;
 
 				}
 
@@ -231,11 +187,195 @@ while(($line = fgets($handle)) !== false) {
 
 		}
 
-	} else {
+	}
 
-		echo $line;
+
+
+
+
+$dictFile = "hr_HR.dic";
+$affixFile = "hr_HR.aff";
+
+$affixList = array();
+$affixRules = array();
+
+$handle = fopen($affixFile, "r");
+
+
+// read aff file line by line and sort classes in $affixRules and AF rules in $affixList.
+while(($line = fgets($handle, 2048)) !== false) {
+
+	$line = trim($line);
+
+	$affType = mb_substr($line, 0, 3);
+
+	if($affType == "SFX" || $affType == "PFX" ) {
+
+		$className = mb_substr($line, 4, 2);
+
+		$affixRules[$className]['info']['affType'] = trim($affType);
+
+		$crossProd = mb_substr($line, 7, 1);
+
+		if($crossProd == "Y" || $crossProd == "N") {
+
+			if(mb_strpos($line, "#") !== false) {
+
+				$explodeLine = explode("#", $line);
+
+				$classLength = mb_substr(trim($explodeLine[0]), -2, 2);
+
+			} else {
+
+				$classLength = mb_substr($line, -2, 2);
+
+			}
+
+			$affixRules[$className]['info']['crossProd'] = trim($crossProd);
+			$affixRules[$className]['info']['classLength'] = trim($classLength);
+
+		} else {
+
+			$affixRules[$className]['rules'][] = trim($line);
+
+		}
+
+	} else if($affType == "AF ") {
+
+
+		$explodeLine = explode("#", $line);
+		$explodeLine[0] = trim($explodeLine[0]);
+		$affixList[] = mb_substr($explodeLine[0], 3, mb_strlen($explodeLine[0]));
 
 	}
+
+}
+
+
+fclose($handle);
+
+
+
+
+	function returnListOfClasses($affixNum) {
+
+		global $affixList;
+		$askedForClasses = array();
+
+		$tmpAskedForClasses = "";
+
+
+		// explode classes in list of letters (AAABAC >> [0] => A, [1] => A, [2] => A, [3] => B, [4] => A, [5] => C >> [0] => AA, [1] => AB, [2] => AC)
+		$classesList = preg_split('//u', $affixList[$affixNum], null, PREG_SPLIT_NO_EMPTY);
+
+			$i = 0;
+
+		foreach($classesList as $letterInList) {
+
+			if($i < 1) {
+
+				$tmpAskedForClasses .= $letterInList;
+
+				$i++;
+
+			} else {
+
+				$tmpAskedForClasses .= $letterInList;
+
+				$askedForClasses[] = $tmpAskedForClasses;
+
+				$tmpAskedForClasses = "";
+
+				$i = 0;
+
+			}
+
+		}
+
+		return $askedForClasses; // array([0] => AA, [1] => AB, [2] => AC)
+
+	}
+
+
+
+
+
+	// assuming argument passed is array $affixClasses in form $affixClasses[AA][rules][$i]
+	function returnAffixationParts($rule) {
+
+		$parts = array();
+
+		$explodeForClass = explode("+", $rule);
+
+		$explodeForClass[0] = trim($explodeForClass[0]);
+		$explodeForClass[0] = mb_substr($explodeForClass[0], 7, mb_strlen($rule));
+
+		$line = trim(preg_replace('/\s+/', ' ', $explodeForClass[0]));
+
+		$explodeParts = explode(" ", $line);
+
+		$parts['remove'] = $explodeParts[0];
+
+		if($explodeParts[1] == "0") {
+
+			// if add part of rule is 0, we don't want to add that to word, it means 'nothing' so we set that here
+			$parts['add'] = "";
+
+		} else {
+
+			$parts['add'] = $explodeParts[1];
+
+		}
+
+		$parts['condition'] = $explodeParts[2]; // on this, function returnConditions($parts['condition']) should be applied letter on
+
+		return $parts;		
+
+	}
+
+
+
+	function applyRulesToWord($line) {
+
+			global $affixList;
+			global $affixRules;
+
+			$line = trim($line);
+
+				if(mb_strpos($line, "/")) {
+
+					$explodeLine = explode("/", $line);
+
+					$classesNeeded = returnListOfClasses($explodeLine[1]);
+
+					foreach($classesNeeded as $classNeededKey => $classNeeded) {
+
+						foreach($affixRules[$classNeeded]['rules'] as $ruleKey => $rule) {
+
+							echo applyAffixes($affixRules[$classNeeded]['info']['affType'], trim($explodeLine[0]), returnAffixationParts($rule)['add'], returnAffixationParts($rule)['remove'], returnConditions(returnAffixationParts($rule)['condition']), "\n");
+
+						}
+
+					}
+
+			} else {
+
+				// for words not having classes assigned to it. this should respect $wordSep but it does not for now
+				echo $line . "\n";
+
+			}
+
+	}
+
+
+
+$handle = fopen($dictFile, "r");
+
+while(($line = fgets($handle, 2048)) !== false) {
+
+	$line = trim($line);
+
+	applyRulesToWord($line);
 
 }
 
