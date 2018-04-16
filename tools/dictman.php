@@ -5,6 +5,11 @@ Kruno; kruno.se@gmx.com; april, 10. 2018.
 
 Version 0.2
 
+[UPDATE 2018-04-16]
+	Seams that script is not echoing out all possible forms. Use Pinto's PTG tool for generating wordlist.
+		Download tool from http://marcoagpinto.cidadevirtual.pt/proofingtoolgui.html#downloads
+
+
 This is very simple script to create wordlist from Hunspell dictionary. It's written solely for Croatian dictionary version 2.1.1 and you _should not_ use it for anything else as it's not intended to be used with anything else.
 
 Script can not replace Unmunch or similar tools, but since many dictionaries have simple structure (only suffixes), it might me helpful for generating wordlist for more then just Croatian dictionary version 2.1.1 for Hunspell. You can try use it only if your dictionary uses only one fold suffixes and AF. Supporting cross products (combining prefixes and suffixes) and make it compatible with dictionaries without AF is in progress.
