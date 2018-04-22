@@ -8,6 +8,7 @@ Najnovija se inačica rječnika može preuzeti iz grane `master` repozitorija na
 
 ### Inačica 2.1.1
 
+- uklonjeno 74 duplih unosa
 - dodana klasa TI (# 410) za rješavanje promjene u osnovi riječi 'slati' u prezentu => šaljem ...
 - dodana klasa TH (# 409) za rješavanje imena mjesta i gradova na -sko (Jastrebarsko, Topusko, Vrbovsko)
 - ispravljeno nekoliko pogrešaka u rječniku (brisano nekoliko riječi s pogrešnim pisanjem 'ije' i 'je': prevoz > prijevoz, prelom > prijelom... (plus nekoliko drugih, manjih ispravaka
