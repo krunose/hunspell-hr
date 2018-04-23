@@ -1,7 +1,7 @@
 <?php
 
 
-/**
+/*
 
 	Kruno, krunose at gmx, April 2018.
 
@@ -113,9 +113,9 @@ mb_internal_encoding("UTF-8");
 class dictman {
 
 
-	public $affixList = array();
-	public $affixRules = array();
-	public $specFlags = array(
+	private $affixList = array();
+	private $affixRules = array();
+	private $specFlags = array(
 
 		"NEEDAFFIX" => "",
 		"CIRCUMFIX" => "",
@@ -125,7 +125,7 @@ class dictman {
 	);
 
 
-	public function collectSpecFlags($line) {
+	private function collectSpecFlags($line) {
 
 		$explLine = explode(" ", preg_replace('/\s+/', ' ', $line));
 
@@ -140,18 +140,18 @@ class dictman {
 	}
 
 
-	public function collectClasses($affixFile, $affixList, $affixRules) {
+	private function collectClasses($affixFile, $affixList, $affixRules) {
 
 		$this->affixList = $affixList;
 		$this->affixRules = $affixRules;
-
-		$this->collectSpecFlags($line);
 
 		$handle = fopen($affixFile, "r");
 
 		while(($line = fgets($handle, 2048)) !== false) {
 
 		$line = trim($line);
+
+		$this->collectSpecFlags($line);
 
 		$affType = mb_substr($line, 0, 3);
 
@@ -204,7 +204,7 @@ class dictman {
 
 
 
-	public function returnListOfClasses($affixNum) {
+	private function returnListOfClasses($affixNum) {
 
 		$askedForClasses = array();
 
@@ -245,7 +245,7 @@ class dictman {
 
 
 
-	public function dealWithCondition($condition) {
+	private function dealWithCondition($condition) {
 
 		if($condition == ".") {
 
@@ -313,7 +313,7 @@ class dictman {
 
 
 
-	public function applyAffixation($word, $rule, $affixType) {
+	private function applyAffixation($word, $rule, $affixType) {
 
 		$parts = explode(" ", preg_replace('/\s+/', ' ', $rule));
 
@@ -574,8 +574,6 @@ class dictman {
 
 				}
 
-
-
 			} else {
 
 				echo $line . "\n";
@@ -594,6 +592,7 @@ class dictman {
 
 
 $dictman = new dictman;
+
 
 echo $dictman->makeWordlist("hr_HR.aff", "hr_HR.dic");
 
