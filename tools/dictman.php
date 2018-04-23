@@ -102,7 +102,7 @@ MORE SUITED TOOLS
 
 		http://marcoagpinto.cidadevirtual.pt/proofingtoolgui.html
 
-	as this is what I use.
+	as it's more mature than this one-off script.
 
 */
 
