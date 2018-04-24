@@ -10,20 +10,15 @@ INTRODUCTION
 
 	This script is made for creating wordlist from Croatian dictionary version 2.1.1 and
 	it's not guaranteed it will work with any other version as not all Hunspell's features are
-	supported here.
+	supported.
 
-	This is completely spaghetti code as I needed a tool for making wordlist asap so I came up
-	with this. Many aspects of it is not planned but result of fixing bugs and adding functionality
-	on the spot many things can be done more efficiently. I'm not a programmer by no means. Heck,
-	I did it in PHP, that's says a lot.
+	This is a spaghetti code I needed for making wordlist from Croatian dictionary version 2.1.1
+	Many aspects of it is not planned and are written on the spot just to make the script running
+	and so many things can (and should) be rewritten for script to run more efficiently. I'm not
+	a programmer so there's plenty room for improvements.
 
-	Any improvements are more then welcome, but I would like to learn from them so any (potential)
-	patch should be followed with some explanation.
-
-	Script works really well, but it's only tested with Croatian dictionary version 2.1.1. From
-	53719 dictionary entries for language like Croatian with many many prefixes and suffixes (just
-	take a look in hr_HR.aff), script is able to produce 1069811 word forms in about 25 seconds;
-	and there's plenty of room for improvements and optimizing the code.
+	In case somebody wont's to submit a patch: I would like to learn from this as much as possible
+	so any (potential) patch should be followed with some explanation.
 
 
 DESCRIPTION
@@ -34,8 +29,23 @@ DESCRIPTION
 
 	Although it's written for Croatian dictionary version 2.1.1, it should work with any other
 	UTF-8 encoded dictionary. If dictionary is encoded differently, just change first line of the
-	script to reflect needed encoding. Just make sure both dictionary and affix file has same
-	encoding (was not case with Croatian dictionary).
+	script to reflect needed encoding but remember that dictionary and affix (both) are encoded
+	the same way.
+
+	Wordlist is the only thing this script can do, but more will be added eventually.
+
+
+USAGE
+
+	I'm using GNU/Linux so it may reflect on ways people can use this, but from command line do
+
+		php dictman.php > outputFile
+
+	and wordlist will be exported in 'outputFile'. Dictionary and affix file should be supplied to
+	last line of the script. Just replace 'hr_HR.dic' and 'hr_HR.aff' with (path and) name of
+	dictionary and affix file you want to use this with.
+
+	Pass needed encoding code to first line of the script.
 
 
 SUPPORTED
@@ -48,21 +58,18 @@ SUPPORTED
 			- prefixing and suffixing
 
 
-NOT SUPPORTED
+NOT SUPPORTED BUT PLANNED
 
-	Well, there's a yet a lot to do. Firstly, this should be written as proper class. Somebody
-	more skillful should rewrite the whole thing. I'll do with when I learn more of programming.
+	Well, there's a yet a lot to do. Firstly, this should be rewritten as proper class so it's more
+	than a quick bodge. I'll take my time with that.
 
-	What's not supported is
-		- CIRCUMFIX flag
+	Features that eventually will be added (in this order)	
+
 		- two fold suffix stripping
-
-	Everything needed for implementing this features is already there, but some planning and 
-	rewriting is needed. This is my real class (beyond 'Hello World') so it's clearly amateurish
-	and childish and thus limiting in it's full potential.
+		- CIRCUMFIX flag
 
 
-TODO
+TODO (not in any particular order)
 
 	Rewrite the whole thing as proper PHP class using constructor for taking CLI arguments as this
 	should become tool for manipulating Hunspell's dictionaries and CLI arguments are first step.
@@ -70,17 +77,17 @@ TODO
 	Adding function (accessible trough CLI arguments) for checking for duplicates in dictionary file.
 
 	Documenting the whole thing and documenting every function separately as it wont be long and
-	I'll not even remember why certain things are done in certain way. Best would be to make a plan,
-	a list of features which such tool should have and then write it accordingly. With this I have
-	COMPOUND feature particularly in mind.
+	I'll not even remember why certain things are done in certain way.
 
-	Rewrite core functions as where written on the spot as result of fixing bugs and lack of
-	functionality so many things here are quick fix, spaghetti code.
+	Strong desire to implement COMPOUND feature but not a priority for now.
 
-	Make script work without alias compression (see Hunspell4.pdf on the Internet)
+	Make core functions more efficient.
 
-	Add feature to automatically add alias compression part is dictionary is not using it but
-	would like to.
+	Make script work even if alias compression not used with dictionary (see Hunspell4.pdf on
+	the Internet).
+
+	Add feature to automatically add alias compression part if dictionary is not using it but
+	should (in case dictionary entries consistently have more then one class applied to them).
 
 	Add a way to inspect particular word or class for more convenient way to add new words to
 	dictionary.
@@ -90,10 +97,11 @@ TODO
 
 LIMITATIONS
 
-	Rewrite this so script can detect is dictionary using AF (alias compression) feature or not.
-	For now, dictionary needs an alias compression so this can be limitation for many. luckily,
-	feature can be added that can mimic alias compression and make script work regardless of how
-	actual dictionary is structured.
+	No error checking what so ever.
+
+	Using alias compression (AF feature of Hunspell) is required.
+
+	No flexibility: run thins and you get wordlist, nothing more.
 
 
 MORE SUITED TOOLS
@@ -103,6 +111,7 @@ MORE SUITED TOOLS
 		http://marcoagpinto.cidadevirtual.pt/proofingtoolgui.html
 
 	as it's more mature than this one-off script.
+
 
 */
 
@@ -138,6 +147,8 @@ class dictman {
 		return $this->specFlags;
 
 	}
+
+
 
 
 	private function collectClasses($affixFile, $affixList, $affixRules) {
@@ -474,6 +485,7 @@ class dictman {
 
 
 
+
 	public function makeWordlist($affixFile, $dictFile) {
 
 
@@ -591,10 +603,10 @@ class dictman {
 
 
 
+
 $dictman = new dictman;
 
-
-echo $dictman->makeWordlist("hr_HR.aff", "hr_HR.dic");
+	echo $dictman->makeWordlist("hr_HR.aff", "hr_HR.dic");
 
 
 
