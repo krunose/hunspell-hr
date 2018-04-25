@@ -6,7 +6,7 @@ KEY qwertzuiopšđ|asdfghjklčćž|yxcvbnm|žšđ|ćščđž|žćđ|đšćž|zy|
 
 FLAG long
 
-FULLSTRIP
+# FULLSTRIP
 
 NEEDAFFIX ZZ
 CIRCUMFIX ZY
@@ -76,7 +76,7 @@ ICONV ŕ r
 
 
 # REP - .
-REP 217
+REP 218
 REP ^pocrtava podcrtava
 REP ^zdrastv zdravstv
 REP nućemo$ nut_ćemo
@@ -142,6 +142,7 @@ REP ^trab trav
 REP ^trab treb
 REP ^jel$ je_li
 REP bljiv biv
+REP ljiv ljav
 REP najs naes
 REP ion ijun
 REP zir rizir
@@ -296,7 +297,7 @@ REP ^ž Ž
 REP - _
 
 
-AF 411
+AF 413
 AF ZZ	# 1
 AF ZY	# 2
 AF ZX	# 3
@@ -699,15 +700,18 @@ AF TF	# 399
 AF TE	# 400
 AF TD	# 401
 AF THTGTETC	# 402
-AF TB	#403
-AF TA	#404
-AF SZ	#405
-AF SY	#406
-AF SX	#407
-AF SW	#408
-AF SV	#409
-AF SU	#410
-AF THTG	#411
+AF TB	# 403
+AF TA	# 404
+AF SZ	# 405
+AF SY	# 406
+AF SX	# 407
+AF SW	# 408
+AF SV	# 409
+AF SU	# 410
+AF THTG	# 411
+AF ST	# 412
+AF SS	# 413
+
 
 SFX XZ Y      21
 SFX XZ ati    am         ati
@@ -3681,6 +3685,7 @@ SFX TF 0 -evoga .
 SFX TF 0 -evome .
 SFX TF 0 -evomu .
 
+
 SFX TE Y 7
 SFX TE 0 -ovac .
 SFX TE 0 -ovca .
@@ -3691,13 +3696,13 @@ SFX TE 0 -ovcem .
 SFX TE 0 -ovcima .
 
 SFX TD Y 7
-SFX TD 0 -evac .
-SFX TD 0 -evca .
-SFX TD 0 -evcu .
-SFX TD 0 -evcem .
-SFX TD 0 -evci .
-SFX TD 0 -evcem .
-SFX TD 0 -evcima .
+SFX TD 0 -evac im
+SFX TD 0 -evca im
+SFX TD 0 -evcu im
+SFX TD 0 -evcem im
+SFX TD 0 -evci im
+SFX TD 0 -evcem im
+SFX TD 0 -evcima im
 
 SFX TC Y 6
 SFX TC 0 -ovka .
@@ -3791,3 +3796,16 @@ SFX SU ti na slati
 SFX SU ti no slati
 SFX SU ti ni slati
 SFX SU ti ne slati
+
+
+# Savao
+SFX ST Y 3
+SFX ST ao la ao
+SFX ST ao lu ao
+SFX ST ao lom ao
+
+# Zvjezdana (nedostaje posvojni pridjev)
+SFX SS Y 3
+SFX SS ana ne ana
+SFX SS ana nu ana
+SFX SS ana nom ana
