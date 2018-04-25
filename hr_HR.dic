@@ -1,4 +1,4 @@
-﻿53648
+﻿53637
 a
 a-mol/273
 A-reprezentacija/365
@@ -13023,7 +13023,6 @@ isprazniti/128
 ispražnjavati/34
 ispražnjen/341
 ispražnjivati/47
-isprčiti/128
 isprebijati/119
 ispreći/201
 ispred
@@ -13818,7 +13817,6 @@ iznenađujuć/348
 iznerviraniji/353
 iznervirati/119
 iznesen/340
-iznesti
 iznevjeravati/34
 iznevjeren/340
 iznevjeriti/128
@@ -18052,10 +18050,9 @@ kupus/217
 kupusara/360
 kupusište/331
 kupusni/353
-kur'an/205
 kura/360
 kurac/256
-kuran/221
+Kuran/397
 kurare/265
 kurativni/347
 kuraža/360
@@ -18488,7 +18485,6 @@ le
 lebdeći/353
 lebdenje/331
 lebdjelica/360
-lebđenje/331
 lecnut/348
 lecnuti/137
 leća/360
@@ -22571,7 +22567,6 @@ naprava/360
 napravica/360
 napraviti/128
 napravljen/340
-naprčiti/128
 naprečac
 napredak/260
 napreden/348
@@ -30442,7 +30437,8 @@ piezokristal/205
 pigmalion/221
 pigmalionizam/247
 pigmej/229
-pigmejac/256
+Pigmejac/256
+Pigmejka/377
 pigment/205
 pigmentacija/365
 pigmentirati/33
@@ -31254,7 +31250,7 @@ podbaciti/128
 podbacivati/44
 podbačaj/205
 podbačen/340
-Podbadajući/358
+podbadajući/358
 podbadati/34
 podban/284
 podbjel/217
@@ -31410,7 +31406,6 @@ podnesen/340
 podnesoh
 podnesosmo
 podnesoše
-podnesti
 podneva
 podnevak/247
 podnevima
@@ -32605,7 +32600,6 @@ ponesoste
 ponesoše
 ponestajati/84
 ponestati/190
-ponesti
 ponešto
 ponetko
 poni/304
@@ -34037,12 +34031,10 @@ prč/205
 prčen/349
 prčetina/360
 prčevina/360
-prčiti/52
 prčkati/34
 prčvarnica/360
 prćast/348
 prćija/360
-prćiti/50
 prdac
 prdenje/331
 prdež/205
@@ -34643,7 +34635,6 @@ premoriti/128
 premosnik/238
 premostiti/128
 premostiv/340
-premošćen/341
 premošćivati/47
 premošten/341
 premotati/120
@@ -37464,7 +37455,6 @@ prožimati/20
 proživiti/53
 proživljavati/34
 proživljen/340
-proživljivati/41
 prožvakati/174
 prpa/360
 prpošni/347
@@ -39511,8 +39501,7 @@ rem/205
 rematerijalizacija/365
 Rembrandt/293
 remećen/341
-remek
-remekdjelo/331
+remek-djelo/331
 remen/208
 remenar/229
 remenčić/205
@@ -39906,7 +39895,6 @@ riznični/353
 rizom/205
 riža/362
 rižište/331
-rižot/205
 rižoto/331
 rječetina/360
 rječica/387
@@ -40843,7 +40831,7 @@ sauna/360
 sav
 Sava/373
 savana/360
-savao
+Savao/412
 savez/205
 savezni/353
 saveznik/227
@@ -45576,7 +45564,7 @@ talentiraniji/355
 taliban/221
 talij/268
 talija/360
-talijan/205
+Talijan/205
 Talijan/228
 talijanaš/223
 talijanist/222
@@ -50026,7 +50014,7 @@ vikend-turizam/247
 vikend/205
 vikendaš/223
 vikendica/360
-viking/233
+Viking/233
 vikler/205
 viknuti/140
 vikont/222
@@ -53213,7 +53201,9 @@ zvjerokradica/364
 zvjerski/353
 zvjerstvo/331
 zvjezdača/362
-zvjezdan/267
+Zvjezdan/267
+Zvjezdana/413
+zvjezdano
 zvjezdarnica/360
 zvjezdast/348
 zvjezdica/360
