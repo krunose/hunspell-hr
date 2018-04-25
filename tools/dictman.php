@@ -104,7 +104,7 @@ LIMITATIONS
 	No flexibility: run thins and you get wordlist, nothing more.
 
 
-MORE SUITED TOOLS
+MORE SUITABLE TOOLS
 
 	If you need something good and reliable for manipulating dictionary, check PGT on
 
