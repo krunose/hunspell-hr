@@ -76,7 +76,7 @@ ICONV ŕ r
 
 
 # REP - .
-REP 218
+REP 219
 REP ^pocrtava podcrtava
 REP ^zdrastv zdravstv
 REP nućemo$ nut_ćemo
@@ -144,6 +144,7 @@ REP ^jel$ je_li
 REP bljiv biv
 REP ljiv ljav
 REP najs naes
+REP sup sump
 REP ion ijun
 REP zir rizir
 REP aon aonic
@@ -297,7 +298,7 @@ REP ^ž Ž
 REP - _
 
 
-AF 413
+AF 416
 AF ZZ	# 1
 AF ZY	# 2
 AF ZX	# 3
@@ -711,6 +712,9 @@ AF SU	# 410
 AF THTG	# 411
 AF ST	# 412
 AF SS	# 413
+AF SOSPSR	# 414
+AF SMSNSR	# 415
+AF SK	# 416
 
 
 SFX XZ Y      21
@@ -3809,3 +3813,95 @@ SFX SS Y 3
 SFX SS ana ne ana
 SFX SS ana nu ana
 SFX SS ana nom ana
+
+# iscrpsti > iscrpem
+SFX SR Y 20
+SFX SR i 0 rpsti
+SFX SR sti em rpsti
+SFX SR sti eš rpsti
+SFX SR sti e rpsti
+SFX SR sti emo rpsti
+SFX SR sti ete rpsti
+SFX SR sti u rpsti
+SFX SR sti i rpsti
+SFX SR sti imo rpsti
+SFX SR sti ite rpsti
+SFX SR sti ao rpsti
+SFX SR sti la rpsti
+SFX SR sti lo rpsti
+SFX SR sti li rpsti
+SFX SR sti le rpsti
+SFX SR sti en rpsti
+SFX SR sti ena rpsti
+SFX SR sti eno rpsti
+SFX SR sti eni rpsti
+SFX SR sti ene rpsti
+
+
+# isrcpsti > gl. prid. prošli > iscrpivši
+SFX SP Y 1
+SFX SP sti avši rpsti
+
+
+# aorist iscrpsti
+SFX SO Y 5
+SFX SO sti oh rpsti
+SFX SO sti e rpsti
+SFX SO sti osmo rpsti
+SFX SO sti oste rpsti
+SFX SO sti oše rpsti
+
+
+# imperfekt crpsti
+SFX SN Y 5
+SFX SN sti ijah rpsti
+SFX SN sti ijaše rpsti
+SFX SN sti ijasmo rpsti
+SFX SN sti ijaste rpsti
+SFX SN sti ijahu rpsti
+
+
+# crpsti > gl. prid. sadašnji > crpeći
+SFX SM Y 1
+SFX SM sti ući rpsti
+
+# prostrti
+SFX SK Y 38
+SFX SK i 0 strti
+SFX SK rti arem strti
+SFX SK ti em strti
+SFX SK rti areš strti
+SFX SK ti eš strti
+SFX SK rti are strti
+SFX SK ti e strti
+SFX SK rti aremo strti
+SFX SK ti emo strti
+SFX SK rti arete strti
+SFX SK ti ete strti
+SFX SK rti aru strti
+SFX SK ti u strti
+SFX SK ti h strti
+SFX SK ti 0 strti
+SFX SK ti smo strti
+SFX SK ti ste strti
+SFX SK ti še strti
+SFX SK rti ari strti
+SFX SK ti i strti
+SFX SK rti arimo strti
+SFX SK rti arite strti
+SFX SK ti vši strti
+SFX SK ti o strti
+SFX SK ti la strti
+SFX SK ti lo strti
+SFX SK ti li strti
+SFX SK ti le strti
+SFX SK ti t strti
+SFX SK ti ven strti
+SFX SK ti ta strti
+SFX SK ti vena strti
+SFX SK ti to strti
+SFX SK ti veno strti
+SFX SK ti ti strti
+SFX SK ti veni strti
+SFX SK ti te strti
+SFX SK ti vene strti

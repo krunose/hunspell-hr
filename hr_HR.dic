@@ -1,4 +1,4 @@
-﻿53637
+﻿53661
 a
 a-mol/273
 A-reprezentacija/365
@@ -2449,7 +2449,6 @@ baobab/217
 bapski/353
 baptist/222
 baptisterij/238
-baptistezij/238
 baptistički/353
 baptizam/247
 bar/283
@@ -2620,7 +2619,6 @@ baždaren/341
 baždariti/52
 baždarni/353
 baždarnica/360
-bdijenje/331
 bdjenje/331
 bdjeti/69
 BDP/397
@@ -3544,11 +3542,11 @@ bliži/355
 bližiti/52
 bližnji/353
 blog/273
+blok-aut/205
 blok-dijagram/238
 blok/273
 blokada/360
 blokadni/353
-blokaut/205
 blokaža/360
 blokić/205
 blokirati/33
@@ -5086,8 +5084,7 @@ crpka/383
 crpla
 crpljen/341
 crpni/353
-crpsti
-crpu
+crpsti/415
 crta/360
 crtač/223
 crtaći/353
@@ -6020,7 +6017,10 @@ def/273
 defanziva/360
 defanzivni/347
 defecirati/25
+defekacija/365
+defekcija/365
 defekt/205
+defektivan/359
 defektni/347
 defektolog/339
 defektologijski/353
@@ -6432,7 +6432,12 @@ devijacionizam/247
 devijantni/347
 deviza/360
 devizni/353
+dezagregacija/365
 dezaktivirati/33
+dezaktivizacija/365
+dezalijenacija/365
+dezangažirati/33
+dezangažman/205
 dezavuirati/33
 dezen/238
 dezerter/229
@@ -7283,6 +7288,7 @@ doplatak/260
 doplatiti/128
 doplaviti/128
 dopleo
+dopler/205
 doplesati/168
 doplivati/105
 doploviti/128
@@ -7291,6 +7297,7 @@ doplutati/105
 dopodne
 dopodnevni/353
 dopola
+Dopplerov/348
 dopraćanje/331
 dopraćen/340
 dopratiti/128
@@ -11689,6 +11696,7 @@ hoteći
 hotel/238
 hotelčić/205
 hotelijer/229
+hotelijersko-turistički/353
 hotelijerstvo/331
 hotimice
 hotimični/347
@@ -12365,6 +12373,7 @@ inozemac/256
 inozemni/354
 inozemstvo/331
 inozitol/238
+input/205
 inscenacija/365
 inscenirati/33
 insekt/217
@@ -12637,21 +12646,17 @@ iscjeljenje/331
 iscjeljivati/47
 iscjepkan/340
 iscrpak/247
-iscrpao
 iscrpen/348
 iscrpina/360
 iscrpiti/128
 iscrpiv/340
-iscrpla
-iscrpli
 iscrpljen/341
 iscrpljeniji/355
 iscrpljivati/47
 iscrpljujuć/348
 iscrpni/347
 iscrpniji/355
-iscrpsti
-iscrpu
+iscrpsti/414
 iscrtati/115
 iscrtavati/34
 iscrtkati/114
@@ -12671,6 +12676,7 @@ ishemičan/359
 ishitren/340
 ishitreniji/355
 ishitriti/128
+ishitrivati/47
 ishlapiti/129
 ishlapiv/340
 ishlapjeli/353
@@ -13277,7 +13283,11 @@ išamarati/120
 išao
 išarati/120
 iščačkati/120
+iščačkavati/34
+iščahuriti/128
+iščahurivati/47
 iščašen/341
+iščašenjak/205
 iščašiti/128
 iščekivali/353
 iščekivati/47
@@ -16936,8 +16946,8 @@ kordunski/353
 koreći/353
 koreferent/217
 Koreja/372
-Korejanac/256
-Korejanka/369
+Korejac/256
+Korejka/369
 korejski/353
 korekcija/365
 korektiv/205
@@ -16966,7 +16976,6 @@ koridor/238
 Korifej/243
 korigirati/33
 korijandar/205
-korijander/205
 korijandol/205
 korijen/221
 korijenje/298
@@ -17156,6 +17165,7 @@ kotva/360
 kotvljenje/331
 kov
 kovač/221
+Kovačić/265
 kovačnica/360
 kovaći/353
 kovalentni/347
@@ -18431,7 +18441,7 @@ latinist/222
 latinistički/353
 latinizam/247
 latinoamerički/353
-latinoamerikanac/256
+Latinoamerikanac/256
 latinski/353
 latinskoamerički/353
 latinština/360
@@ -18761,6 +18771,7 @@ lijevostran/348
 lik/273
 likantrop/235
 liker/238
+Likertov/291
 likopen/205
 likovati/44
 likovni/346
@@ -19535,6 +19546,10 @@ malac/256
 Malaga/372
 Malajac/256
 malajski/353
+malakolog/339
+malakologija/360
+malakologijski/353
+malakološki/353
 malaksajući/353
 malaksali/346
 malaksaliji/355
@@ -19806,7 +19821,7 @@ Martina/373
 martini/304
 Martinik/265
 martinski/353
-martinje/331
+Martinje/331
 martovski/353
 Marulić/266
 marva/362
@@ -19861,7 +19876,7 @@ masovni/347
 masovniji/355
 mast/392
 mastan/357
-mastercard/291
+Mastercard/291
 mastif/205
 mastika/378
 mastilo/331
@@ -19965,7 +19980,6 @@ mazurka/383
 mazut/205
 mažen/341
 mažoretkinja/362
-mažuran/217
 Mažuranić/266
 MB
 mbar
@@ -20387,7 +20401,7 @@ mi
 micati/86
 micelij/238
 Michelangelo/303
-microsoft/293
+Microsoft/293
 mider/205
 midraš/205
 mig/273
@@ -21389,7 +21403,6 @@ mrgođen/349
 mrijest/205
 mrijestiti/64
 mriješćen/349
-mriješten/349
 mrjestilište/331
 mrk/340
 mrkli/353
@@ -21816,6 +21829,7 @@ nadići/194
 nadideološki/353
 nadignuti/140
 nadigrati/119
+nadigravati/34
 nadijeliti/128
 nadijevati/34
 nadilaziti/62
@@ -21889,6 +21903,7 @@ nadojiti/128
 nadoknada/360
 nadoknaditi/128
 nadoknadiv/340
+nadoknadljiv/340
 nadoknađen/340
 nadoknađivati/47
 nadolazak/260
@@ -22633,6 +22648,7 @@ napumpavati/34
 napuniti/128
 napunjen/340
 napunjeniji/355
+napust/205
 napustiti/128
 napušen/340
 napušiti/128
@@ -26859,6 +26875,7 @@ odgonetka/380
 odgonetljiv/340
 odgonetnuti/140
 odgoniti/128
+odgovarajuć/348
 odgovarajući/353
 odgovarati/34
 odgovor/205
@@ -27344,6 +27361,7 @@ odzivnik/205
 odzove
 odzračiti/128
 odzračivati/47
+odzračivati/47
 odzujati/186
 odzvanjajući/353
 odzvanjati/34
@@ -27736,7 +27754,6 @@ olakšavajući/353
 olakšavati/34
 olakšica/360
 oleandar/257
-oleander/221
 oledba/360
 olein/238
 olfaktorni/353
@@ -29238,6 +29255,7 @@ otvrdnuti/139
 otvrdnjavanje/331
 otvrdnjivati/47
 outlook/205
+output/205
 ovacija/365
 ovaj
 ovako
@@ -30347,6 +30365,7 @@ peterokatnica/360
 peterokrak/348
 peterokut/205
 peterokutni/347
+peterosatan/359
 peterosobni/353
 peteroznamenkasti/353
 peti/353
@@ -31160,6 +31179,7 @@ pobratiti/128
 pobrinuti/137
 pobrkati/119
 pobrojavati/34
+pobrojen/348
 pobrojiti/128
 pobuda/360
 pobuditi/128
@@ -33419,6 +33439,7 @@ potkrepljenje/331
 potkrepljiv/340
 potkrepljivati/47
 potkresati/174
+potkresavati/34
 potkresivati/47
 potkrijepiti/128
 potkrijepljen/341
@@ -33776,6 +33797,7 @@ pozli
 pozlijeđen/340
 pozlilo
 pozliti
+pozliti/128
 poznanik/227
 poznanstvo/331
 poznati/117
@@ -35777,6 +35799,7 @@ primijetiti/128
 primiren/340
 primirisati/168
 primiriti/128
+primirivanje/331
 primirivati/49
 primirje/331
 primisao/304
@@ -37014,11 +37037,9 @@ prostrijeljen/340
 prostrijeti/143
 prostrjeljivati/47
 prostrt/340
-prostrti
-prostru
+prostrti/416
 prostrujati/186
 prostrujiti/128
-prostrvši
 prostudirati/120
 prosuda/360
 prosudba/368
@@ -40623,6 +40644,7 @@ samousavršavanje/331
 samouvažavanje/331
 samouvjeren/340
 samouvjereniji/355
+samouzdizanje/331
 samovar/238
 samovati/44
 samovlada/360
@@ -40879,7 +40901,6 @@ sazreti/151
 sazrijevati/34
 sazvati/180
 sazviježđe/331
-sazvježđe/331
 sazvučje/331
 sažalijevati/34
 sažaliti/128
@@ -42896,6 +42917,7 @@ sporovozniji/355
 sport/283
 sportaš/223
 sportsko-rekreativan/359
+sportsko-rekreativan/359
 sposobni/347
 sposobniji/355
 spot/273
@@ -43005,7 +43027,6 @@ sraz/273
 sraziti/128
 srazmjer/205
 srazmjerni/347
-Srb/265
 Srbija/372
 srbijanski/353
 Srbin/217
@@ -44153,6 +44174,7 @@ supstituirati/33
 supstitut/205
 supstrat/205
 supsumirati/33
+supsumpcija/365
 suptilni/347
 suptilniji/355
 suptropski/353
@@ -44678,6 +44700,7 @@ svukuda
 šaketina/360
 šal/273
 šala/360
+šalabahter/205
 šalabakter/238
 šalaporka/360
 šalica/360
@@ -51805,6 +51828,7 @@ zanjihati/174
 zanjištati/186
 zao
 zaobalni/353
+zaobalje/331
 zaobići/192
 zaobiđen/340
 zaobilazak/260
