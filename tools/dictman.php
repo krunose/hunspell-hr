@@ -3,7 +3,7 @@
 
 /*
 
-	Kruno, krunose at gmx, April 2018.
+	Kruno, krunose at gmx, May 2018.
 
 
 INTRODUCTION
@@ -56,6 +56,7 @@ SUPPORTED
 			- prefixing
 			- suffixing
 			- prefixing and suffixing
+			- support 'N' in class heading: SFX AA N 1
 
 
 NOT SUPPORTED BUT PLANNED
@@ -79,7 +80,9 @@ TODO (not in any particular order)
 	Documenting the whole thing and documenting every function separately as it wont be long and
 	I'll not even remember why certain things are done in certain way.
 
-	Strong desire to implement COMPOUND feature but not a priority for now.
+	Implement COMPOUND feature but not a priority for now.
+
+	Support or deal with flags such as CIRCUMFIX, NEEDAFFIX etc.
 
 	Make core functions more efficient.
 
@@ -524,9 +527,21 @@ class dictman {
 
 				foreach($classes as $class) {
 
+					// if class has crossProd == "Y", collect for further operations (applying prefixes and suffixes)
 					if($this->affixRules[$class]['info']['crossProd'] == "Y" && !in_array(key($this->affixRules[$class]), $this->specFlags)) {
 
 						$crossProd[$this->affixRules[$class]['info']['affType']][] = $class;
+
+					// if crossProd == "N", echo it out as no other operation is needed
+					} else {
+
+						$rules = $this->affixRules[$class]['rules'];
+
+						foreach($rules as $rule) {
+
+							echo $this->applyAffixation($word, $rule, $this->affixRules[$class]['info']['affType']);
+
+						}
 
 					}
 
@@ -603,10 +618,9 @@ class dictman {
 
 
 
-
 $dictman = new dictman;
 
-	echo $dictman->makeWordlist("hr_HR.aff", "hr_HR.dic");
+	echo $dictman->makeWordlist("test.aff", "test.dic");
 
 
 
