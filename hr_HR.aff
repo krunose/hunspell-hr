@@ -76,7 +76,7 @@ ICONV ŕ r
 
 
 # REP - .
-REP 219
+REP 220
 REP ^pocrtava podcrtava
 REP ^zdrastv zdravstv
 REP nućemo$ nut_ćemo
@@ -145,6 +145,7 @@ REP bljiv biv
 REP ljiv ljav
 REP najs naes
 REP sup sump
+REP kus$ k
 REP ion ijun
 REP zir rizir
 REP aon aonic
