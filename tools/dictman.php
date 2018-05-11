@@ -509,8 +509,25 @@ class dictman {
 
 				$classes = $this->returnListOfClasses($affixNum);
 
-				// echo dictionary entry only if there's no NEEDAFFIX flag assigned to it
-				if(!in_array($this->specFlags, $classes)) {
+
+
+				$echoDictEntry = true;
+
+				foreach($classes as $class) {
+
+						$tmpKey = array_search($class, $this->specFlags);
+
+					if($tmpKey == "NEEDAFFIX" || $tmpKey == "CIRCUMFIX") {
+
+						$echoDictEntry = false;
+
+					}
+
+				}
+
+
+				// if no other operations should be done on this particular entry
+				if($echoDictEntry == true) {
 
 					echo $word . "\n";
 
@@ -527,23 +544,27 @@ class dictman {
 
 				foreach($classes as $class) {
 
-					// if class has crossProd == "Y", collect for further operations (applying prefixes and suffixes)
-					if($this->affixRules[$class]['info']['crossProd'] == "Y" && !in_array(key($this->affixRules[$class]), $this->specFlags)) {
+					if(!in_array($class, $this->specFlags)) {
 
-						$crossProd[$this->affixRules[$class]['info']['affType']][] = $class;
+						// if class has crossProd == "Y", collect for further operations (applying prefixes and suffixes)
+						if($this->affixRules[$class]['info']['crossProd'] == "Y") {
 
-					// if crossProd == "N", echo it out as no other operation is needed
-					} else {
+							$crossProd[$this->affixRules[$class]['info']['affType']][] = $class;
 
-						$rules = $this->affixRules[$class]['rules'];
+						// if crossProd == "N", echo it out as no other operation is needed
+						} else {
 
-						foreach($rules as $rule) {
+							$rules = $this->affixRules[$class]['rules'];
 
-							echo $this->applyAffixation($word, $rule, $this->affixRules[$class]['info']['affType']);
+							foreach($rules as $rule) {
+
+								echo $this->applyAffixation($word, $rule, $this->affixRules[$class]['info']['affType']);
+
+							}
 
 						}
 
-					}
+					} // here in else-statemen I can deal with NEEDAFFIX or such (but I already check for this in $echoDictEntry and $tmpKey so this should be written better and not to check this twice. This is just preventing errors in terminal while running this script.
 
 				}
 
@@ -620,7 +641,7 @@ class dictman {
 
 $dictman = new dictman;
 
-	echo $dictman->makeWordlist("test.aff", "test.dic");
+	echo $dictman->makeWordlist("../dict-hr-hunspell/hr_HR.aff", "../dict-hr-hunspell/hr_HR.dic");
 
 
 
