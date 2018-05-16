@@ -6,7 +6,7 @@ KEY qwertzuiopšđ|asdfghjklčćž|yxcvbnm|žšđ|ćščđž|žćđ|đšćž|zy|
 
 FLAG long
 
-# FULLSTRIP
+FULLSTRIP
 
 NEEDAFFIX ZZ
 CIRCUMFIX ZY
@@ -718,7 +718,7 @@ AF ST	# 412
 AF SS	# 413
 AF SOSPSR	# 414
 AF SMSNSR	# 415
-AF SK	# 416
+AF SL	# 416
 
 
 SFX XZ Y      21
@@ -3870,42 +3870,43 @@ SFX SM Y 1
 SFX SM sti ući rpsti
 
 # prostrti
-SFX SK Y 38
-SFX SK i 0 strti
-SFX SK rti arem strti
-SFX SK ti em strti
-SFX SK rti areš strti
-SFX SK ti eš strti
-SFX SK rti are strti
-SFX SK ti e strti
-SFX SK rti aremo strti
-SFX SK ti emo strti
-SFX SK rti arete strti
-SFX SK ti ete strti
-SFX SK rti aru strti
-SFX SK ti u strti
-SFX SK ti h strti
-SFX SK ti 0 strti
-SFX SK ti smo strti
-SFX SK ti ste strti
-SFX SK ti še strti
-SFX SK rti ari strti
-SFX SK ti i strti
-SFX SK rti arimo strti
-SFX SK rti arite strti
-SFX SK ti vši strti
-SFX SK ti o strti
-SFX SK ti la strti
-SFX SK ti lo strti
-SFX SK ti li strti
-SFX SK ti le strti
-SFX SK ti t strti
-SFX SK ti ven strti
-SFX SK ti ta strti
-SFX SK ti vena strti
-SFX SK ti to strti
-SFX SK ti veno strti
-SFX SK ti ti strti
-SFX SK ti veni strti
-SFX SK ti te strti
-SFX SK ti vene strti
+SFX SL Y 38
+SFX SL i 0 strti
+SFX SL rti arem strti
+SFX SL ti em strti
+SFX SL rti areš strti
+SFX SL ti eš strti
+SFX SL rti are strti
+SFX SL ti e strti
+SFX SL rti aremo strti
+SFX SL ti emo strti
+SFX SL rti arete strti
+SFX SL ti ete strti
+SFX SL rti aru strti
+SFX SL ti u strti
+SFX SL ti h strti
+SFX SL ti 0 strti
+SFX SL ti smo strti
+SFX SL ti ste strti
+SFX SL ti še strti
+SFX SL rti ari strti
+SFX SL ti i strti
+SFX SL rti arimo strti
+SFX SL rti arite strti
+SFX SL ti vši strti
+SFX SL ti o strti
+SFX SL ti la strti
+SFX SL ti lo strti
+SFX SL ti li strti
+SFX SL ti le strti
+SFX SL ti t strti
+SFX SL ti ven strti
+SFX SL ti ta strti
+SFX SL ti vena strti
+SFX SL ti to strti
+SFX SL ti veno strti
+SFX SL ti ti strti
+SFX SL ti veni strti
+SFX SL ti te strti
+SFX SL ti vene strti
+
