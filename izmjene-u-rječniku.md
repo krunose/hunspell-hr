@@ -14,10 +14,10 @@ Najnovija se inačica rječnika može preuzeti iz grane `master` repozitorija na
 - uklonjeno pedesetak nepostojećih riječi
 - dodana pravila za gradove na -vci (Križevci, Vinkovci)
 - ispravak zatipaka, ispravci velikih i malih slova, pisanje 'ije' i 'je'
-- proširen REP s pedesetak novih unosa
+- proširen REP s šezdesetak novih unosa
 - dodano petstotinjak novih riječi
 - povezani nastavci (hr_HR.aff) s nekoliko riječi (hr_HR.dic)
-- ispravak velikoga slova u nekoliko riječi (još ima velik broj primjera koji dozvoljava 'platon' i 'Platonski')
+- ispravak velikoga slova u nekoliko riječi (još ima velik broj primjera koji dozvoljava 'platon' i 'Platonski', a oboje je pogrešno)
 
 
 ## Inačica 2.1
