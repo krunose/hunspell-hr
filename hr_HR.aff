@@ -76,7 +76,7 @@ ICONV ŕ r
 
 
 # REP - .
-REP 227
+REP 228
 REP ^pocrtava podcrtava
 REP ^zdrastv zdravstv
 REP nućemo$ nut_ćemo
@@ -192,6 +192,7 @@ REP dni$ tni
 REP on onic
 REP mlj mnj
 REP skuj šć
+REP st dst
 REP xy ksi
 REP je ije
 REP ^biš$ bi
