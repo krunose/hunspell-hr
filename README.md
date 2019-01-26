@@ -14,7 +14,7 @@ Sadržaj repozitorija
 - `README_hr_HR.txt` sadrži informacije o licenciji
 - u `izmjene-u-rječniku.md` se prate o izmjenama u svakoj novoj inačici
 - `README.md` je opis ovoga projekta
-- mapa `tools/dpl` sadrži skriptu kojom sam pokušao automatski napraviti izraditi pravila prema ručno sastavljenome popisu riječi. Daleko je to od upotrebljivoga, a ako se nešto po tome pitanju i bude događalo, događat će se unutar [`hr-hunspell/tools/`](https://github.com/krunose/hr-hunspell/tree/master/tools) isključujući mapu `dpl`
+- mapa `tools/dpl` sadrži skriptu kojom sam pokušao automatski napraviti izraditi pravila prema ručno sastavljenome popisu riječi. Daleko je to od upotrebljivoga, a ako se nešto po tome pitanju i bude događalo, događat će se unutar [`hunspell-hr/tools/`](https://github.com/krunose/hr-hunspell/tree/master/tools) isključujući mapu `dpl`
 - datoteka `wordlist` sadrži popis riječi s nastavcima, svi oblici riječi koje rječnik može generirati, osim prefiksa „naj“ u superlativima. Popis je generiran skriptom [`dictman.php`](https://github.com/krunose/hr-hunspell/tree/master/tools) i ograničenja skripte v. u skripti u uvodnome komentaru.
 
 ---
