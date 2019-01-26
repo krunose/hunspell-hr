@@ -1,7 +1,7 @@
 # Izmjene u rječniku
 
 
-Najnovija se inačica rječnika može preuzeti iz grane `master` repozitorija na adresi [github.com/krunose/hr-hunspell](https://github.com/krunose/hr-hunspell).
+Najnovija se inačica rječnika može preuzeti iz grane `master` repozitorija na adresi [github.com/krunose/hunspell-hr](https://github.com/krunose/hunspell-hr).
 
 
 
