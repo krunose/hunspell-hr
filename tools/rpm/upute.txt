@@ -1,0 +1,31 @@
+Za izradu RPM paketa potrebno je imati instaliranu okolinu za alat rpmbuild. 
+Neke od uputa:
+https://tecadmin.net/create-rpm-of-your-own-script-in-centosredhat/
+
+Nakon tog je potrebno pokrenuti program build.sh s parametrima:
+$ ./build.sh <verzija> <build>
+
+Primjer:
+$ ./build.sh 2.1 20190201
+
+Potrebno je imati instaliran alat "wget". Skripta peuzima zadanu verziju, stvara pomoćnu datoteku "version.inc" i poziva "rpmbuid".
+
+Konačna rpm datoteka će u ovom slučaju imati ovakav naziv:
+hunspell-hr-2.1-20190201.noarch.rpm
+
+Paket će se izraditi u direktoriju: ~/rpmbuild/RPMS/noarch
+
+Instaliranje rpm paketa:
+
+$ rpm -ivh hunspell-hr-2.1-20190201.noarch.rpm
+
+Moguće je da prvo treba deinstalirati stari paket ako je instaliran preko alata "dnf" ili "yum".
+
+Kako izlistati sadržaj postojećeg instaliranog rpm paketa:
+
+$ rpm -ql hunspell-hr 
+
+Kako vidjeti koje rječnike hunspell koristi i na kojim su lokacijama u sustavu:
+
+$ hunspell -D
+(Ctrl+C za izlazak)
