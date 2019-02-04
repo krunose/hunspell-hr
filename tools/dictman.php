@@ -5,34 +5,28 @@
 
 	Kruno, krunose at gmx, May 2018.
 
+	last edited: February 2019.
 
 INTRODUCTION
 
-	This script is made for creating wordlist from Croatian dictionary version 2.1.1 and
+	This spaghetti code I needed for making wordlist from Croatian dictionary version 2.1.
+	This script is made for creating wordlist from Croatian dictionary version v2.1 and
 	it's not guaranteed it will work with any other version as not all Hunspell's features are
 	supported.
 
-	This is a spaghetti code I needed for making wordlist from Croatian dictionary version 2.1.1
-	Many aspects of it is not planned and are written on the spot just to make the script running
-	and so many things can (and should) be rewritten for script to run more efficiently. I'm not
-	a programmer so there's plenty room for improvements.
+	Dictman.php is not designed to be a tool, it's just something I needed at one point. Don't know
+	if it can be base for something more versatile and useful. Many things needs rewriting for script to
+	be more effective and more robust. I'm not a programmer and this script probably shows it.
 
-	In case somebody wont's to submit a patch: I would like to learn from this as much as possible
-	so any (potential) patch should be followed with some explanation.
+	In case somebody want to build on top of it, I can provide information about how dictionary but
+	I'm no help when it comes to building proper command line tools.
 
 
 DESCRIPTION
 
 	Script work with UTF-8 encoded dictionary and affix file. Currently script only generates
-	wordlist, but it's written as class so it has potential to become a tool for manipulating
-	Hunspell's dictionary files, thus 'dictman': dictionary manipulation.
-
-	Although it's written for Croatian dictionary version 2.1.1, it should work with any other
-	UTF-8 encoded dictionary. If dictionary is encoded differently, just change first line of the
-	script to reflect needed encoding but remember that dictionary and affix (both) are encoded
-	the same way.
-
-	Wordlist is the only thing this script can do, but more will be added eventually.
+	wordlist using Hunspell's features Croatian dictionary used in v2.1. Maybe this could be
+	improved and more Hunspell's feature could be added for generating word lists.
 
 
 USAGE
@@ -42,52 +36,43 @@ USAGE
 		php dictman.php > outputFile
 
 	and wordlist will be exported in 'outputFile'. Dictionary and affix file should be supplied to
-	last line of the script. Just replace 'hr_HR.dic' and 'hr_HR.aff' with (path and) name of
-	dictionary and affix file you want to use this with.
-
-	Pass needed encoding code to first line of the script.
+	last line of the script. Just replace 'hr_HR.dic' and 'hr_HR.aff' with a path to a .dic and .aff file.
+	Script expects utf-8 encoding as this is how Croatian dictionary is encoded.
 
 
 SUPPORTED
 
-	Currently script supports these Hunspell's features
+	Currently script make word list from
 		- words without flags
-		- words with class flags
+		- words with classes when
 			- prefixing
 			- suffixing
 			- prefixing and suffixing
-			- support 'N' in class heading: SFX AA N 1
+			- support 'N' in class heading: SFX AA N 1 (partially, not tested properly)
 
 
 NOT SUPPORTED BUT PLANNED
 
-	Well, there's a yet a lot to do. Firstly, this should be rewritten as proper class so it's more
-	than a quick bodge. I'll take my time with that.
+	Well, there's a yet a lot to do. Firstly, this should be made a proper tool so it's more
+	than just a quick bodge.
 
-	Features that eventually will be added (in this order)	
+	Features that should be implemented	
 
+		- NEEDAFFIX
 		- two fold suffix stripping
-		- CIRCUMFIX flag
+		- CIRCUMFIX
+		- COMPLEXPREFIXES (not needed for Croatian)
+		- don't know how to deal with COMPOUND feature when it comes to generating word lists.
+		- make function to do alias compression if dictionary is not using it (and there's a  need for it,
+			see Hunspell4.pdf on the Internet) 
 
 
 TODO (not in any particular order)
 
-	Rewrite the whole thing as proper PHP class using constructor for taking CLI arguments as this
-	should become tool for manipulating Hunspell's dictionaries and CLI arguments are first step.
-
-	Adding function (accessible trough CLI arguments) for checking for duplicates in dictionary file.
+	Anything related to making command line tool (taking arguments).
 
 	Documenting the whole thing and documenting every function separately as it wont be long and
 	I'll not even remember why certain things are done in certain way.
-
-	Implement COMPOUND feature but not a priority for now.
-
-	Support or deal with flags such as CIRCUMFIX, NEEDAFFIX etc.
-
-	Make core functions more efficient.
-
-	Make script work even if alias compression not used with dictionary (see Hunspell4.pdf on
-	the Internet).
 
 	Add feature to automatically add alias compression part if dictionary is not using it but
 	should (in case dictionary entries consistently have more then one class applied to them).
@@ -95,16 +80,12 @@ TODO (not in any particular order)
 	Add a way to inspect particular word or class for more convenient way to add new words to
 	dictionary.
 
-	Everything else I can think of and I'm able to figure out how to code it in.
-
 
 LIMITATIONS
 
-	No error checking what so ever.
+	No error checking (not a proper tool, remember)
 
 	Using alias compression (AF feature of Hunspell) is required.
-
-	No flexibility: run thins and you get wordlist, nothing more.
 
 
 MORE SUITABLE TOOLS
@@ -113,7 +94,7 @@ MORE SUITABLE TOOLS
 
 		http://marcoagpinto.cidadevirtual.pt/proofingtoolgui.html
 
-	as it's more mature than this one-off script.
+	as it's done properly.
 
 
 */
@@ -489,7 +470,7 @@ class dictman {
 
 
 
-	public function makeWordlist($affixFile, $dictFile) {
+	public function makeWordlist($affixFile, $dictFile, $sepByClass) {
 
 
 		$this->collectClasses($affixFile, $this->affixList, $this->affixRules);
@@ -627,6 +608,12 @@ class dictman {
 				echo $line . "\n";
 
 			}
+			
+			if($sepByClass === true) {
+
+				echo "\n";
+
+			}
 
 		}
 
@@ -641,7 +628,8 @@ class dictman {
 
 $dictman = new dictman;
 
-	echo $dictman->makeWordlist("../dict-hr-hunspell/hr_HR.aff", "../dict-hr-hunspell/hr_HR.dic");
+	// case last argument is true, you get aa\n\nbb\n\ncc\n\ndd, if it's false then you get aa\nbb\ncc\ndd
+	echo $dictman->makeWordlist("../dict-hr-hunspell/hr_HR.aff", "../dict-hr-hunspell/hr_HR.dic", true);
 
 
 
