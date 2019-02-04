@@ -1,7 +1,7 @@
 # Husnpellov rječnik za računalnu provjeru pravopisa hrvatskog jezika
 
 
-GPL 2.0/LGPL 2.1/MPL 1.1 tri-license
+LGPL/SISSL license, 2003
 
 -----
 
