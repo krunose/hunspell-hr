@@ -31,4 +31,4 @@ Repozitorij i kontakt: [https://github.com/krunose/hunspell-hr](https://github.c
 
 ---
 
-Inačica rječnika: 2.1-20190204
+Inačica rječnika: 2.1-20190205
