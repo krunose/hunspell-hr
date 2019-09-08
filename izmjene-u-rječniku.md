@@ -5,6 +5,11 @@ Najnovija se inačica rječnika može preuzeti iz grane `master` repozitorija na
 
 
 
+### Inačica 2.1-201909xx
+
+- dodana klasa SK za rijči poput 'porodiljni [dopust]' gdje je pridjev moguć samo u muškome rodu
+
+
 
 ### Inačica 2.1-20190126
 
