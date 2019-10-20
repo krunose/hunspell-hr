@@ -31,4 +31,4 @@ Repozitorij i kontakt: [https://github.com/krunose/hunspell-hr](https://github.c
 
 ---
 
-Zadnja izmjena: 2.1-20190908
+Zadnja izmjena: 2.1-20191020
