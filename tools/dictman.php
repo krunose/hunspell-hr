@@ -5,39 +5,12 @@
 
 	Kruno, krunose at gmx, May 2018.
 
-	last edited: February 2019.
+	last update: February 2019.
 
 INTRODUCTION
 
-	This spaghetti code I needed for making wordlist from Croatian dictionary version 2.1.
 	This script is made for creating wordlist from Croatian dictionary version v2.1 and
-	it's not guaranteed it will work with any other version as not all Hunspell's features are
-	supported.
-
-	Dictman.php is not designed to be a tool, it's just something I needed at one point. Don't know
-	if it can be base for something more versatile and useful. Many things needs rewriting for script to
-	be more effective and more robust. I'm not a programmer and this script probably shows it.
-
-	In case somebody want to build on top of it, I can provide information about how dictionary but
-	I'm no help when it comes to building proper command line tools.
-
-
-DESCRIPTION
-
-	Script work with UTF-8 encoded dictionary and affix file. Currently script only generates
-	wordlist using Hunspell's features Croatian dictionary used in v2.1. Maybe this could be
-	improved and more Hunspell's feature could be added for generating word lists.
-
-
-USAGE
-
-	I'm using GNU/Linux so it may reflect on ways people can use this, but from command line do
-
-		php dictman.php > outputFile
-
-	and wordlist will be exported in 'outputFile'. Dictionary and affix file should be supplied to
-	last line of the script. Just replace 'hr_HR.dic' and 'hr_HR.aff' with a path to a .dic and .aff file.
-	Script expects utf-8 encoding as this is how Croatian dictionary is encoded.
+	it's not guaranteed it will work with any other version or dictionary.
 
 
 SUPPORTED
@@ -51,7 +24,7 @@ SUPPORTED
 			- support 'N' in class heading: SFX AA N 1 (partially, not tested properly)
 
 
-NOT SUPPORTED BUT PLANNED
+NOT IMPLEMENTED (current dictionary not using this features)
 
 	Well, there's a yet a lot to do. Firstly, this should be made a proper tool so it's more
 	than just a quick bodge.
@@ -65,27 +38,6 @@ NOT SUPPORTED BUT PLANNED
 		- don't know how to deal with COMPOUND feature when it comes to generating word lists.
 		- make function to do alias compression if dictionary is not using it (and there's a  need for it,
 			see Hunspell4.pdf on the Internet) 
-
-
-TODO (not in any particular order)
-
-	Anything related to making command line tool (taking arguments).
-
-	Documenting the whole thing and documenting every function separately as it wont be long and
-	I'll not even remember why certain things are done in certain way.
-
-	Add feature to automatically add alias compression part if dictionary is not using it but
-	should (in case dictionary entries consistently have more then one class applied to them).
-
-	Add a way to inspect particular word or class for more convenient way to add new words to
-	dictionary.
-
-
-LIMITATIONS
-
-	No error checking (not a proper tool, remember)
-
-	Using alias compression (AF feature of Hunspell) is required.
 
 
 MORE SUITABLE TOOLS
