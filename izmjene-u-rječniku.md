@@ -4,18 +4,23 @@
 Najnovija se inačica rječnika može preuzeti iz grane `master` repozitorija na adresi [github.com/krunose/hunspell-hr](https://github.com/krunose/hunspell-hr).
 
 
+### Inačica 2.1-20220323
+
+- dodana riječ `zamrzavati`
+- ispravak nevjerojatne bedastoće iz `2.1-201909xx`
+
 
 ### Inačica 2.1-201909xx
 
-- dodana klasa SK za rijči poput 'porodiljni [dopust]' gdje je pridjev moguć samo u muškome rodu
+- dodana klasa SK za riječi poput 'porodiljni' gdje je pridjev moguć samo u muškome rodu
 
 
 
 ### Inačica 2.1-20190126
 
 - uklonjeno 74 duplih unosa
-- dodano desetak novih klasa 
-- ispravljeno nekoliko pogrešaka u rječniku (brisano nekoliko riječi s pogrešnim pisanjem 'ije' i 'je'
+- dodano desetak novih klasa
+- izbrisano nekoliko riječi s pogreškama u `ije` i `je`
 - uklonjeno pedesetak nepostojećih riječi
 - dodana pravila za gradove na -vci (Križevci, Vinkovci)
 - ispravak zatipaka, ispravci velikih i malih slova i drugi manji ispravci
