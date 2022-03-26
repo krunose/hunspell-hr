@@ -12,6 +12,27 @@ INTRODUCTION
 	This script is made for creating wordlist from Croatian dictionary version v2.1 and
 	it's not guaranteed it will work with any other version or dictionary.
 
+	Words are feed in as multi-byte strings because č, ć, ž, đ, š. So dictionary v2.1
+	is UTF-8 encoded, and this script is set this way. For using this script you need
+	to install
+
+		php-mbstring,
+
+	at least that's what is called on GNU/Linux Ubuntu 20.04. You can install it with
+
+		sudo apt-get install php-mbstring
+
+	The only thing you need to check is that dictionary files are named "hr_HR.dic" and
+	"hr_HR.aff" and that they are in folder _one level up_ relative to this script.
+	Optionaly, you can set path to .dic and aff. in line number 605 (last line of this script).
+
+	If you downloaded GitHub repository as ZIP, just unpack and run script as
+	on GNU/Linux as
+
+	php dictman.php > wordlist
+
+	and result will bi written id text file wordlist. It will complite in 10 to 20 seconds.
+
 
 SUPPORTED
 
@@ -21,7 +42,7 @@ SUPPORTED
 			- prefixing
 			- suffixing
 			- prefixing and suffixing
-			- support 'N' in class heading: SFX AA N 1 (partially, not tested properly)
+			- support 'N' in class heading: SFX AA N 1 (partially, not tested, not sure if I got it right)
 
 
 NOT IMPLEMENTED (current dictionary not using this features)
@@ -42,11 +63,11 @@ NOT IMPLEMENTED (current dictionary not using this features)
 
 MORE SUITABLE TOOLS
 
-	If you need something good and reliable for manipulating dictionary, check PGT on
+	If you want something with GUI, more polished and maintained, check PTG on
 
 		http://marcoagpinto.cidadevirtual.pt/proofingtoolgui.html
 
-	as it's done properly.
+	as it may be more fitted for the task.
 
 
 */
@@ -580,8 +601,8 @@ class dictman {
 
 $dictman = new dictman;
 
-	// case last argument is true, you get aa\n\nbb\n\ncc\n\ndd, if it's false then you get aa\nbb\ncc\ndd
-	echo $dictman->makeWordlist("../dict-hr-hunspell/hr_HR.aff", "../dict-hr-hunspell/hr_HR.dic", true);
+	// case last argument is true, you get word1-affixed \n\n word2-affixed, if it's false then you get word1-affixed\word2-affixed
+	echo $dictman->makeWordlist("../hr_HR.aff", "../hr_HR.dic", false);
 
 
 
