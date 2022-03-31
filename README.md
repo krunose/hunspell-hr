@@ -6,7 +6,7 @@ Sve ostalo je opis projekta, dokumentacija ili alat(i) za njegovo održavanje i 
 
 Rječnik nije Hunspell i nije njegov dio. Pravila postoje neovisno o njemu, ali i drugim aplikacijama koja za računalnu provjeru pravopisa koriste Hunspell i ova pravila, zato različite aplikacije mogu imati različite inačice istoga rječnika ili pak potpuno različite rječnike: različiti izvori, popisi rječi i pravila za razradu oblika, a bez ikakve međusobne koordinacije. Za ažuriranje rječnika pojedinih aplikacija zaduženi su isključivo održavatelji dodataka pojedine aplikacije ili njezini razvijatelji. Nasreću i nažalost, u slučaju hrvatskoga jezika riječ je o različitim inačicama istoga rječnika.
 
-Izvornu inačicu napravio je Denis Lacković 2003. g.; dostupna je na [cvs.linux.hr/spell](http://cvs.linux.hr/spell/). Dodavati riječi počeo sam 2014. g., ali za ispravljanje, dopunjavanje i unaprjeđenje &ndash; onako kako to izgleda danas &ndash; zaslužan je Mirko Kos (2016.) Većim brojem rijeći doprinio je i Boris Jurić (2017.) [^1]
+Izvornu inačicu napravio je Denis Lacković 2003. g.; dostupna je na [cvs.linux.hr/spell](http://cvs.linux.hr/spell/). Dodavati riječi počeo sam 2014. g., ali za ispravljanje, dopunjavanje i unaprjeđenje &ndash; onako kako to izgleda danas &ndash; zaslužan je Mirko Kos (2016.) Većim brojem riječi doprinio je i Boris Jurić (2017.) [^1]
 
 ## Sadržaj repozitorija
 
