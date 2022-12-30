@@ -3,6 +3,11 @@
 
 Najnovija se inačica rječnika može preuzeti iz grane `master` repozitorija na adresi [github.com/krunose/hunspell-hr](https://github.com/krunose/hunspell-hr).
 
+### Ažuriranje grane 'master' 30. prosinca 2022.
+
+- ispravak 'ekonomskosocijalni' u 'ekonomsko-socijalni'
+- ispravak 'emanentni' u 'imanentni'
+
 
 ### Inačica 2.1-20220323
 
