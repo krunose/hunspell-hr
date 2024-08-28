@@ -5,7 +5,7 @@ Najnovija se inačica rječnika može preuzeti iz grane `master` repozitorija na
 
 ### Ažuriranje grane 'master' 28. kolovoza 2024
 
-- dodana riječ 'izvrtjeti'
+- dodana riječ 'zavrtjeti'
 
 ### Ažuriranje grane 'master' 30. prosinca 2022.
 
