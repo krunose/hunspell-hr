@@ -3,6 +3,10 @@
 
 Najnovija se inačica rječnika može preuzeti iz grane `master` repozitorija na adresi [github.com/krunose/hunspell-hr](https://github.com/krunose/hunspell-hr).
 
+### Ažuriranje grane 'master' 28. kolovoza 2024
+
+- dodana riječ 'izvrtjeti'
+
 ### Ažuriranje grane 'master' 30. prosinca 2022.
 
 - ispravak 'ekonomskosocijalni' u 'ekonomsko-socijalni'
@@ -18,7 +22,6 @@ Najnovija se inačica rječnika može preuzeti iz grane `master` repozitorija na
 ### Inačica 2.1-201909xx
 
 - dodana klasa SK za riječi poput 'porodiljni' gdje je pridjev moguć samo u muškome rodu
-
 
 
 ### Inačica 2.1-20190126
