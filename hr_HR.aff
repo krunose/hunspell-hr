@@ -76,7 +76,7 @@ ICONV ŕ r
 
 
 # REP - .
-REP 231
+REP 232
 REP ^pocrtava podcrtava
 REP ^zdrastv zdravstv
 REP nućemo$ nut_ćemo
@@ -91,6 +91,7 @@ REP aćemo$ at_ćemo
 REP aćete$ at_ćete
 REP ićete$ it_ćete
 REP avaon ovaonic
+REP tentik tentifik
 REP ^očenaš Očenaš
 REP ićemo$ it_ćemo
 REP ećete$ et_ćete
@@ -728,6 +729,7 @@ AF SOSPSR	# 414
 AF SMSNSR	# 415
 AF SL	# 416
 AF SK   # 417
+AF UK	# 418
 
 
 SFX XZ Y      21

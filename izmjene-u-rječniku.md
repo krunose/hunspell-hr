@@ -3,9 +3,9 @@
 
 Najnovija se inačica rječnika može preuzeti iz grane `master` repozitorija na adresi [github.com/krunose/hunspell-hr](https://github.com/krunose/hunspell-hr).
 
-### Ažuriranje grane 'master' 28. kolovoza 2024
-
-- dodana riječ 'zavrtjeti'
+### Ažuriranje grane 'master' 29. prosinca 2025 (v. 2.1-20251229)
+- dodane riječi: aprosrbirajuće, autentifikacija, interseksusalnost, predmemorija, vjetroelektrana
+- dodan REP: tentik (autentikacija) → tentifik (autentifikacija)
 
 ### Ažuriranje grane 'master' 30. prosinca 2022.
 
@@ -22,6 +22,7 @@ Najnovija se inačica rječnika može preuzeti iz grane `master` repozitorija na
 ### Inačica 2.1-201909xx
 
 - dodana klasa SK za riječi poput 'porodiljni' gdje je pridjev moguć samo u muškome rodu
+
 
 
 ### Inačica 2.1-20190126
