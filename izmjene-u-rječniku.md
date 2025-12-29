@@ -3,6 +3,9 @@
 
 Najnovija se inačica rječnika može preuzeti iz grane `master` repozitorija na adresi [github.com/krunose/hunspell-hr](https://github.com/krunose/hunspell-hr).
 
+### Ažuriranje grane master '30. prosinca 2025 (v. 2.1-20251230)
+- dodana riječ 'uskostručan'
+
 ### Ažuriranje grane 'master' 29. prosinca 2025 (v. 2.1-20251229)
 - dodane riječi: aprosrbirajuće, autentifikacija, interseksusalnost, predmemorija, vjetroelektrana
 - dodan REP: tentik (autentikacija) → tentifik (autentifikacija)
