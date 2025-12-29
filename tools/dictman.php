@@ -601,7 +601,7 @@ class dictman {
 
 $dictman = new dictman;
 
-	// case last argument is true, you get word1-affixed \n\n word2-affixed, if it's false then you get word1-affixed\word2-affixed
+	// if last argument is 'true', you get 'word1-affixed\n\nword2-affixed', if it's 'false' then you get 'word1-affixed\nword2-affixed'
 	echo $dictman->makeWordlist("../hr_HR.aff", "../hr_HR.dic", false);
 
 
