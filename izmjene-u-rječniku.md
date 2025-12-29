@@ -6,6 +6,7 @@ Najnovija se inačica rječnika može preuzeti iz grane `master` repozitorija na
 ### Ažuriranje grane 'master' 29. prosinca 2025 (v. 2.1-20251229)
 - dodane riječi: aprosrbirajuće, autentifikacija, interseksusalnost, predmemorija, vjetroelektrana
 - dodan REP: tentik (autentikacija) → tentifik (autentifikacija)
+- sekcija TRY bazirana na učestalosti pojavljivanja slova, ne prema redoslijedu abecede
 
 ### Ažuriranje grane 'master' 30. prosinca 2022.
 
