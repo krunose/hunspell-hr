@@ -3,6 +3,9 @@
 
 Najnovija se inačica rječnika može preuzeti iz grane `master` repozitorija na adresi [github.com/krunose/hunspell-hr](https://github.com/krunose/hunspell-hr).
 
+### Ažuriranje grane 'master' 12. srpnja 2026. (v. 2.1-20260712)
+
+
 ### Ažuriranje grane master '30. prosinca 2025 (v. 2.1-20251230)
 - dodana riječ 'uskostručan'
 
