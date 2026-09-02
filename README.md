@@ -47,7 +47,7 @@ Postoji i nešto što se zove [ProofingToolGui](https://proofingtoolgui.org/) il
 
 [^2]: Prilikom preuzimanja rječnika, bezobrazno sam promijenio sadržaj datoteke `README_hr_HR.txt`. Sada se u ovoj datoteci nalazi njezin izvorni sadržaj.
 
-[^3]: U tom se kontekstu spominju `unmunch` te `wordform`. Navodno ovo posljednje radi s Hunspellom, ali za pojedinu riječ. Možda bi se mogla napraviti skripta koja bi za svaku riječ u rječniku pozivala `wordform`, ali u danom trenutku bilo mi je previše za prožvakati ([github.com/hunspell/issues/404](https://github.com/hunspell/hunspell/issues/404), [hunspell/src/tools/wordforms](https://github.com/hunspell/hunspell/tree/master/src/tools)). 
+[^3]: U tom se kontekstu spominju `unmunch` (izgleda da ne radi s AF brojčanim zastavicama a koje rječnik za hrvatski koristi), `runmunch` (nisam pokušavao) te `wordform`. Navodno ovo posljednje radi s Hunspellom, ali za pojedinu riječ. Možda bi se mogla napraviti skripta koja bi za svaku riječ u rječniku pozivala `wordform`, ali u danom trenutku bilo mi je previše za prožvakati ([github.com/hunspell/issues/404](https://github.com/hunspell/hunspell/issues/404), [hunspell/src/tools/wordforms](https://github.com/hunspell/hunspell/tree/master/src/tools)). 
 
 
 
