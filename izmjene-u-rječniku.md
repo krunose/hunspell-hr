@@ -3,6 +3,9 @@
 
 Najnovija se inačica rječnika može preuzeti iz grane `master` repozitorija na adresi [github.com/krunose/hunspell-hr](https://github.com/krunose/hunspell-hr).
 
+### Ažuriranje grane 'master' 3. rujna 2026.
+- ispravak 'najvrijedniji' u 'najvrjedniji'
+
 ### Ažuriranje grane 'master' 13. srpnja 2026. (v. 2.1-20260713)
 - dodan WORDCHARS . radi rješavanja pitanja kratica s točkom
 - dodana hrpa novih kratica
