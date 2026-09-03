@@ -5,6 +5,7 @@ Najnovija se inačica rječnika može preuzeti iz grane `master` repozitorija na
 
 ### Ažuriranje grane 'master' 3. rujna 2026.
 - ispravak 'najvrijedniji' u 'najvrjedniji'
+- dodana kratica itd.
 
 ### Ažuriranje grane 'master' 13. srpnja 2026. (v. 2.1-20260713)
 - dodan WORDCHARS . radi rješavanja pitanja kratica s točkom
