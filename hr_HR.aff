@@ -317,7 +317,7 @@ REP ^ž Ž
 REP - _
 
 
-AF 418
+AF 419
 AF ZZ	# 1
 AF ZY	# 2
 AF ZX	# 3
@@ -736,6 +736,7 @@ AF SMSNSR	# 415
 AF SL	# 416
 AF SK   # 417
 AF UK	# 418
+AF SJ   # 419
 
 
 SFX XZ Y      21
@@ -3936,4 +3937,13 @@ SFX SK i om ljni
 SFX SK i ome ljni
 SFX SK i omu ljni
 SFX SK 0 m ljni
+
+# euro
+SFX SJ Y 6
+SFX SJ o a .
+SFX SJ o u .
+SFX SJ o om .
+SFX SJ o i .
+SFX SJ o e .
+SFX SJ o ima .
 

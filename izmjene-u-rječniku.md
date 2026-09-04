@@ -6,6 +6,7 @@ Najnovija se inačica rječnika može preuzeti iz grane `master` repozitorija na
 ### Ažuriranje grane 'master' 4. rujna 2026.
 - dodane nove riječi: auditoran, batat, Božićnjak, brojati, disleksičan, dvoslojan, troslojan, četveroslojan, svjetleći
 - dodan REP lter ltar (filtera -> filtara), REP lađ latk (glađi -> glatkiji)
+- ispravak riječi 'euro'
 
 ### Ažuriranje grane 'master' 3. rujna 2026.
 - ispravak 'najvrijedniji' u 'najvrjedniji'
