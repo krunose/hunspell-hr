@@ -77,7 +77,7 @@ ICONV ŕ r
 
 
 # REP - .
-REP 234
+REP 235
 REP ^pocrtava podcrtava
 REP ^zdrastv zdravstv
 REP nućemo$ nut_ćemo
@@ -93,6 +93,7 @@ REP aćete$ at_ćete
 REP ićete$ it_ćete
 REP avaon ovaonic
 REP tentik tentifik
+REP ^glađ glatkij
 REP ^očenaš Očenaš
 REP ićemo$ it_ćemo
 REP ećete$ et_ćete
