@@ -77,7 +77,7 @@ ICONV ŕ r
 
 
 # REP - .
-REP 235
+REP 237
 REP ^pocrtava podcrtava
 REP ^zdrastv zdravstv
 REP nućemo$ nut_ćemo
@@ -121,6 +121,7 @@ REP nion nionic
 REP nuće$ nut_će
 REP ^aders adres
 REP prijek prek
+REP ^videe$ videa
 REP ćovije čovje
 REP vežen vezen
 REP ećeš$ et_ćeš
@@ -132,6 +133,7 @@ REP natn nantn
 REP dvgn dvagn
 REP skma$ skima
 REP ^bimo$ bismo
+REP ^pojas pojasev
 REP ^kazin kasin
 REP ^htjeo$ htio
 REP ^menom$ mnom
