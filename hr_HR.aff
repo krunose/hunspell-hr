@@ -3960,12 +3960,37 @@ SFX SI 0 ovi .
 SFX SI 0 ova .
 SFX SI 0 ovima .
 
-# Dubai, Instagram (singularia tantum)
-SFX SH Y 6
+# Dubai, Instagram, mehatronika (singularia tantum)
+SFX SH Y 13
 SFX SH 0 ja ai
 SFX SH 0 ju ai
 SFX SH 0 jem ai
 SFX SH 0 a am
 SFX SH 0 u am
 SFX SH 0 om am
+SFX SH a e nika
+SFX SH ka ci nika
+SFX SH a u nika
+SFX SH a om nika
+SFX SH tak tka tak
+SFX SH tak tku tak
+SFX SH tak tkom tak
+
+SFX SG Y      16
+SFX SG i      a          i
+SFX SG i      u          i
+SFX SG i      im         i
+SFX SG i      ih         i
+SFX SG i     ima        i
+SFX SG i      e          i
+SFX SG i      oj         i
+SFX SG i      om         i
+SFX SG i      og         [^čćšjžđ]i
+SFX SG i      oga        [^čćšjžđ]i
+SFX SG i      ome        [^čćšjžđ]i
+SFX SG i      omu        [^čćšjžđ]i
+SFX SG i      eg         [čćšjžđ]i
+SFX SG i      ega        [čćšjžđ]i
+SFX SG i      em         [čćšjžđ]i
+SFX SG i      emu        [čćšjžđ]i
 

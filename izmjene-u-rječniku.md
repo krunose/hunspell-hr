@@ -6,7 +6,7 @@ Najnovija se inačica rječnika može preuzeti iz grane `master` repozitorija na
 ### Ažuriranje grane 'master' 4. rujna 2026.
 - dodano više novih riječi
 - dodan REP lter ltar (filtera -> filtara), REP lađ latk (glađi -> glatkiji)
-- ispravak riječi 'euro'
+- ispravak riječi 'euro', 'elektrootporan', 'vodootporan'
 
 ### Ažuriranje grane 'master' 3. rujna 2026.
 - ispravak 'najvrijedniji' u 'najvrjedniji'
