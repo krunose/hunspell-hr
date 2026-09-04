@@ -4,7 +4,7 @@
 Najnovija se inačica rječnika može preuzeti iz grane `master` repozitorija na adresi [github.com/krunose/hunspell-hr](https://github.com/krunose/hunspell-hr).
 
 ### Ažuriranje grane 'master' 4. rujna 2026.
-- dodane nove riječi: auditoran, batat, Božićnjak, brojati, disleksičan, dvoslojan, troslojan, četveroslojan, svjetleći
+- dodano više novih riječi
 - dodan REP lter ltar (filtera -> filtara), REP lađ latk (glađi -> glatkiji)
 - ispravak riječi 'euro'
 

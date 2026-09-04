@@ -1,4 +1,4 @@
-SET UTF-8
+﻿SET UTF-8
 
 # TRY ABCDEFGHIJKLMNOPQRSTUVWXYćĆčČđĐžŽabcdefghijklmnopqrstuvwxy-'.ëü
 TRY aionerjmtsulkpvdzAgčcbšhćžfEMđGCILHDJSKPBŠTVČNRFOZŽWyUĐxwYĆQqX
@@ -317,7 +317,7 @@ REP ^ž Ž
 REP - _
 
 
-AF 419
+AF 422
 AF ZZ	# 1
 AF ZY	# 2
 AF ZX	# 3
@@ -737,6 +737,9 @@ AF SL	# 416
 AF SK   # 417
 AF UK	# 418
 AF SJ   # 419
+AF SI   # 420
+AF SH   # 421
+AF SG   # 422
 
 
 SFX XZ Y      21
@@ -3946,4 +3949,23 @@ SFX SJ o om .
 SFX SJ o i .
 SFX SJ o e .
 SFX SJ o ima .
+
+# dron
+SFX SI Y 7
+SFX SI 0 a .
+SFX SI 0 u .
+SFX SI 0 om .
+SFX SI 0 e .
+SFX SI 0 ovi .
+SFX SI 0 ova .
+SFX SI 0 ovima .
+
+# Dubai, Instagram (singularia tantum)
+SFX SH Y 6
+SFX SH 0 ja ai
+SFX SH 0 ju ai
+SFX SH 0 jem ai
+SFX SH 0 a am
+SFX SH 0 u am
+SFX SH 0 om am
 
