@@ -5,6 +5,7 @@ Najnovija se inačica rječnika može preuzeti iz grane `master` repozitorija na
 
 ### Ažuriranje garane 'master' 5. rujna 2026
 - ispravak riječi 'afinitetan/357' u 'afinitetan/359'
+- dodane riječi 'bend' i 'Lika'
 
 ### Ažuriranje grane 'master' 4. rujna 2026.
 - dodano više novih riječi
