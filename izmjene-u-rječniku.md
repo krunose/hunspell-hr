@@ -3,6 +3,9 @@
 
 Najnovija se inačica rječnika može preuzeti iz grane `master` repozitorija na adresi [github.com/krunose/hunspell-hr](https://github.com/krunose/hunspell-hr).
 
+### Ažuriranje garane 'master' 5. rujna 2026
+- ispravak riječi 'afinitetan/357' u 'afinitetan/359'
+
 ### Ažuriranje grane 'master' 4. rujna 2026.
 - dodano više novih riječi
 - dodan REP lter ltar (filtera -> filtara), REP lađ latk (glađi -> glatkiji)
