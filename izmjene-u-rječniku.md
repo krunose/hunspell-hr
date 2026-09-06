@@ -4,7 +4,7 @@
 Najnovija se inačica rječnika može preuzeti iz grane `master` repozitorija na adresi [github.com/krunose/hunspell-hr](https://github.com/krunose/hunspell-hr).
 
 ### Ažuriranje grane 'master' 6. rujna 2026
-- dodane riječi 'Hormuz', 'hormuški', 'Washington', 'vašingtonski', 'fizijatar', 'fizijatrija'
+- dodane riječi 'Hormuz', 'hormuški', 'Washington', 'vašingtonski', 'fizijatar', 'fizijatrija', 'Wikipedija', 'Wikimedija', 'superinteligentni'
 
 ### Ažuriranje garane 'master' 5. rujna 2026
 - ispravak riječi 'afinitetan/357' u 'afinitetan/359'
