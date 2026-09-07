@@ -317,7 +317,7 @@ REP ^ž Ž
 REP - _
 
 
-AF 422
+AF 424
 AF ZZ	# 1
 AF ZY	# 2
 AF ZX	# 3
@@ -740,6 +740,8 @@ AF SJ   # 419
 AF SI   # 420
 AF SH   # 421
 AF SG   # 422
+AF TZZM	# 423
+AF SF   # 424
 
 
 SFX XZ Y      21
@@ -3993,4 +3995,11 @@ SFX SG i      eg         [čćšjžđ]i
 SFX SG i      ega        [čćšjžđ]i
 SFX SG i      em         [čćšjžđ]i
 SFX SG i      emu        [čćšjžđ]i
+
+SFX SF Y 4
+SFX SF 0 -e .
+SFX SF 0 -i .
+SFX SF 0 -u .
+SFX SF 0 -om .
+
 
