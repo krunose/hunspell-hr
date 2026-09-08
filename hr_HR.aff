@@ -77,7 +77,7 @@ ICONV ŕ r
 
 
 # REP - .
-REP 237
+REP 238
 REP ^pocrtava podcrtava
 REP ^zdrastv zdravstv
 REP nućemo$ nut_ćemo
@@ -224,6 +224,7 @@ REP un utn
 REP vši ći
 REP ko$ klo
 REP nk ngk
+REP nt nta
 REP ia ija
 REP lj nj
 REP iju$ e
@@ -740,8 +741,8 @@ AF SJ   # 419
 AF SI   # 420
 AF SH   # 421
 AF SG   # 422
-AF TZZM	# 423
-AF SF   # 424
+AF SF   # 423
+AF SE   # 424
 
 
 SFX XZ Y      21
@@ -4002,4 +4003,7 @@ SFX SF 0 -i .
 SFX SF 0 -u .
 SFX SF 0 -om .
 
-
+SFX SE Y 3
+SFX SE 0 -ja .
+SFX SE 0 -ju .
+SFX SE 0 -jem .

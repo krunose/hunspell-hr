@@ -3,6 +3,10 @@
 
 Najnovija se inačica rječnika može preuzeti iz grane `master` repozitorija na adresi [github.com/krunose/hunspell-hr](https://github.com/krunose/hunspell-hr).
 
+### Ažuriranje grane 'master' 8. rujna 2026.
+- dodan REP za supelemntan > supelementaran
+- dodane riječi: bolonjez, općeuporaban, keksić, neunošenje, AI, zaokupiran, pizza, metapodatak
+
 ### Ažuriranje grane 'master' 7. rujna 2026.
 - dodane riječi 'potforum', 'Google', 'guglati', 'A-kategorija', 'ortopan', 'spirometrija', 'bogati' (čestica; kao 'bogamu' itd.), 'boktepitaj', dodana kratica 'dr.', 'bulimičar', 'bulimičarka', 'FIFA', 'multikulturalni', 'karting'
 - ispravak: azobenzen > azo-benzen, 'bezvrijedniji' > 'bezvrjedniji', 'binarnodecimalni' > 'binarno-decimalni', brisano 'biserli', brisano 'bljesnut' brisano 'bolešljiv', brisano 'bombonjera', brisano 'božanskiji' jer ta riječ nema komparativ, izbrisan dupli unos 'bučnica/360', dodana opcija WARN na 'bursa', 'bus', brisano 'caklo', brisano 'casino', dodana sklonidba na 'CEFTA'
