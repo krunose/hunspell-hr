@@ -4,7 +4,7 @@
 Najnovija se inačica rječnika može preuzeti iz grane `master` repozitorija na adresi [github.com/krunose/hunspell-hr](https://github.com/krunose/hunspell-hr).
 
 ### Ažuriranje grane 'master' 8. rujna 2026.
-- dodan REP za supelemntan > supelementaran, jel > jer, ajde > hajde, gosp > gosp., al > ali, takođe > također, samnom > sa mnom, obećajem > obećavam, ajmo > hajmo (hajdemo), nebi > ne bi(h), ubistvo > ubojstvo, juče > jučer, dodji > dođi, nemogu > ne mogu
+- dodan REP za supelemntan > supelementaran, jel > jer, ajde > hajde, gosp > gosp., al > ali, takođe > također, samnom > sa mnom, obećajem > obećavam, ajmo > hajmo (hajdemo), nebi > ne bi(h), ubistvo > ubojstvo, juče > jučer, dodji > dođi, nemogu > ne mogu, pokušaj s REP-om da se predlaže odvojeno 'ne' od svih glagola (zato stavljeno na kraj, da prvo pokuša sve druge oblike zamjene, a tek onda ovo općenito jer bi potencijalno moglo utjecati na prijedloge drugih grešaka s 'ne-' poput 'nestajući')
 - dodane riječi: bolonjez, općeuporaban, keksić, neunošenje, AI, zaokupiran, pizza, metapodatak, jebiga
 - brisano 'rđa'
 - izmjena: Židov > židov >> piše se i Židov (narodnost) i 'židov' (vjeroispovijest). Ako se u rječnik unese malim slovom, prihvaćat će i 'Židov' i 'židov'. Treba paziti na takve riječi

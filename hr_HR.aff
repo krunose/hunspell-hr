@@ -77,7 +77,7 @@ ICONV ŕ r
 
 
 # REP - .
-REP 251
+REP 252
 REP ^pocrtava podcrtava
 REP ^obećaj obećava
 REP ^zdrastv zdravstv
@@ -329,6 +329,7 @@ REP ^y Y
 REP ^z Z
 REP ^ž Ž
 REP - _
+REP ^ne ne_
 
 
 AF 424
