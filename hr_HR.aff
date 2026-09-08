@@ -77,7 +77,7 @@ ICONV ŕ r
 
 
 # REP - .
-REP 238
+REP 239
 REP ^pocrtava podcrtava
 REP ^zdrastv zdravstv
 REP nućemo$ nut_ćemo
@@ -173,6 +173,7 @@ REP eću$ et_ću
 REP šću$ st_ću
 REP ljen$ ljne
 REP eće$ et_će
+REP ^jel$ jer
 REP ^nek$ neka
 REP lik link
 REP take$ tke
