@@ -7,6 +7,7 @@ Najnovija se inačica rječnika može preuzeti iz grane `master` repozitorija na
 - dodan REP za supelemntan > supelementaran, jel > jer, ajde > hajde, gosp > gosp., al > ali, takođe > također, samnom > sa mnom, obećajem > obećavam, ajmo > hajmo (hajdemo), nebi > ne bi(h), ubistvo > ubojstvo, juče > jučer, dodji > dođi, nemogu > ne mogu
 - dodane riječi: bolonjez, općeuporaban, keksić, neunošenje, AI, zaokupiran, pizza, metapodatak, jebiga
 - brisano 'rđa'
+- izmjena: Židov > židov >> piše se i Židov (narodnost) i 'židov' (vjeroispovijest). Ako se u rječnik unese malim slovom, prihvaćat će i 'Židov' i 'židov'. Treba paziti na takve riječi
 
 ### Ažuriranje grane 'master' 7. rujna 2026.
 - dodane riječi 'potforum', 'Google', 'guglati', 'A-kategorija', 'ortopan', 'spirometrija', 'bogati' (čestica; kao 'bogamu' itd.), 'boktepitaj', dodana kratica 'dr.', 'bulimičar', 'bulimičarka', 'FIFA', 'multikulturalni', 'karting'
