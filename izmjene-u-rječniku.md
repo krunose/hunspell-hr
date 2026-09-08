@@ -6,6 +6,7 @@ Najnovija se inačica rječnika može preuzeti iz grane `master` repozitorija na
 ### Ažuriranje grane 'master' 8. rujna 2026.
 - dodan REP za supelemntan > supelementaran
 - dodane riječi: bolonjez, općeuporaban, keksić, neunošenje, AI, zaokupiran, pizza, metapodatak
+- brisano 'rđa'
 
 ### Ažuriranje grane 'master' 7. rujna 2026.
 - dodane riječi 'potforum', 'Google', 'guglati', 'A-kategorija', 'ortopan', 'spirometrija', 'bogati' (čestica; kao 'bogamu' itd.), 'boktepitaj', dodana kratica 'dr.', 'bulimičar', 'bulimičarka', 'FIFA', 'multikulturalni', 'karting'
