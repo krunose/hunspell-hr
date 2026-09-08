@@ -1,2 +1,10 @@
+Legenda znakova:
+    Nove riječi pišu se na dno datoteke
+    Minus označava da riječ nije dodana. Jednom kada se doda, minus treba pretvoriti u plus.
+    Minus i upitnik označavaju da bi riječ trebalo dodati, ali je upitno s gledišta standarda ili postoje kolebanja u pisanju
+    Minus i plus označavaju da riječ postoji u rječniku, ali pojediin oblici nisu prepoznati (upisati riječ u neprepoznatom obliku)
+
+
 - algoritmologiji
 - ? OK
+- + gđo
