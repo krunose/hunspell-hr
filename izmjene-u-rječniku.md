@@ -5,7 +5,7 @@ Najnovija se inačica rječnika može preuzeti iz grane `master` repozitorija na
 
 ### Ažuriranje grane 'master' 8. rujna 2026.
 - dodan REP za supelemntan > supelementaran, jel > jer, ajde > hajde, gosp > gosp., al > ali, takođe > također, samnom > sa mnom, obećajem > obećavam, ajmo > hajmo (hajdemo), nebi > ne bi(h), ubistvo > ubojstvo, juče > jučer, dodji > dođi, nemogu > ne mogu
-- dodane riječi: bolonjez, općeuporaban, keksić, neunošenje, AI, zaokupiran, pizza, metapodatak
+- dodane riječi: bolonjez, općeuporaban, keksić, neunošenje, AI, zaokupiran, pizza, metapodatak, jebiga
 - brisano 'rđa'
 
 ### Ažuriranje grane 'master' 7. rujna 2026.
