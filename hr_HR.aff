@@ -77,7 +77,7 @@ ICONV ŕ r
 
 
 # REP - .
-REP 247
+REP 248
 REP ^pocrtava podcrtava
 REP ^obećaj obećava
 REP ^zdrastv zdravstv
@@ -96,6 +96,7 @@ REP aćete$ at_ćete
 REP ićete$ it_ćete
 REP avaon ovaonic
 REP tentik tentifik
+REP ^ubistv ubojstv
 REP ^glađ glatkij
 REP ^očenaš Očenaš
 REP ićemo$ it_ćemo
