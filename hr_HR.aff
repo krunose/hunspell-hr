@@ -77,8 +77,9 @@ ICONV ŕ r
 
 
 # REP - .
-REP 244
+REP 245
 REP ^pocrtava podcrtava
+REP ^obećaj obećava
 REP ^zdrastv zdravstv
 REP nućemo$ nut_ćemo
 REP nućete$ nut_ćete
