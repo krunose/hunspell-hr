@@ -77,7 +77,7 @@ ICONV ŕ r
 
 
 # REP - .
-REP 252
+REP 253
 REP ^pocrtava podcrtava
 REP ^obećaj obećava
 REP ^zdrastv zdravstv
@@ -154,6 +154,7 @@ REP ^nebi ne_bi
 REP nara napra
 REP skmu$ skomu
 REP ^ljud$ ljut
+REP ^neč neć
 REP ^paje$ pa_je
 REP ^trab trav
 REP ^trab treb
