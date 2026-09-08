@@ -77,7 +77,7 @@ ICONV ŕ r
 
 
 # REP - .
-REP 246
+REP 247
 REP ^pocrtava podcrtava
 REP ^obećaj obećava
 REP ^zdrastv zdravstv
@@ -147,6 +147,7 @@ REP ^stim$ s_tim
 REP ^polu- polu
 REP ^moće$ može
 REP skme$ skome
+REP ^nebi ne_bi
 REP nara napra
 REP skmu$ skomu
 REP ^ljud$ ljut
