@@ -336,7 +336,7 @@ REP - _
 REP ^ne ne_
 
 
-AF 424
+AF 425
 AF ZZ	# 1
 AF ZY	# 2
 AF ZX	# 3
@@ -761,6 +761,7 @@ AF SH   # 421
 AF SG   # 422
 AF SF   # 423
 AF SE   # 424
+AF SD   # 425
 
 
 SFX XZ Y      21
@@ -4025,3 +4026,14 @@ SFX SE Y 3
 SFX SE 0 -ja .
 SFX SE 0 -ju .
 SFX SE 0 -jem .
+
+SFX SD Y 6
+SFX SD a e a
+SFX SD a i a
+SFX SD a u a
+SFX SD a o a
+SFX SD a om a
+SFX SD 0 ma a
+
+
+
