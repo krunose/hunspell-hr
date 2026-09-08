@@ -190,6 +190,7 @@ REP take$ tke
 REP nis nijs
 REP skm$ skim
 REP skm$ skom
+REP ^pic pizz
 REP ioc$ ilac
 REP kno ktno
 REP ije ive
@@ -331,7 +332,6 @@ REP ^y Y
 REP ^z Z
 REP ^ž Ž
 REP x ks
-REP c zz
 REP - _
 REP ^ne ne_
 
