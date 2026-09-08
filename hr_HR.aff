@@ -77,11 +77,12 @@ ICONV ŕ r
 
 
 # REP - .
-REP 242
+REP 243
 REP ^pocrtava podcrtava
 REP ^zdrastv zdravstv
 REP nućemo$ nut_ćemo
 REP nućete$ nut_ćete
+REP ^takođe$ također
 REP ^riječo$ riječ_o
 REP ^usisač usisivač
 REP rejanac rejac
