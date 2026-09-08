@@ -274,9 +274,10 @@ REP žc šc
 REP ts ds
 REP dj đ
 REP x ks
+REP c k     # ova tri pravila neće raditi jer su preslična, treba proširiti kontekst pravila
 REP c ts
 REP c ds
-REP a -a
+REP a -a    # ovo i sljedeće pravilo treba proširiti kontekstom jer ovako neće dobro raditi
 REP a aa
 REP d dd
 REP e ee
@@ -292,7 +293,6 @@ REP dž č
 REP ^ts c
 REP št š
 REP st s
-REP c k
 REP g h
 REP ć č
 REP č ć
