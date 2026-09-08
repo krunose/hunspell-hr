@@ -77,7 +77,7 @@ ICONV ŕ r
 
 
 # REP - .
-REP 245
+REP 246
 REP ^pocrtava podcrtava
 REP ^obećaj obećava
 REP ^zdrastv zdravstv
@@ -203,6 +203,7 @@ REP ^bim$ bih
 REP ^čiž čiz
 REP ini inu
 REP kdž gdž
+REP ^aj haj
 REP jat jit
 REP dni$ tni
 REP on onic
