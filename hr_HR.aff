@@ -77,7 +77,7 @@ ICONV ŕ r
 
 
 # REP - .
-REP 239
+REP 240
 REP ^pocrtava podcrtava
 REP ^zdrastv zdravstv
 REP nućemo$ nut_ćemo
@@ -136,6 +136,7 @@ REP ^bimo$ bismo
 REP ^pojas pojasev
 REP ^kazin kasin
 REP ^htjeo$ htio
+REP ^ajde$ hajde
 REP ^menom$ mnom
 REP ^bite$ biste
 REP ^stim$ s_tim
