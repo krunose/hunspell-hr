@@ -4,7 +4,7 @@
 Najnovija se inačica rječnika može preuzeti iz grane `master` repozitorija na adresi [github.com/krunose/hunspell-hr](https://github.com/krunose/hunspell-hr).
 
 ### Ažuriranje grane 'master' 8. rujna 2026.
-- dodan REP za supelemntan > supelementaran, jel > jer, ajde > hajde
+- dodan REP za supelemntan > supelementaran, jel > jer, ajde > hajde, gosp > gosp., al > ali
 - dodane riječi: bolonjez, općeuporaban, keksić, neunošenje, AI, zaokupiran, pizza, metapodatak
 - brisano 'rđa'
 
