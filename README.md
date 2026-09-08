@@ -41,7 +41,7 @@ Svjestan sam da bi ove upute mogle više pitanja otvoriti negoli zatvorit, pa ć
 - [Službena dokumentacija](https://sourceforge.net/projects/hunspell/files/Hunspell/Documentation/hunspell4.pdf/download)
 - [hunspell.github.io](http://hunspell.github.io/)
 
-Postoji i nešto što se zove [ProofingToolGui](https://proofingtoolgui.org/) iliti PTG; prilično dobar alat za dodavanje novih riječi. Skrenuli su mi pažnju i na [hunaftool](https://github.com/ssvb/hunaftool/), ali nisam (još) radio s time. Od pomoći je i frekvencijski rječnik dostupan iz izvora [hermitdave](https://github.com/hermitdave/FrequencyWords/tree/master/content/2018) na GitHubu.
+Postoji i nešto što se zove [ProofingToolGui](https://proofingtoolgui.org/) iliti PTG; prilično dobar alat za dodavanje novih riječi. Skrenuli su mi pažnju i na [hunaftool](https://github.com/ssvb/hunaftool/), ali nisam (još) radio s time. Od pomoći bi možda mogao biti rječnik dostupan iz izvora [hermitdave](https://github.com/hermitdave/FrequencyWords/tree/master/content/2018) na GitHubu; međutim sadrži (u kontekstu računalne provjere pravopisa) i pogreške.
 
 [^1]: Ako sam koga izostavio ili želi kakvu izmjenu, može me kontaktirati na `kruno.se` na domeni `gmx com`.
 
