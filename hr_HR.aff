@@ -77,7 +77,7 @@ ICONV ŕ r
 
 
 # REP - .
-REP 258
+REP 259
 REP ^pocrtava podcrtava
 REP ^obećaj obećava
 REP ^zdrastv zdravstv
@@ -200,6 +200,7 @@ REP nest nijet
 REP aoc$ alac
 REP ^mže$ može
 REP ^iko$ itko
+REP ata aća
 REP rni rnu
 REP rh rth
 REP ljnj nj
