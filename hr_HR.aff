@@ -77,7 +77,7 @@ ICONV ŕ r
 
 
 # REP - .
-REP 261
+REP 262
 REP ^pocrtava podcrtava
 REP ^obećaj obećava
 REP ^zdrastv zdravstv
@@ -119,6 +119,7 @@ REP ićeš$ it_ćeš
 REP ^subst supst
 REP aćeš$ at_ćeš
 REP ^obama$ oboma
+REP ^peva pjeva
 REP ^juče$ jučer
 REP ^lotus lotos
 REP nuću$ nut_ću
