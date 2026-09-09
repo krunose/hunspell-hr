@@ -77,7 +77,7 @@ ICONV ŕ r
 
 
 # REP - .
-REP 259
+REP 260
 REP ^pocrtava podcrtava
 REP ^obećaj obećava
 REP ^zdrastv zdravstv
@@ -189,6 +189,7 @@ REP ^nek$ neka
 REP lik link
 REP take$ tke
 REP nis nijs
+REP ^sed sjed
 REP skm$ skim
 REP skm$ skom
 REP ^pic pizz
