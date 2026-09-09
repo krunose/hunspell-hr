@@ -77,7 +77,7 @@ ICONV ŕ r
 
 
 # REP - .
-REP 263
+REP 264
 REP ^pocrtava podcrtava
 REP ^obećaj obećava
 REP ^zdrastv zdravstv
@@ -135,6 +135,7 @@ REP ljanj ljenj
 REP ^gosp$ gosp.
 REP ^dobija dobiva
 REP ^nemog ne_mog
+REP ^odma$ odmah
 REP ^pretč predč
 REP tarn ćarnic
 REP šćeš$ st_ćeš
