@@ -77,7 +77,7 @@ ICONV ŕ r
 
 
 # REP - .
-REP 257
+REP 258
 REP ^pocrtava podcrtava
 REP ^obećaj obećava
 REP ^zdrastv zdravstv
@@ -239,6 +239,7 @@ REP is ijs
 REP un utn
 REP vši ći
 REP ko$ klo
+REP ko kao
 REP nk ngk
 REP nt nta
 REP ia ija
@@ -282,10 +283,10 @@ REP a -a    # ovo i sljedeće pravilo treba proširiti kontekstom jer ovako neć
 REP a aa
 REP d dd
 REP e ee
-REP u -u
+REP u -u    # ovo i sljedeće pravilo bi moglo biti u koliziji zbog načina na koji Hunspell prolazi kroz REP
+REP u uu
 REP n nn
 REP o oo
-REP u uu
 REP s ss
 REP i je
 REP zš š
