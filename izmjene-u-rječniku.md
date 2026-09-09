@@ -4,7 +4,7 @@
 Najnovija se inačica rječnika može preuzeti iz grane `master` repozitorija na adresi [github.com/krunose/hunspell-hr](https://github.com/krunose/hunspell-hr).
 
 ### Ažuriranje grane 'master' 9. rujna 2026.
-- dodan REP: reko > rekao, prihvatam > prihvaćam, sedim > sjedim, oćeš > hoćeš, peva > pjeva
+- dodan REP: reko > rekao, prihvatam > prihvaćam, sedim > sjedim, oćeš > hoćeš, peva > pjeva, texas > Teksas
 - dodano: židov (pripadnik vjere) i Židov (pripadnik naroda), isto: židovka i Židovka
 - dodana deklinacija na riječ 'DNK'
 

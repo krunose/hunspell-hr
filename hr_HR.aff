@@ -77,7 +77,7 @@ ICONV ŕ r
 
 
 # REP - .
-REP 262
+REP 263
 REP ^pocrtava podcrtava
 REP ^obećaj obećava
 REP ^zdrastv zdravstv
@@ -161,6 +161,7 @@ REP ^paje$ pa_je
 REP ^trab trav
 REP ^trab treb
 REP ^jel$ je_li
+REP ^tex Teks
 REP bljiv biv
 REP roja roji
 REP ljiv ljav
