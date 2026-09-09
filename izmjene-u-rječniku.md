@@ -5,6 +5,7 @@ Najnovija se inačica rječnika može preuzeti iz grane `master` repozitorija na
 
 ### Ažuriranje grane 'master' 9. rujna 2026.
 - dodan REP: reko > rekao, prihvatam > prihvaćam, sedim > sjedim, oćeš > hoćeš, peva > pjeva
+- dodano: židov (pripadnik vjere) i Židov (pripadnik naroda), isto: židovka i Židovka
 
 ### Ažuriranje grane 'master' 8. rujna 2026.
 - dodan REP za supelemntan > supelementaran, jel > jer, ajde > hajde, gosp > gosp., al > ali, takođe > također, samnom > sa mnom, obećajem > obećavam, ajmo > hajmo (hajdemo), nebi > ne bi(h), ubistvo > ubojstvo, juče > jučer, dodji > dođi, nemogu > ne mogu, pokušaj s REP-om da se predlaže odvojeno 'ne' od svih glagola (zato stavljeno na kraj, da prvo pokuša sve druge oblike zamjene, a tek onda ovo općenito jer bi potencijalno moglo utjecati na prijedloge drugih grešaka s 'ne-' poput 'nestajući'), dodan REP neče > neće, iko > itko, Texas > Teksas, pica > pizza, dobijaš > dobivaš
