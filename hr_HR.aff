@@ -77,7 +77,7 @@ ICONV ŕ r
 
 
 # REP - .
-REP 268
+REP 269
 REP ^pocrtava podcrtava
 REP ^obećaj obećava
 REP ^zdrastv zdravstv
@@ -89,6 +89,7 @@ REP ^usisač usisivač
 REP rejanac rejac
 REP ^prenat prednat
 REP ^samnom$ sa_mnom
+REP ^macho$ mačo
 REP šćemo$ st_ćemo
 REP šćete$ st_ćete
 REP aćemo$ at_ćemo
