@@ -77,9 +77,11 @@ ICONV ŕ r
 
 
 # REP - .
-REP 274
+REP 277
 REP ^pocrtava podcrtava
 REP ^žvake$ žvakaće_gume
+REP ^žvaka$ žvakaća_guma
+REP ^žvakom$ žvakaćom_gumom
 REP ^predamnom$ preda_mnom
 REP ^cappuccin kapučin
 REP ^obećaj obećava
@@ -95,6 +97,7 @@ REP ^samnom$ sa_mnom
 REP ^zamnom$ za_mnom
 REP ^macho$ mačo
 REP ^rećić reći_ć
+REP ^Buddh Bud
 REP šćemo$ st_ćemo
 REP šćete$ st_ćete
 REP aćemo$ at_ćemo
