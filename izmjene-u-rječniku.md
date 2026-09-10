@@ -5,6 +5,7 @@ Najnovija se inačica rječnika može preuzeti iz grane `master` repozitorija na
 
 ## Ažuriranje grane 'master' 11. rujna 2026
 - ispravak ije ije: unaprijeđenje > unapređenje
+- uklonjeno: naprjeđenje
 
 ### Ažuriranje grane 'master' 10. rujna 2026.
 - dodan REP: nijesam > nisam, reć > reći, macho > mačo, cappuccino > kapučino, žvake > žvakaće gume, zamnom > za mnom, predamnom > preda mnom, rećiću > reći ću, Buddha > Buda, žvaka > žvakaća guma, žvakom > žvakaćom gumom, žep > džep, Muhammed > Muhamed
