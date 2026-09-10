@@ -80,7 +80,7 @@ Za napraviti:
 - stidjeti
 - PIN
 - OIB
-- + Tokiju (rječnik tvori nepravilan oblik 'Tokiu')
+- + Tokiju (rječnik tvori nepravilan oblik 'Tokiu', 'Tokio'... Za pogrešku 'Tokyo' predlaže i 'Toko', treba istražiti u 'wordlistu' što generira taj oblik)
 - + zvjezdanih ('zvjezdanih dana', sili uvijek 'Zvjezdanih')
 - Gabrijela (dodana riječ 'Gabrijela')
 - + odijeljenje (prihvaća taj oblik, a ne bi trebao, treba biti 'odjeljenje')
