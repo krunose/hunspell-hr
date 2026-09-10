@@ -3,6 +3,7 @@ Legenda znakova:
     Minus označava da riječ nije dodana. Jednom kada se doda, minus treba pretvoriti u plus.
     Minus i upitnik označavaju da bi riječ trebalo dodati, ali je upitno s gledišta standarda ili postoje kolebanja u pisanju
     Minus i plus označavaju da riječ postoji u rječniku, ali pojediin oblici nisu prepoznati (upisati riječ u neprepoznatom obliku)
+    Plus i minus označavaju riječi koje već jesu u rječniku, ali imaju pogrešnu (ili preširoku) klasu
     Minus i minus označavaju brisanje riječi: - - rđa. Kada se obriše označava se: + - rđa
     Ispod crte su riječi koje _neće_ biti dodane jer nisu standarne i obilježene su reginalno, stilski ili kako drugačije
 
@@ -168,6 +169,7 @@ Za napraviti:
 - - njem (uopće ne znam što je to)
 - - njemoći (bilježi ovaj nepostojeći oblik, ali ne znam za koju riječ, treba provjeriti u 'wordlist')
 - Pepsi (robna marka)
+- 
 
 -------------------------------------------------------------------------
 
