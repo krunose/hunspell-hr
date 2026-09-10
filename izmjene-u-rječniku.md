@@ -3,6 +3,9 @@
 
 Najnovija se inačica rječnika može preuzeti iz grane `master` repozitorija na adresi [github.com/krunose/hunspell-hr](https://github.com/krunose/hunspell-hr).
 
+## Ažuriranje grane 'master' 11. rujna 2026
+- ispravak ije ije: unaprijeđenje > unapređenje
+
 ### Ažuriranje grane 'master' 10. rujna 2026.
 - dodan REP: nijesam > nisam, reć > reći, macho > mačo, cappuccino > kapučino, žvake > žvakaće gume, zamnom > za mnom, predamnom > preda mnom, rećiću > reći ću, Buddha > Buda, žvaka > žvakaća guma, žvakom > žvakaćom gumom, žep > džep, Muhammed > Muhamed
 
