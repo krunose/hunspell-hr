@@ -4,7 +4,7 @@
 Najnovija se inačica rječnika može preuzeti iz grane `master` repozitorija na adresi [github.com/krunose/hunspell-hr](https://github.com/krunose/hunspell-hr).
 
 ### Ažuriranje grane 'master' 10. rujna 2026.
-- dodan REP: nijesam > nisam, reć > reći, macho > mačo, cappuccino > kapučino, žvake > žvakaće gume, zamnom > za mnom, predamnom > preda mnom, rećiću > reći ću, Buddha > Buda, žvaka > žvakaća guma, žvakom > žvakaćom gumom, žep > džep
+- dodan REP: nijesam > nisam, reć > reći, macho > mačo, cappuccino > kapučino, žvake > žvakaće gume, zamnom > za mnom, predamnom > preda mnom, rećiću > reći ću, Buddha > Buda, žvaka > žvakaća guma, žvakom > žvakaćom gumom, žep > džep, Muhammed > Muhamed
 
 ### Ažuriranje grane 'master' 9. rujna 2026.
 - dodan REP: reko > rekao, prihvatam > prihvaćam, sedim > sjedim, oćeš > hoćeš, peva > pjeva, texas > Teksas, odma > odmah, videću > vidjet ću, shopping > šoping

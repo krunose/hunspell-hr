@@ -77,7 +77,7 @@ ICONV ŕ r
 
 
 # REP - .
-REP 278
+REP 279
 REP ^pocrtava podcrtava
 REP ^žvake$ žvakaće_gume
 REP ^žvaka$ žvakaća_guma
@@ -295,6 +295,7 @@ REP tš dš
 REP žc šc
 REP ts ds
 REP dj đ
+REP mm m
 REP x ks
 REP c k     # ova tri pravila neće raditi jer su preslična, treba proširiti kontekst pravila
 REP c ts
