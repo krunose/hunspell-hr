@@ -77,7 +77,7 @@ ICONV ŕ r
 
 
 # REP - .
-REP 266
+REP 267
 REP ^pocrtava podcrtava
 REP ^obećaj obećava
 REP ^zdrastv zdravstv
@@ -116,6 +116,7 @@ REP ampiš ampinš
 REP ^nezna ne_zna
 REP ^prdon pridon
 REP dreti$ derati
+REP ^nijes nis
 REP nešen nesen
 REP ićeš$ it_ćeš
 REP ^subst supst
