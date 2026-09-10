@@ -77,8 +77,9 @@ ICONV ŕ r
 
 
 # REP - .
-REP 270
+REP 271
 REP ^pocrtava podcrtava
+REP ^žvake$ žvakaće_gume
 REP ^cappuccin kapučin
 REP ^obećaj obećava
 REP ^zdrastv zdravstv
