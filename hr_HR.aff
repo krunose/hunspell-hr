@@ -77,8 +77,9 @@ ICONV ŕ r
 
 
 # REP - .
-REP 269
+REP 270
 REP ^pocrtava podcrtava
+REP ^cappuccin kapučin
 REP ^obećaj obećava
 REP ^zdrastv zdravstv
 REP nućemo$ nut_ćemo
