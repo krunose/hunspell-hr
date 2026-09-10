@@ -77,7 +77,7 @@ ICONV ŕ r
 
 
 # REP - .
-REP 267
+REP 268
 REP ^pocrtava podcrtava
 REP ^obećaj obećava
 REP ^zdrastv zdravstv
@@ -247,6 +247,7 @@ REP st tst
 REP is ijs
 REP un utn
 REP vši ći
+REP eć$ eći
 REP ko$ klo
 REP ko kao
 REP nk ngk
