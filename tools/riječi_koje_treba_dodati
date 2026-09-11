@@ -361,6 +361,7 @@ Za napraviti:
 - Tina
 - spakirati
 - + gis (fis) i ostale povisilice i snizilice dodati NOSUGGEST
+- + GPS (rječnik generira samo GPS, ne i deklinaciju, treba preko wordlista vidjeti gdje i kako)
 
 -------------------------------------------------------------------------
 
