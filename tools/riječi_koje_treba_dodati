@@ -396,6 +396,7 @@ Za napraviti:
 - talasati (ne 'talas' u smislu 'val' jer je to srpski, ali glagol 'talasati' u hrvatskom znači 'njihati se pod vjetrom', 'uzburkano': politička scena se talasa....)
 - Kentucky
 - + donjo (rječnik generira ovaj oblik za 'jdoo', ne znam zašto, treba provjeriti što to generira preko 'wordlista')
+- autoškola
 
 -------------------------------------------------------------------------
 
