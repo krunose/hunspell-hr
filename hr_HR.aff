@@ -77,7 +77,7 @@ ICONV ŕ r
 
 
 # REP - .
-REP 280
+REP 281
 REP ^pocrtava podcrtava
 REP ^žvake$ žvakaće_gume
 REP ^žvaka$ žvakaća_guma
@@ -97,6 +97,7 @@ REP ^samnom$ sa_mnom
 REP ^zamnom$ za_mnom
 REP ^macho$ mačo
 REP ^višlje$ više
+REP ^najvišlje$ najviše
 REP ^rećić reći_ć
 REP ^žep džep
 REP ^Buddh Bud
