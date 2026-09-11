@@ -77,7 +77,7 @@ ICONV ŕ r
 
 
 # REP - .
-REP 282
+REP 283
 REP ^pocrtava podcrtava
 REP ^žvake$ žvakaće_gume
 REP ^žvaka$ žvakaća_guma
@@ -129,6 +129,7 @@ REP ampiš ampinš
 REP ^nezna ne_zna
 REP ^prdon pridon
 REP dreti$ derati
+REP ^nešta$ nešto
 REP ^nijes nis
 REP nešen nesen
 REP ićeš$ it_ćeš
