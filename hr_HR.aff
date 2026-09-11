@@ -77,7 +77,7 @@ ICONV ŕ r
 
 
 # REP - .
-REP 284
+REP 287
 REP ^pocrtava podcrtava
 REP ^žvake$ žvakaće_gume
 REP ^žvaka$ žvakaća_guma
@@ -197,6 +197,9 @@ REP arn arnic
 REP ^oće hoće
 REP iju e
 REP tid tud
+REP ^dd$ d.d.
+REP ^doo$ d.o.o.
+REP ^jdoo$ j.d.o.o.
 REP ^poveč več
 REP aću$ at_ću
 REP iću$ it_ću

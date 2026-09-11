@@ -7,6 +7,7 @@ Najnovija se inačica rječnika može preuzeti iz grane `master` repozitorija na
 - proširen REP: višlje > više, najvišlje > najviše, posmatrati > promatrati, nešta > nešto, blizankinja > blizanka
 - ispravak ije ije: unaprijeđenje > unapređenje
 - uklonjeno: naprjeđenje, seja, meja
+- dodane kratice pr. n. e., n. e., pr. Kr., d.o.o., j.d.o.o., d.d.
 
 ### Ažuriranje grane 'master' 10. rujna 2026.
 - dodan REP: nijesam > nisam, reć > reći, macho > mačo, cappuccino > kapučino, žvake > žvakaće gume, zamnom > za mnom, predamnom > preda mnom, rećiću > reći ću, Buddha > Buda, žvaka > žvakaća guma, žvakom > žvakaćom gumom, žep > džep, Muhammed > Muhamed
