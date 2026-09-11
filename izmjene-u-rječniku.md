@@ -4,6 +4,7 @@
 Najnovija se inačica rječnika može preuzeti iz grane `master` repozitorija na adresi [github.com/krunose/hunspell-hr](https://github.com/krunose/hunspell-hr).
 
 ## Ažuriranje grane 'master' 11. rujna 2026
+- proširen REP: višlje > više
 - ispravak ije ije: unaprijeđenje > unapređenje
 - uklonjeno: naprjeđenje
 
