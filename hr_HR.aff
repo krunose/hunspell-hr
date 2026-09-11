@@ -77,7 +77,7 @@ ICONV ŕ r
 
 
 # REP - .
-REP 283
+REP 284
 REP ^pocrtava podcrtava
 REP ^žvake$ žvakaće_gume
 REP ^žvaka$ žvakaća_guma
@@ -234,6 +234,7 @@ REP ^bim$ bih
 REP ^čiž čiz
 REP ini inu
 REP kdž gdž
+REP kinj k
 REP ^aj haj
 REP jat jit
 REP dni$ tni
