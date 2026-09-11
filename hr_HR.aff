@@ -77,12 +77,13 @@ ICONV ŕ r
 
 
 # REP - .
-REP 281
+REP 282
 REP ^pocrtava podcrtava
 REP ^žvake$ žvakaće_gume
 REP ^žvaka$ žvakaća_guma
 REP ^žvakom$ žvakaćom_gumom
 REP ^predamnom$ preda_mnom
+REP ^posmatra promatra
 REP ^cappuccin kapučin
 REP ^obećaj obećava
 REP ^zdrastv zdravstv
