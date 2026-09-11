@@ -363,6 +363,7 @@ Za napraviti:
 - + gis (fis) i ostale povisilice i snizilice dodati NOSUGGEST
 - + GPS (rječnik generira samo GPS, ne i deklinaciju, treba preko wordlista vidjeti gdje i kako)
 - + šnajder/223 -> treba maknuti ovu riječ i umjesto toga upisati kao prezime velikim slovom: Šnajder i odati samo nastavke za jedninu. Riječ 'šnajder' je neformalno i razgovorno i nije onda za pravopisni rječnik)
+- rj. (rječnik)
 
 -------------------------------------------------------------------------
 
