@@ -1,3 +1,8 @@
+```
+Pokrenuo sam i repozitorij [lightproof-hr](https://github.com/krunose/lightproof-hr) za osnovnu provjeru gramatike i stila u LibreOfficeu (futur, superlativi, pleonazmi). Trebam pomoć u vidu prijavljivanja nedostataka, novih situacija, ali i nekoga tko se razumije u programiranje i pravilne izraze (regexp).
+```
+
+
 # Rječnik za računalnu provjeru pravopisa hrvatskoga jezika Hunspellom
 
 Rječnik za računalnu provjeru pravopisa skup je pravila koja omogućuju računalnu provjeru pravopisa hrvatskoga jezika alatom [Hunspell](https://hunspell.github.io/). Rječnik čine dvije datoteke: popis riječi nalazi se u `hr_HR.dic`, a pravila za stvaranje oblika riječi nalazi se u datoteci `hr_HR.aff`.
