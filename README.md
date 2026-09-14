@@ -1,6 +1,4 @@
-```
 Pokrenuo sam i repozitorij [lightproof-hr](https://github.com/krunose/lightproof-hr) za osnovnu provjeru gramatike i stila u LibreOfficeu (futur, superlativi, pleonazmi). Trebam pomoć u vidu prijavljivanja nedostataka, novih situacija, ali i nekoga tko se razumije u programiranje i pravilne izraze (regexp).
-```
 
 
 # Rječnik za računalnu provjeru pravopisa hrvatskoga jezika Hunspellom
