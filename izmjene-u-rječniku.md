@@ -3,6 +3,9 @@
 
 Najnovija se inačica rječnika može preuzeti iz grane `master` repozitorija na adresi [github.com/krunose/hunspell-hr](https://github.com/krunose/hunspell-hr).
 
+## Ažuriranje grane 'master' 15. rujna 2026
+- izmijenjen REP: neda > ne da|Neda
+
 ## Ažuriranje grane 'master' 11. rujna 2026
 - proširen REP: višlje > više, najvišlje > najviše, posmatrati > promatrati, nešta > nešto, blizankinja > blizanka
 - ispravak ije ije: unaprijeđenje > unapređenje
