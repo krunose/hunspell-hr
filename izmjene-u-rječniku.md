@@ -4,6 +4,10 @@
 Najnovija se inačica rječnika može preuzeti iz grane `master` repozitorija na adresi [github.com/krunose/hunspell-hr](https://github.com/krunose/hunspell-hr).
 
 
+## Ažuriranje grane 'master' 18. rujna 2026.
+- proširen REP: cca > cca.
+
+
 ## Ažuriranje grane 'master' 17. rujna 2026
 - tagirani glagoli
 - proširen REP: ninašto > ni na što
