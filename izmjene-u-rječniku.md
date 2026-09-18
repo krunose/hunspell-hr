@@ -3,6 +3,11 @@
 
 Najnovija se inačica rječnika može preuzeti iz grane `master` repozitorija na adresi [github.com/krunose/hunspell-hr](https://github.com/krunose/hunspell-hr).
 
+
+## Ažuriranje grane 'master' 17. rujna 2026
+- tagirani glagoli
+- proširen REP: ninašto > ni na što
+
 ## Ažuriranje grane 'master' 15. rujna 2026
 - izmijenjen REP: neda > ne da|Neda
 - potforum > podforum
