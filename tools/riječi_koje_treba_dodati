@@ -398,6 +398,7 @@ Za napraviti:
 - + donjo (rječnik generira ovaj oblik za 'jdoo', ne znam zašto, treba provjeriti što to generira preko 'wordlista')
 - autoškola
 - cca.
+- - zaokupirni (rječnik nudi kao prijedlog za 'zaokupirani', što znači da ne prepoznaje dobar oblik, nego generira nepostojeći, treba vidjeti u wordlistu)
 
 -------------------------------------------------------------------------
 
