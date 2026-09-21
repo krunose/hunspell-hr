@@ -1,6 +1,6 @@
 
 > [!WARNING]
-> Pokrenut je i repozitorij [lightproof-hr](https://github.com/krunose/lightproof-hr), koji nudi osnovnu provjeru gramatike, stila i tipografije u LibreOffice Writeru. Trebam pomoć u vidu prijavljivanja nedostataka, lažnih uzbuna, ali i nekoga tko se razumije u programiranje i pravilne izraze (regexp). Sve inačice nakon 0.4.4, trebaju rječnik iz ovoga repozitorija. Inačica koja automatski dolazi s LibreOfficeom nije tagirana i provjera gramatike s tim rječnikom neće raditi.
+> Pokrenut je i repozitorij [lightproof-hr](https://github.com/krunose/lightproof-hr), koji nudi osnovnu provjeru gramatike, stila i tipografije u LibreOfficeovu Writeru. Trebam pomoć u vidu prijavljivanja nedostataka, lažnih uzbuna, ali i nekoga tko se razumije u programiranje i pravilne izraze (regexp). Sve inačice nakon 0.4.4, trebaju rječnik iz ovoga repozitorija. Inačica koja automatski dolazi s LibreOfficeom nije tagirana i provjera gramatike s tim rječnikom neće raditi.
 
 
 # Rječnik za računalnu provjeru pravopisa hrvatskoga jezika Hunspellom
