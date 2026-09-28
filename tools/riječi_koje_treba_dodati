@@ -2,7 +2,7 @@ Legenda znakova:
     Nove riječi pišu se na dno datoteke
     Minus označava da riječ nije dodana. Jednom kada se doda, minus treba pretvoriti u plus.
     Minus i upitnik označavaju da bi riječ trebalo dodati, ali je upitno s gledišta standarda ili postoje kolebanja u pisanju
-    Minus i plus označavaju da riječ postoji u rječniku, ali pojediin oblici nisu prepoznati (upisati riječ u neprepoznatom obliku)
+    Minus i plus označavaju da riječ postoji u rječniku, ali pojedini oblici nisu prepoznati (upisati riječ u neprepoznatom obliku)
     Minus i minus označavaju brisanje riječi: - - rđa. Kada se obriše označava se: + - rđa
     Ispod crte su riječi koje _neće_ biti dodane jer nisu standarne i obilježene su reginalno, stilski ili kako drugačije
     Kada se riječ unese u rječnik, prvi minus se pretvara u plus
@@ -411,6 +411,7 @@ Za napraviti:
 - surečenica
 - Seul
 - Wolfgang
+- + kunem
 
 -------------------------------------------------------------------------
 
