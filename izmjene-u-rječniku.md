@@ -4,6 +4,9 @@
 Najnovija se inačica rječnika može preuzeti iz grane `master` repozitorija na adresi [github.com/krunose/hunspell-hr](https://github.com/krunose/hunspell-hr).
 
 
+## Ažuriranje grane 'master' 28. rujna 2026
+- proširen REP: noseve > nosove
+
 ## Ažuriranje grane 'master' 21. rujna 2026.
 - uklonjen tabulator na kraju riječi koje nemaju klasu
 

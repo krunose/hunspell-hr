@@ -77,7 +77,7 @@ ICONV ŕ r
 
 
 # REP - .
-REP 290
+REP 291
 REP ^pocrtava podcrtava
 REP ^žvake$ žvakaće_gume
 REP ^žvaka$ žvakaća_guma
@@ -90,6 +90,7 @@ REP ^zdrastv zdravstv
 REP nućemo$ nut_ćemo
 REP nućete$ nut_ćete
 REP ^takođe$ također
+REP ^noseve$ nosove
 REP ^riječo$ riječ_o
 REP ^usisač usisivač
 REP rejanac rejac
