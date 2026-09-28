@@ -419,6 +419,7 @@ Za napraviti:
 - ? ss (ne znam što generira ovo, treba vidjeti u 'wordlist'
 - uzdravlje
 - + zvjezdani (hvata 'zvjezdano', ne znam zašto ne hvata 'zvjezdani [horoskop]'
+- pičkica (ali obavezno uz NOSUGGEST)
 
 -------------------------------------------------------------------------
 
