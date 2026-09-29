@@ -468,16 +468,9 @@ class dictman {
 
 		$handle = fopen($dictFile, "r");
 
-        $firstLine = true;
+        fgets($handle, 20148); // skip first line as it only shows word count in hr_HR.dic
 
 		while(($line = fgets($handle, 20148)) !== false) {
-
-            if($firstLine == true) {
-
-                $firstLine = false;
-                continue;
-
-            }
 
 			$line = $this->stripMorphology(trim($line));
 
