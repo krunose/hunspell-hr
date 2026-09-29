@@ -5,7 +5,8 @@
 
 	Kruno, krunose at gmx, May 2018.
 
-	last update: February 2019.
+	last update: september 2026.
+    update description: added po: to verbs for LibreOffice's LightProof checking, strip morphology tags when creating wordlist and don't include word count from hr_HR.dic
 
 INTRODUCTION
 
@@ -42,7 +43,7 @@ SUPPORTED
 			- prefixing
 			- suffixing
 			- prefixing and suffixing
-			- support 'N' in class heading: SFX AA N 1 (partially, not tested, not sure if I got it right)
+			- support 'N' in class heading: SFX AA N 1 (not teste as have none of these in dictionary)
 
 
 NOT IMPLEMENTED (current dictionary not using this features)
@@ -90,6 +91,23 @@ class dictman {
 
 	);
 
+ 
+    private function stripMorphology($line) {
+
+        if(mb_strpos($line, "\t") !== false) {
+
+            $explodeOnMorphology = explode("\t", $line);
+
+            return $explodeOnMorphology[0];
+
+        } else {
+
+            return $line;
+
+        }
+
+    }
+
 
 	private function collectSpecFlags($line) {
 
@@ -117,7 +135,7 @@ class dictman {
 
 		while(($line = fgets($handle, 2048)) !== false) {
 
-		$line = trim($line);
+        $line = $this->stripMorphology(trim($line));
 
 		$this->collectSpecFlags($line);
 
@@ -450,9 +468,18 @@ class dictman {
 
 		$handle = fopen($dictFile, "r");
 
+        $firstLine = true;
+
 		while(($line = fgets($handle, 20148)) !== false) {
 
-			$line = trim($line);
+            if($firstLine == true) {
+
+                $firstLine = false;
+                continue;
+
+            }
+
+			$line = $this->stripMorphology(trim($line));
 
 			if(mb_strpos($line, "/")) {
 
