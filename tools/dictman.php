@@ -6,7 +6,7 @@
 	Kruno, krunose at gmx, May 2018.
 
 	last update: september 2026.
-    update description: added po: to verbs for LibreOffice's LightProof checking, strip morphology tags when creating wordlist and don't include word count from hr_HR.dic
+    update description: added po: to verbs for LibreOffice's LightProof checking, strip morphology tags when creating wordlist and don't include word count from hr_HR.dic. Had to strip POStags beacause they broke the script.
 
 INTRODUCTION
 
