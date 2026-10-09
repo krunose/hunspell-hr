@@ -24,7 +24,7 @@ Izvornu inačicu napravio je Denis Lacković 2003. g.; dostupna je na [cvs.linux
 - skripta `tools/dictman.php` može generirati sve oblike svih riječi iz rječnika, ali em je `PHP` em rezultat nije detaljno testiran.[^3] Možda bi se na ovome moglo dalje graditi, kad bi se napisalo kako treba
 - datoteka `tools/wordlist` rezultat je skripte `dictman.php`
 - `tools/rpm/` sadrži skriptu za generiranje `rpm` instalacijskoga paketa (doprinositelj: [asmolcic](https://github.com/asmolcic))
-- `tools/Izrada rječnika za računalnu provjeru pravopisa hrvatskoga jezika Hunspellom.pdf` je pokušaj dokumentiranja sadašnjega stanja rječnika, ali i prijedlog što treba napraviti sljedeće. Zbog svoje dvojake uloge (tehnička uputa i plan rada), ispao je (nenamjerno) kao svojevrsni manifest. Sam to napraviti ne mogu. Pomoć nije poželjna, nego je nužna.
+- `tools/Izrada rječnika za računalnu provjeru pravopisa hrvatskoga jezika Hunspellom.pdf` je pokušaj dokumentiranja sadašnjega stanja rječnika, ali i prijedlog što treba napraviti sljedeće. Zbog svoje dvojake uloge (tehnička uputa i plan rada), tekst se (nenamjerno) čita kao svojevrsni manifest. Sam ne mogu označiti rječnik, a bez toga nema ni provjere gramatike. Pomoć nije poželjna, nego je nužna.
 
 ## Kako dodati novu riječ u rječnik
 
