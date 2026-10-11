@@ -7,8 +7,7 @@ Legenda znakova:
     Ispod crte su riječi koje _neće_ biti dodane jer nisu standarne i obilježene su reginalno, stilski ili kako drugačije
     Kada se riječ unese u rječnik, prvi minus se pretvara u plus
 
-Za napraviti:
-     Rastaviti ovu datoteku na dvije - na onu s rječima koje će se dodati i onu s riječima koje se neće dodati
+Kroz ovaj popis treba proći još jednom i vidjeti što finalno dodati, ovo je rezultat prikupljanja riječi koje su se našle u 50 000 najčešćih riječi prema https://github.com/hermitdave/FrequencyWords/tree/master/content/2018 i trenutačno nisu u rječniku
 
 - koronavirus
 - panel-rasprava
