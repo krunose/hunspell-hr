@@ -4,6 +4,9 @@
 Najnovija se inačica rječnika može preuzeti iz grane `master` repozitorija na adresi [github.com/krunose/hunspell-hr](https://github.com/krunose/hunspell-hr).
 
 
+## Ažuriranje grane master 12. listopada 2026
+- ispravak pisanja 'žiro-račun' u 'žiroračun'
+
 ## Ažuriranje grane 'master' 28. rujna 2026
 - proširen REP: noseve > nosove
 
