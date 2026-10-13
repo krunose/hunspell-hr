@@ -3,11 +3,15 @@
 
 Najnovija se inačica rječnika može preuzeti iz grane `master` repozitorija na adresi [github.com/krunose/hunspell-hr](https://github.com/krunose/hunspell-hr).
 
+## Ažuriranje grane master 13. listopada 2026.
+- uklonjen unos 'text.' jer prihvaća englesku riječ 'text' kao hrvatsku
 
-## Ažuriranje grane master 12. listopada 2026
+
+## Ažuriranje grane master 12. listopada 2026.
 - ispravak pisanja 'žiro-račun' u 'žiroračun'
+- dodan REP: žiro-račun > žiroračun
 
-## Ažuriranje grane 'master' 28. rujna 2026
+## Ažuriranje grane 'master' 28. rujna 2026.
 - proširen REP: noseve > nosove
 
 ## Ažuriranje grane 'master' 21. rujna 2026.
@@ -16,15 +20,15 @@ Najnovija se inačica rječnika može preuzeti iz grane `master` repozitorija na
 ## Ažuriranje grane 'master' 18. rujna 2026.
 - proširen REP: cca > cca.
 
-## Ažuriranje grane 'master' 17. rujna 2026
+## Ažuriranje grane 'master' 17. rujna 2026.
 - tagirani glagoli
 - proširen REP: ninašto > ni na što
 
-## Ažuriranje grane 'master' 15. rujna 2026
+## Ažuriranje grane 'master' 15. rujna 2026.
 - izmijenjen REP: neda > ne da|Neda
 - potforum > podforum
 
-## Ažuriranje grane 'master' 11. rujna 2026
+## Ažuriranje grane 'master' 11. rujna 2026.
 - proširen REP: višlje > više, najvišlje > najviše, posmatrati > promatrati, nešta > nešto, blizankinja > blizanka
 - ispravak ije ije: unaprijeđenje > unapređenje
 - uklonjeno: naprjeđenje, seja, meja
