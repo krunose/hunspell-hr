@@ -84,7 +84,7 @@ Kroz ovaj popis treba proći još jednom i vidjeti što finalno dodati, ovo je r
 - PIN
 - OIB
 - + Tokiju (rječnik tvori nepravilan oblik 'Tokiu', 'Tokio'... Za pogrešku 'Tokyo' predlaže i 'Toko', treba istražiti u 'wordlistu' što generira taj oblik)
-- + zvjezdanih ('zvjezdanih dana', sili uvijek 'Zvjezdanih')
+- + zvjezdanih ('zvjezdanih dana', sili uvijek 'Zvjezdanih', ne prihvaća ni 'zvjezdanih', odnosno prihvaća s velikim slovom, što mi se čini pogrešno, možda zbog 'Zvjezdanih staza')
 - Gabrijela (dodana riječ 'Gabrijela')
 - + odijeljenje (prihvaća taj oblik, a ne bi trebao, treba biti 'odjeljenje')
 - cinkaroš
