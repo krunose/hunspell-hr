@@ -5,6 +5,7 @@ Najnovija se inačica rječnika može preuzeti iz grane `master` repozitorija na
 
 ## Ažuriranje grane master 14. listopada 2026
 - proširen REP: četri > četiri
+- ažurirana direktiva TRY
 
 ## Ažuriranje grane master 13. listopada 2026.
 - uklonjen unos 'text.' jer prihvaća englesku riječ 'text' kao hrvatsku
