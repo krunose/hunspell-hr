@@ -78,7 +78,7 @@ ICONV ŕ r
 
 
 # REP - .
-REP 295
+REP 296
 REP ^pocrtava podcrtava
 REP ^žvake$ žvakaće_gume
 REP ^žvaka$ žvakaća_guma
@@ -177,6 +177,7 @@ REP ^neda$ ne_da
 REP ^moće$ može
 REP skme$ skome
 REP ^nebi ne_bi
+REP ^božič Božić
 REP nara napra
 REP skmu$ skomu
 REP ^ljud$ ljut
