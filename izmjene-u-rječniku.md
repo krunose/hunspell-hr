@@ -3,7 +3,10 @@
 
 Najnovija se inačica rječnika može preuzeti iz grane `master` repozitorija na adresi [github.com/krunose/hunspell-hr](https://github.com/krunose/hunspell-hr).
 
-## Ažuriranje grane master 14. listopada 2026
+## Ažuriranje grane master 15. listopada 2026.
+- dopuna rednih brojeva do tisuću
+
+## Ažuriranje grane master 14. listopada 2026.
 - proširen REP: četri > četiri
 - ažurirana direktiva TRY
 
