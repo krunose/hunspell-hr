@@ -6,6 +6,7 @@ Najnovija se inačica rječnika može preuzeti iz grane `master` repozitorija na
 ## Ažuriranje grane master 15. listopada 2026.
 - dopuna rednih brojeva do tisuću
 - brisanje 'sjeđenje' jer treba biti 'sijeđenje'
+- proširen REP: Njemci > Nijemci
 
 ## Ažuriranje grane master 14. listopada 2026.
 - proširen REP: četri > četiri

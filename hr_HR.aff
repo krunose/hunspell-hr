@@ -78,7 +78,7 @@ ICONV ŕ r
 
 
 # REP - .
-REP 293
+REP 295
 REP ^pocrtava podcrtava
 REP ^žvake$ žvakaće_gume
 REP ^žvaka$ žvakaća_guma
@@ -226,6 +226,8 @@ REP skm$ skom
 REP ^pic pizz
 REP ioc$ ilac
 REP kno ktno
+REP ^njem nijem
+REP ^Njem Nijem
 REP ije ive
 REP isl i_sl
 REP nest nijet
