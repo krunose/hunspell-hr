@@ -44,7 +44,7 @@ Onaj tko ima račun na GitHubu i želi dodati pridjev "riječni", može
 
 Svjestan sam da bi ove upute mogle više pitanja otvoriti negoli zatvorit, pa ću rado odgovoriti na mejl. Od pomoći može biti i sljedeće:
 
-- [Službena dokumentacija](https://sourceforge.net/projects/hunspell/files/Hunspell/Documentation/hunspell4.pdf/download)
+- [Službena dokumentacija](https://linux.die.net/man/4/hunspell)
 - [hunspell.github.io](http://hunspell.github.io/)
 
 Postoji i nešto što se zove [ProofingToolGui](https://proofingtoolgui.org/) iliti PTG; prilično dobar alat za dodavanje novih riječi. Skrenuli su mi pažnju i na [hunaftool](https://github.com/ssvb/hunaftool/), ali nisam (još) radio s time. Od pomoći bi možda mogao biti rječnik dostupan iz izvora [hermitdave](https://github.com/hermitdave/FrequencyWords/tree/master/content/2018) na GitHubu; međutim sadrži (u kontekstu računalne provjere pravopisa) i pogreške.
