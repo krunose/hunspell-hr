@@ -3118,8 +3118,8 @@ SFX UP 0      og         .
 SFX UP 0      oga        .
 SFX UP 0      ome        .
 SFX UP 0      omu        .
-SFX UP 0      ost        .
-SFX UP 0      osti       .
+SFX UP 0      ost        .  po:imenica
+SFX UP 0      osti       .  po:imenica
 SFX UP 0      ostima     .
 SFX UP 0      ošću       .
 
@@ -3137,8 +3137,8 @@ SFX UO i      og         i
 SFX UO i      oga        i
 SFX UO i      ome        i
 SFX UO i      omu        i
-SFX UO i      ost        i
-SFX UO i      osti       i
+SFX UO i      ost        i  po:imenica
+SFX UO i      osti       i  po:imenica
 SFX UO i      ostima     i
 SFX UO i      ošću       i
 
