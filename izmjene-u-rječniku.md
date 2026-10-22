@@ -3,6 +3,9 @@
 
 Najnovija se inačica rječnika može preuzeti iz grane `master` repozitorija na adresi [github.com/krunose/hunspell-hr](https://github.com/krunose/hunspell-hr).
 
+## Ažuriranje grane master 22. listopada 2026.
+- dodana oznaka 'po' na imenice na -ost jer sadašnji rječnik ne razlikuje tvorbu od fleksije, čime rječnik misli da su imenice na -ost glagoli
+
 ## Ažuriranje grane master 15. listopada 2026.
 - dopuna rednih brojeva do tisuću
 - brisanje 'sjeđenje' jer treba biti 'sijeđenje'
