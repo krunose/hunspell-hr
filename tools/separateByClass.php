@@ -1,6 +1,6 @@
 <?php
 
-$loadFile = 'wordlistSeparatedByClass';
+$loadFile = 'wordlistSepByClass';
 
 $fileHandle = fopen($loadFile, 'r');
 
@@ -60,9 +60,18 @@ $separators = array(
         'start' => 'ski',
         'end' => 'omu'
 
+    ),
+
+    'nja' => array(
+
+        'start' => 'nja',
+        'end' => 'ama'
+
     )
 
 );
+
+$firstLineInClass = true;
 
 while(($line = fgets($fileHandle)) != false) {
 
@@ -70,37 +79,39 @@ while(($line = fgets($fileHandle)) != false) {
 
     if($line != "") {
 
-        echo $line . "\n";
+        $patternSeparator = mb_substr($line, -3);
 
-        $startPattern = mb_substr($line, -3);
-        $endPattern = mb_substr($line, -3);
+        if(in_array($patternSeparator, array_keys($separators))) {
 
-        $separatorPattern = mb_substr($line, -3);
+            echo "\n";
 
-        if(in_array($separatorPattern, array_keys($separators))) {
+            if($patternSeparator == $separators[$patternSeparator]['start']) {
 
+                echo $line . "\n";
 
-            $end = $separators[$endPattern]['end'];
-
-            while(mb_substr($line, -3) != $end) {
+            } else {
 
                 $line = fgets($fileHandle);
 
                 $line = trim($line);
 
-                $checkPattern = mb_substr($line, -3);
-
-                if($checkPattern != $end) {
+                do {
 
                     echo $line . "\n";
 
-                }
+                    $line = fgets($fileHandle);
+
+                    $line = trim($line);
+
+                    $patternSeparator = mb_substr($line, -3);
+
+                } while($patternSeparator != $separators[$patternSeparator]['end']);
 
             }
 
         } else {
 
-            continue;
+            echo $line . "\n";
 
         }
 
