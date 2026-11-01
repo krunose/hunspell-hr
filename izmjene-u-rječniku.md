@@ -3,6 +3,9 @@
 
 Najnovija se inačica rječnika može preuzeti iz grane `master` repozitorija na adresi [github.com/krunose/hunspell-hr](https://github.com/krunose/hunspell-hr).
 
+## Ažuriranje grane master 1. studenoga 2026.
+- dodana riječ 'kontraargument'
+
 ## Ažuriranje grane master 22. listopada 2026.
 - dodana oznaka 'po' na imenice na -ost jer sadašnji rječnik ne razlikuje tvorbu od fleksije, čime rječnik misli da su imenice na -ost glagoli
 
