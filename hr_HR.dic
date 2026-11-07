@@ -5798,7 +5798,7 @@ cvrkutnuti/137	po:glagol
 ćaknutiji/355
 ćapiti/128	po:glagol
 ćaskati/31	po:glagol
-će
+će  po:glagol
 ćela/360
 ćelav/340
 ćelavac/256
@@ -5808,12 +5808,12 @@ cvrkutnuti/137	po:glagol
 ćelavljenje/331
 ćelija/365
 ćelijica/360
-ćemo
+ćemo    po:glagol
 ćeretati/31	po:glagol
 ćeretav/340
 ćerpič/205
-ćeš
-ćete
+ćeš po:glagol
+ćete    po:glagol
 ćevabdžinica/360
 ćevap/205
 ćevapčić/205
@@ -5836,7 +5836,7 @@ cvrkutnuti/137	po:glagol
 ćosavac/256
 ćošak/260
 ćoškast/348
-ću
+ću  po:glagol
 ćućenje/331
 ćud/392
 ćudljiv/340
@@ -11972,7 +11972,7 @@ HSU/402
 htijaše
 htijenje/331
 htijući	po:glagol
-htio
+htio    po:glagol
 htje
 htjede
 htjedne
@@ -11981,10 +11981,10 @@ htjednu
 htjedoh
 htjedosmo
 htjedoše
-htjela
-htjele
-htjeli
-htjelo
+htjela  po:glagol
+htjele  po:glagol
+htjeli  po:glagol
+htjelo  po:glagol
 htjenje/331
 htjet
 htjeti	po:glagol
@@ -13118,7 +13118,7 @@ ispisivati/47	po:glagol
 ispisni/353
 ispišati/120	po:glagol
 ispišavati/34	po:glagol
-ispit/205
+ispit/205   po:imenica
 ispitanik/226
 ispitati/119	po:glagol
 ispiti/145	po:glagol
@@ -21343,22 +21343,22 @@ mog
 moga
 mogah
 mogahu
-mogao
+mogao   po:glagol
 mogasmo
 mogaste
 mogaše
 mogavši
 mogila/360
-mogla
-mogle
-mogli
-moglo
+mogla   po:glagol
+mogle   po:glagol
+mogli   po:glagol
+moglo   po:glagol
 mogni
 mognimo
 mognite
 mogoh
 mogranj/205
-mogu
+mogu    po:glagol
 moguć/348
 mogućni/347
 mogućniji/355
@@ -21635,11 +21635,11 @@ mozite
 možda
 moždani/353
 moždina/365
-može
+može    po:glagol
 možebitni/347
-možemo
-možeš
-možete
+možemo  po:glagol
+možeš   po:glagol
+možete  po:glagol
 mp
 mr.
 mračenje/331
@@ -23672,12 +23672,12 @@ nečulni/347
 nečuvan/349
 nečuven/340
 nećak/232
-neće
-nećemo
-nećeš
-nećete
+neće    po:glagol
+nećemo  po:glagol
+nećeš   po:glagol
+nećete  po:glagol
 nećkati/31	po:glagol
-neću
+neću    po:glagol
 nećudoredni/347
 Neda/362
 nedaća/360
@@ -48865,7 +48865,7 @@ upisnica/360
 upisnik/223
 upisnina/360
 upišati/119	po:glagol
-upit/205
+upit/205    po:imenica
 upitati/119	po:glagol
 upiti/145	po:glagol
 upitni/347
