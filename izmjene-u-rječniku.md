@@ -3,7 +3,10 @@
 
 Najnovija se inačica rječnika može preuzeti iz grane `master` repozitorija na adresi [github.com/krunose/hunspell-hr](https://github.com/krunose/hunspell-hr).
 
-## Ažuriranje grane master 10. sutdenoga 2026.
+## Ažuriranje grane master 11. studenoga 2026
+- dodane oznake vrste riječi na glagol 'htjeti'
+
+## Ažuriranje grane master 10. studenoga 2026.
 - označena riječ 'znanost' kao imenica
 - označen krnji infinitiv 'htjeti' kao glagol
 
