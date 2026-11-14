@@ -5,6 +5,7 @@ Najnovija se inačica rječnika može preuzeti iz grane `master` repozitorija na
 
 ## Ažuriranje grane master 13. studenoga 2026.
 - uklonjena oznaka `po:glagol` sa zamjenice `ti`
+- dodane oznake za modalne i fazne glagole
 
 ## Ažuriranje grane master 11. studenoga 2026
 - dodane oznake vrste riječi na glagol 'htjeti'

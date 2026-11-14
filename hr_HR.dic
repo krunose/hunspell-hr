@@ -3778,7 +3778,7 @@ boj/287
 boja/360
 Bojan/293
 bojanka/368
-bojati/16	po:glagol
+bojati/16	po:glagol	md:modalni
 bojazan/394
 bojažljiv/340
 bojažljivac/256
@@ -5808,12 +5808,12 @@ cvrkutnuti/137	po:glagol
 ćelavljenje/331
 ćelija/365
 ćelijica/360
-ćemo    po:glagol
+ćemo	 po:glagol
 ćeretati/31	po:glagol
 ćeretav/340
 ćerpič/205
 ćeš po:glagol
-ćete    po:glagol
+ćete	 po:glagol
 ćevabdžinica/360
 ćevap/205
 ćevapčić/205
@@ -7610,7 +7610,7 @@ dovratnik/205
 dovršavati/34	po:glagol
 dovršen/341
 dovršetak/260
-dovršiti/128	po:glagol
+dovršiti/128	po:glagol	fz:fazni
 dovučen/348
 dovući/196	po:glagol
 doza/360
@@ -11753,11 +11753,11 @@ hobistički/353
 hobotnica/364
 hoc
 hoćaše
-hoće    po:glagol
+hoće	 po:glagol
 hoćemo  po:glagol
-hoćeš   po:glagol
+hoćeš	po:glagol
 hoćete  po:glagol
-hoću    po:glagol
+hoću	 po:glagol
 hod/273
 hodač/223
 hodaći/353
@@ -11972,7 +11972,7 @@ HSU/402
 htijaše
 htijenje/331
 htijući	po:glagol
-htio    po:glagol
+htio	 po:glagol
 htje
 htjede
 htjedne
@@ -11986,8 +11986,8 @@ htjele  po:glagol
 htjeli  po:glagol
 htjelo  po:glagol
 htjenje/331
-htjet   po:glagol
-htjeti	po:glagol
+htjet	po:glagol
+htjeti	po:glagol	md:modalni
 html
 http
 HTV/403
@@ -13118,7 +13118,7 @@ ispisivati/47	po:glagol
 ispisni/353
 ispišati/120	po:glagol
 ispišavati/34	po:glagol
-ispit/205   po:imenica
+ispit/205	po:imenica
 ispitanik/226
 ispitati/119	po:glagol
 ispiti/145	po:glagol
@@ -13608,7 +13608,7 @@ izbistriti/128	po:glagol
 izbiti/145	po:glagol
 izbivati/31	po:glagol
 izbjeći/201	po:glagol
-izbjegavati/34	po:glagol
+izbjegavati/34	po:glagol	md:modalni
 izbjegli/353
 izbjeglica/387
 izbjeglički/353
@@ -15348,7 +15348,7 @@ kanibalizam/247
 kanila/360
 kanistar/247
 kanister/205
-kaniti/56	po:glagol
+kaniti/56	po:glagol	md:modalni
 kanon/238
 kanonada/360
 kanonik/227
@@ -17649,7 +17649,7 @@ kremenjača/360
 kremirati/34	po:glagol
 Kremlj/265
 kremšnita/360
-krenuti/137	po:glagol
+krenuti/137	po:glagol	fz:fazni
 Kreol/228
 kreolski/353
 krepati/114	po:glagol
@@ -17673,7 +17673,7 @@ kreštati/101	po:glagol
 kreštav/340
 kreštaviji/355
 Kreta/372
-kretati/84	po:glagol
+kretati/84	po:glagol	fz:fazni
 kreten/229
 kretenčina/360
 kretenizam/247
@@ -21285,7 +21285,7 @@ močvarica/364
 močvarište/331
 močvarni/347
 moć/392
-moći	po:glagol
+moći	po:glagol	md:modalni
 moćni/347
 moćniji/355
 moćnik/227
@@ -21343,22 +21343,22 @@ mog
 moga
 mogah
 mogahu
-mogao   po:glagol
+mogao	po:glagol
 mogasmo
 mogaste
 mogaše
 mogavši
 mogila/360
-mogla   po:glagol
-mogle   po:glagol
-mogli   po:glagol
-moglo   po:glagol
+mogla	po:glagol
+mogle	po:glagol
+mogli	po:glagol
+moglo	po:glagol
 mogni
 mognimo
 mognite
 mogoh
 mogranj/205
-mogu    po:glagol
+mogu	 po:glagol
 moguć/348
 mogućni/347
 mogućniji/355
@@ -21513,7 +21513,7 @@ moralizirati/31	po:glagol
 moralka/360
 moralni/347
 moralniji/355
-morati/31	po:glagol
+morati/31	po:glagol	md:modalni
 moratorij/205
 moravski/353
 morbidni/347
@@ -21635,10 +21635,10 @@ mozite
 možda
 moždani/353
 moždina/365
-može    po:glagol
+može	 po:glagol
 možebitni/347
 možemo  po:glagol
-možeš   po:glagol
+možeš	po:glagol
 možete  po:glagol
 mp
 mr.
@@ -21747,7 +21747,7 @@ mrviti/58	po:glagol
 mrvljen/341
 mrzak
 mrzitelj/223
-mrziti/62	po:glagol
+mrziti/62	po:glagol	md:modalni
 mrzli/353
 mrzliji/355
 mrznuti/137	po:glagol
@@ -22679,7 +22679,7 @@ namjena/360
 namjenski/353
 namjenjivati/47	po:glagol
 namjera/360
-namjeravati/34	po:glagol
+namjeravati/34	po:glagol	md:modalni
 namjeren/348
 namjerice
 namjeriti/128	po:glagol
@@ -23172,15 +23172,15 @@ nastati/190	po:glagol
 nastava/360
 nastavak/247
 nastavati/34	po:glagol
-nastaviti/128	po:glagol
+nastaviti/128	po:glagol	fz:fazni
 nastavljač/223
 nastavljajući/353
-nastavljati/34	po:glagol
+nastavljati/34	po:glagol	fz:fazni
 nastavljen/340
 nastavni/353
 nastavnik/227
 nastoj/205
-nastojati/100	po:glagol
+nastojati/100	po:glagol	md:modalni
 nastojeći/353
 nastradali/353
 nastradati/105	po:glagol
@@ -23360,7 +23360,7 @@ naturizam/247
 naučavati/33	po:glagol
 naučen/340
 naučenjak/233
-naučiti/128	po:glagol
+naučiti/128	po:glagol	md:modalni
 naučni/347
 naučnik/227
 naučnikovanje/331
@@ -23423,7 +23423,7 @@ navika/378
 navikati/168	po:glagol
 navikavati/34	po:glagol
 navikli/353
-naviknuti/139	po:glagol
+naviknuti/139	po:glagol	md:modalni
 naviknutiji/355
 navinuti/139	po:glagol
 navirati/96	po:glagol
@@ -23672,12 +23672,12 @@ nečulni/347
 nečuvan/349
 nečuven/340
 nećak/232
-neće    po:glagol
+neće	 po:glagol
 nećemo  po:glagol
-nećeš   po:glagol
+nećeš	po:glagol
 nećete  po:glagol
 nećkati/31	po:glagol
-neću    po:glagol
+neću	 po:glagol
 nećudoredni/347
 Neda/362
 nedaća/360
@@ -26823,7 +26823,7 @@ obosti/160	po:glagol
 obostran/340
 obožavalac/263
 obožavatelj/223
-obožavati/34	po:glagol
+obožavati/34	po:glagol	md:modalni
 obračun/238
 obračunati/119	po:glagol
 obračunavati/34	po:glagol
@@ -27125,11 +27125,11 @@ odbačaj/205
 odbačen/340
 odbauljati/105	po:glagol
 odbijač/205
-odbijati/34	po:glagol
+odbijati/34	po:glagol	md:modalni
 odbijen/340
 odbijenica/360
 odbitak/260
-odbiti/145	po:glagol
+odbiti/145	po:glagol	md:modalni
 odbjeći/201	po:glagol
 odbjegli/353
 odblejati/189	po:glagol
@@ -27302,7 +27302,7 @@ odložen/340
 odložiti/128	po:glagol
 odloživ/340
 odlučen/340
-odlučiti/128	po:glagol
+odlučiti/128	po:glagol	md:modalni
 odlučivati/47	po:glagol
 odlučni/347
 odlučniji/355
@@ -31191,7 +31191,7 @@ planinarstvo/331
 planinica/360
 planinka/369
 planinkinja/362
-planirati/34	po:glagol
+planirati/34	po:glagol	md:modalni
 planisfera/360
 plankton/221
 planocelularni/353
@@ -31584,7 +31584,7 @@ počeškati/120	po:glagol
 počešljati/119	po:glagol
 počet/348
 početak/260
-početi/156	po:glagol
+početi/156	po:glagol	fz:fazni
 početni/347
 početnik/227
 počev
@@ -31593,7 +31593,7 @@ počinilac/262
 počinitelj/223
 počiniti/128	po:glagol
 počinuti/137	po:glagol
-počinjati/96	po:glagol
+počinjati/96	po:glagol	fz:fazni
 počinjen/341
 počistiti/128	po:glagol
 počišćen/340
@@ -32422,8 +32422,8 @@ pokus/205
 pokusati/120	po:glagol
 pokusni/353
 pokušaj/205
-pokušati/120	po:glagol
-pokušavati/34	po:glagol
+pokušati/120	po:glagol	md:modalni
+pokušavati/34	po:glagol	md:modalni
 pokvaren/340
 pokvareniji/355
 pokvarenjak/233
@@ -34736,7 +34736,7 @@ prefekt/223
 prefektura/360
 preferans/205
 preferencija/365
-preferirati/34	po:glagol
+preferirati/34	po:glagol	md:modalni
 prefigiran/340
 prefiks/205
 prefiksacija/365
@@ -35435,10 +35435,10 @@ presretati/84	po:glagol
 presretni/354
 presretnut/348
 prestabilni/354
-prestajati/84	po:glagol
+prestajati/84	po:glagol	fz:fazni
 prestanak/247
 prestar/348
-prestati/190	po:glagol
+prestati/190	po:glagol	md:modalni  fz:fazni
 presti/77	po:glagol
 prestići/201	po:glagol
 prestizati/86	po:glagol
@@ -42797,7 +42797,7 @@ smještajni/353
 smještati/34	po:glagol
 smještavati/34	po:glagol
 smješten/340
-smjeti/149	po:glagol
+smjeti/149	po:glagol	md:modalni
 smlačen/340
 smlatiti/128	po:glagol
 smlaviti/128	po:glagol
@@ -43782,7 +43782,7 @@ stasali/353
 stasati/31	po:glagol
 stasit/340
 stasitiji/355
-stati/191	po:glagol
+stati/191	po:glagol	fz:fazni
 statičar/229
 statički/353
 statični/347
@@ -43883,7 +43883,7 @@ stezati/86	po:glagol
 steznik/205
 stežući/353
 sticati/86	po:glagol
-stići/201	po:glagol
+stići/201	po:glagol	md:modalni
 stid/273
 stidljiv/340
 stidljivac/247
@@ -43943,7 +43943,7 @@ stisle
 stisnuti/139	po:glagol
 stišati/119	po:glagol
 stišavati/34	po:glagol
-stizati/86	po:glagol
+stizati/86	po:glagol	md:modalni
 stjecaj/205
 stjecatelj/223
 stjecati/85	po:glagol
@@ -47162,7 +47162,7 @@ trčeći/353
 trčka/383
 trčkarati/31	po:glagol
 tre
-trebati/31	po:glagol
+trebati/31	po:glagol	md:modalni
 trebovati/47	po:glagol
 trećenagrađen/348
 trećeplasiran/348
@@ -47550,7 +47550,7 @@ trubnjava/360
 truckati/31	po:glagol
 trud/273
 trudbenik/223
-truditi/62	po:glagol
+truditi/62	po:glagol	md:modalni
 trudni/354
 trudnica/389
 trudnički/353
@@ -48594,7 +48594,7 @@ umjesto
 umješni/347
 umješniji/355
 umješnik/226
-umjeti/149	po:glagol
+umjeti/149	po:glagol	md:modalni
 umjetni/347
 umjetnik/227
 umjetnina/360
@@ -48865,7 +48865,7 @@ upisnica/360
 upisnik/223
 upisnina/360
 upišati/119	po:glagol
-upit/205    po:imenica
+upit/205	 po:imenica
 upitati/119	po:glagol
 upiti/145	po:glagol
 upitni/347
@@ -49308,7 +49308,7 @@ uspavljivati/47	po:glagol
 uspavljujući/353
 uspentrati/105	po:glagol
 uspeti/156	po:glagol
-uspijevati/34	po:glagol
+uspijevati/34	po:glagol	md:modalni
 uspinjača/360
 uspinjati/96	po:glagol
 uspinjući/353
@@ -49320,7 +49320,7 @@ uspjenjen/340
 uspješni/347
 uspješniji/355
 uspješnik/227
-uspjeti/149	po:glagol
+uspjeti/149	po:glagol	md:modalni
 usplahiren/340
 usplahiriti/128	po:glagol
 usplamćivati/47	po:glagol
@@ -49468,7 +49468,7 @@ ustvrditi/128	po:glagol
 ustvrđivati/47	po:glagol
 usud/205
 usudben/348
-usuditi/128	po:glagol
+usuditi/128	po:glagol	md:modalni
 usuđivati/47	po:glagol
 usuglasiti/128	po:glagol
 usuglašavati/34	po:glagol
@@ -50112,7 +50112,7 @@ valutni/353
 valjak/247
 valjaniji/355
 valjaonica/360
-valjati/33	po:glagol
+valjati/33	po:glagol	md:modalni
 valjčić/205
 valjda
 valjkast/348
@@ -51098,8 +51098,8 @@ voluntarizam/247
 volja/360
 voljen/341
 voljeniji/355
-voljeti/67	po:glagol
-voljeti/68	po:glagol
+voljeti/67	po:glagol	md:modalni
+voljeti/68	po:glagol	md:modalni
 voljica/360
 voljka/383
 voljni/347
@@ -51478,7 +51478,7 @@ zaboga
 Zabok/265
 zaboliti/129	po:glagol
 zaborav/205
-zaboraviti/128	po:glagol
+zaboraviti/128	po:glagol	md:modalni
 zaboravljati/34	po:glagol
 zaboravljen/341
 zaboravljiv/340
@@ -53132,7 +53132,7 @@ zavrnuti/139	po:glagol
 završavati/34	po:glagol
 završen/341
 završetak/260
-završiti/128	po:glagol
+završiti/128	po:glagol	fz:fazni
 završni/347
 završnica/360
 zavrtač/238
@@ -53575,7 +53575,7 @@ značajni/347
 značajniji/355
 značenje/331
 značenjski/353
-znači   po:glagol
+znači	po:glagol
 značiti/52	po:glagol
 značka/383
 znak/208
@@ -53602,7 +53602,7 @@ znanstvenoobrazovni/353
 znanstvenopopularni/353
 znanstvenostručni/353
 znanstvenotehnološki/353
-znati/27	po:glagol
+znati/27	po:glagol	md:modalni
 znatiželja/360
 znatiželjni/347
 znatiželjniji/355
@@ -53921,7 +53921,7 @@ zvukovni/353
 želudačni/353
 želja/360
 željeniji/355
-željeti/71	po:glagol
+željeti/71	po:glagol	md:modalni
 željezara/365
 željezarija/365
 željeznarija/365
