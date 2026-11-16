@@ -3,6 +3,11 @@
 
 Najnovija se inačica rječnika može preuzeti iz grane `master` repozitorija na adresi [github.com/krunose/hunspell-hr](https://github.com/krunose/hunspell-hr).
 
+## Ažuriranje grane mastar 16. studenoga 2026.
+- dodane oznake za imenice muškoga roda za neživo
+- obrisane neke greške pri prethodnom označavanju
+- proširen REP: svo > sve
+
 ## Ažuriranje grane master 13. studenoga 2026.
 - uklonjena oznaka `po:glagol` sa zamjenice `ti`
 - dodane oznake za modalne i fazne glagole
