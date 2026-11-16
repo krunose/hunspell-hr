@@ -78,7 +78,7 @@ ICONV ŕ r
 
 
 # REP - .
-REP 296
+REP 297
 REP ^pocrtava podcrtava
 REP ^žvake$ žvakaće_gume
 REP ^žvaka$ žvakaća_guma
@@ -163,6 +163,7 @@ REP tarn ćarnic
 REP šćeš$ st_ćeš
 REP natn nantn
 REP dvgn dvagn
+REP ^svo$ sve
 REP skma$ skima
 REP ^bimo$ bismo
 REP ^pojas pojasev
@@ -826,7 +827,7 @@ SFX XZ ati    alo        ati
 SFX XZ ati    ali        ati
 SFX XZ ati    ale        ati
 SFX XZ ati    ajući      ati
-SFX XZ ati    at         ati
+SFX XZ ati    at         ati    po:glagol
 
 SFX XY Y      63
 SFX XY ovati  ujem       ovati
@@ -3423,10 +3424,10 @@ SFX UD ti     nog        ti
 SFX UD ti     noga       ti
 SFX UD ti     nome       ti
 SFX UD ti     nomu       ti
-SFX UD ti     nost       ti
-SFX UD ti     nosti      ti
-SFX UD ti     nostima    ti
-SFX UD ti     nošću      ti
+SFX UD ti     nost       ti po:imenica
+SFX UD ti     nosti      ti po:imenica
+SFX UD ti     nostima    ti po:imenica
+SFX UD ti     nošću      ti po:imenica
 
 SFX UC Y      15
 SFX UC ti     n          ti
