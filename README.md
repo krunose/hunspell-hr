@@ -39,10 +39,10 @@ Onaj tko ima račun na GitHubu i želi dodati pridjev "riječni", može
 - izvaditi broj iza znaka `/`, u ovom slučaju `353` i `347`
 - u `hr_HR.aff` potražiti `# 353` i `# 347` te izvući dvoslovne klase. U prvom slučaju `UM`, u drugome `UO` i `UE`
 - pronaći te klase u nastavku `hr_HR.aff` i vidjeti što od toga bolje odgovara
-- dodati riječ u `hr_HR.dic` s klasom (brojčanom), sortirati prema abecedi i promijentiti broj na početku te datoteke da odgovara ukupnom broju riječi
+- dodati riječ u `hr_HR.dic` s klasom (brojčanom), sortirati prema abecedi i promijeniti broj na početku te datoteke da odgovara ukupnom broju riječi
 - napraviti *Pull Request*
 
-Svjestan sam da bi ove upute mogle više pitanja otvoriti negoli zatvorit, pa ću rado odgovoriti na mejl. Od pomoći može biti i sljedeće:
+Svjestan sam da bi ove upute mogle više pitanja otvoriti negoli zatvoriti, pa ću rado odgovoriti na mejl. Od pomoći može biti i sljedeće:
 
 - [Službena dokumentacija](https://linux.die.net/man/4/hunspell)
 - [hunspell.github.io](http://hunspell.github.io/)
@@ -57,3 +57,6 @@ Postoji i nešto što se zove [ProofingToolGui](https://proofingtoolgui.org/) il
 
 
 
+<!--stackedit_data:
+eyJoaXN0b3J5IjpbLTIxMDI4NzUwNzNdfQ==
+-->
